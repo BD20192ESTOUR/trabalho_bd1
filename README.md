@@ -1,12 +1,15 @@
 # TRABALHO 01:  Título do Trabalho
-Trabalho desenvolvido durante a disciplina de BD1
+Trabalho apresentado à disciplina de Banco de Dados I do curso de Bacharelado em Sistemas de Informação do Ifes Campus Serra para avaliação.
+Professor: Moises Savedra Omena.
+
 
 # Sumário
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-primeiro_componente_do_grupo:email_primeiro_componente@dominio.com<br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Alexandre Jastrow:alexandre.jastrow@gmail.com<br>
+Carolina de Souza:carolina.wuu@gmail.com<br>
+Willian João Daniel:willianirl639@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
@@ -17,21 +20,18 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+> Turistas visitam diferentes lugares ao longo do ano, no momento de escolher o local a ser visitado muitos recorrem ao auxílio da web para obter informações relacionadas ao turismo do local, contudo, há poucos dados que estejam de acordo com as expectativas do turista o que acaba sendo uma experiência frustrante ao visitar o lugar.
+O EsTour é uma aplicação web com design responsivo que tem objetivo de auxiliar o turista a encontrar o melhor lugar para se visitar de acordo com  o que ele está buscando no local. A aplicação mostrará aos usuários lugares para estar com a família, amigos ou mesmo estar sozinho e lugares para relaxar, conhecer o agroturismo ou se divertir. Além disso, apresentará ao turista as linhas de ônibus municipais que trafegam próximo ao local visitado.
+A plataforma EsTour receberá o cadastro de empreendimentos como bares, danceterias, shoppings, restaurantes, agroturismo e também disponibilizará os pontos turísticos públicos da cidade para compor a base de dados do sistema. 
+Os turistas poderão por meio do EsTour publicar avaliações dos locais visitados e a partir desses dados, o algoritmo de busca da plataforma mostrará os  lugares que receberam boas avaliações no topo das pesquisas, assim auxiliará os usuários na escolha do lugar ideal para ele e atrairá novos visitantes aos locais.
+A plataforma também permitirá que os empreendimentos cadastrados possam divulgar fotos, mini vídeos e eventos da semana que poderão ser visualizados quando o turista estiver observando as informações do lugar, isso será um diferencial para atrair pessoas a esses lugares e tornar o uso da plataforma eficiente.
+O Turista não precisará ter uma conta de usuário na plataforma para acessar os lugares e pontos turísticos, mas ao criar uma conta, ele terá acesso a funcionalidades como: visualização de um mapa animado com todos os lugares que foram visitados por ele; buscar eventos do dia ou da semana de um determinado empreendimento; compartilhar no facebook uma publicação sobre o local onde ele está no momento.
+A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pontos turísticos do estado do Espírito Santo, podendo futuramente expandir para outros estados do Brasil.
 
-> O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas. Dos Projetos serão armazenados o número, nome e cidade. Dos Departamentos serão armazenados o número e nome. O cliente destacou que cada projeto pode ter vários departamentos auxiliando no seu desenvolvimento, e cada departamento pode estar envolvido em vários projetos. Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes. 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
+![Arquivo PDF do Protótipo Balsamiq feito para Empresa ESTour](https://github.com/BD20192ESTOUR/trabalho_bd1/blob/master/TELAS_DO_SISTEMA_EsTour.pdf "ESTour")
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
