@@ -6,7 +6,6 @@ Professor: Moises Savedra Omena.<br>
 # Sumário
 
 ### 1. COMPONENTES<br>
-Integrantes do grupo<br>
 Alexandre Jastrow:alexandre.jastrow@gmail.com<br>
 Carolina de Souza:carolina.wuu@gmail.com<br>
 Willian João Daniel:willianirl639@gmail.com<br>
