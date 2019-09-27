@@ -1,4 +1,4 @@
-# TRABALHO DE BANCO DE DADOS : ESTour
+# TRABALHO DE BANCO DE DADOS : ESTOUR
 Trabalho apresentado à disciplina de Banco de Dados I do curso de Bacharelado em Sistemas de Informação do Ifes Campus Serra para avaliação.<br>
 Professor: Moises Savedra Omena.<br>
 
