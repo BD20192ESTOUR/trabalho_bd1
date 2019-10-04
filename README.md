@@ -6,13 +6,12 @@ Professor: Moises Savedra Omena.<br>
 # Sumário
 
 ### 1. COMPONENTES<br>
-Alexandre Jastrow:alexandre.jastrow@gmail.com<br>
-Carolina de Souza:carolina.wuu@gmail.com<br>
-Willian João Daniel:willianirl639@gmail.com<br>
+Alexandre Jastrow: alexandre.jastrow@gmail.com<br>
+Carolina de Souza: carolina.wuu@gmail.com<br>
+Willian João Daniel: willianirl639@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados ESTOUR
-<br>e motivação da escolha realizada. <br>
+Este documento contém a especificação do projeto do banco de dados ESTOUR e motivação da escolha realizada. <br>
 
 > O EsTour é uma aplicação web com design responsivo que tem objetivo de auxiliar o turista a encontrar o melhor lugar para se visitar e que esteja de acordo com  o que ele está buscando no local. A aplicação mostrará aos usuários lugares para estar com a família, amigos ou mesmo estar sozinho, lugares para relaxar, conhecer o agroturismo ou se divertir na noite. Além disso, apresentará ao turista as linhas de ônibus municipais que trafegam próximo ao local visitado.<br>
  
