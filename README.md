@@ -14,16 +14,16 @@ Willian João Daniel:willianirl639@gmail.com<br>
 Este documento contém a especificação do projeto do banco de dados ESTOUR
 <br>e motivação da escolha realizada. <br>
 
-> O EsTour é uma aplicação web com design responsivo que tem objetivo de auxiliar o turista a encontrar o melhor lugar para se visitar de acordo com  o que ele está buscando no local. A aplicação mostrará aos usuários lugares para estar com a família, amigos ou mesmo estar sozinho e lugares para relaxar, conhecer o agroturismo ou se divertir. Além disso, apresentará ao turista as linhas de ônibus municipais que trafegam próximo ao local visitado.<br>
+> O EsTour é uma aplicação web com design responsivo que tem objetivo de auxiliar o turista a encontrar o melhor lugar para se visitar e que esteja de acordo com  o que ele está buscando no local. A aplicação mostrará aos usuários lugares para estar com a família, amigos ou mesmo estar sozinho, lugares para relaxar, conhecer o agroturismo ou se divertir na noite. Além disso, apresentará ao turista as linhas de ônibus municipais que trafegam próximo ao local visitado.<br>
  
 
 ### 3.MINI-MUNDO<br>
 
-> Turistas visitam diferentes lugares ao longo do ano, no momento de escolher o local a ser visitado muitos recorrem ao auxílio da web para obter informações relacionadas ao turismo do local, contudo, há poucos dados que estejam de acordo com as expectativas do turista o que acaba sendo uma experiência frustrante ao visitar o lugar.<br>
-A plataforma EsTour receberá o cadastro de empreendimentos como bares, danceterias, shoppings, restaurantes, agroturismo e também disponibilizará os pontos turísticos públicos da cidade para compor a base de dados do sistema. <br>
+> Turistas visitam diferentes lugares ao longo do ano, no momento de escolher o local a ser visitado muitos recorrem ao auxílio da web para obter informações relacionadas ao turismo do local. Contudo, há poucos dados que estejam de acordo com as expectativas do turista, o que contribui para uma experiência frustrante ao visitar o lugar.<br>
+A plataforma EsTour tem o objetivo de auxiliar o turista na escolha de locais a visitar, a plataforma receberá o cadastro de empreendimentos como bares, danceterias, shoppings, agroturismo, restaurantes, além de disponibilizar os pontos turísticos públicos da cidade para compor a base de dados do sistema. <br>
 Os turistas poderão por meio do EsTour publicar avaliações dos locais visitados e a partir desses dados, o algoritmo de busca da plataforma mostrará os  lugares que receberam boas avaliações no topo das pesquisas, assim auxiliará os usuários na escolha do lugar ideal para ele e atrairá novos visitantes aos locais.<br>
 A plataforma também permitirá que os empreendimentos cadastrados possam divulgar fotos, mini vídeos e eventos da semana que poderão ser visualizados quando o turista estiver observando as informações do lugar, isso será um diferencial para atrair pessoas a esses lugares e tornar o uso da plataforma eficiente.<br>
-O Turista não precisará ter uma conta de usuário na plataforma para acessar os lugares e pontos turísticos, mas ao criar uma conta, ele terá acesso a funcionalidades como: visualização de um mapa animado com todos os lugares que foram visitados por ele; buscar eventos do dia ou da semana de um determinado empreendimento; compartilhar no facebook uma publicação sobre o local onde ele está no momento.<br>
+O Turista não precisará ter uma conta de usuário na plataforma para acessar os lugares e pontos turísticos, mas ao criar uma conta, ele terá acesso a funcionalidades como: visualização de um mapa animado com todos os lugares que foram visitados por ele; ver eventos do dia ou da semana de um determinado empreendimento; compartilhar no facebook uma publicação sobre o local onde ele está no momento.<br>
 A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pontos turísticos do estado do Espírito Santo, podendo futuramente expandir para outros estados do Brasil.<br>
 
 
