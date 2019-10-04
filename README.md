@@ -194,6 +194,9 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 >## Marco de Entrega 01 em:<br>
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+	
+	https://github.com/ESTour/trabalho_bd1/blob/master/INSERTS.sql
+	
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
         (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
