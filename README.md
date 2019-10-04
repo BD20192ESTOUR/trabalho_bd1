@@ -57,7 +57,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/concept_sample.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/modelo%20conceitual.jpg?raw=true "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
