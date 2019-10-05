@@ -80,7 +80,8 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
 
 ### 6	MODELO LÓGICO<br>
-	![Alt text]https://github.com/ESTour/trabalho_bd1/blob/master/images/modelo%20logico.jpg?raw=true "Modelo Conceitual")
+
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/modelo%20logico.jpg?raw=true "Modelo Lógico")
         
 
 ### 7	MODELO FÍSICO<br>
