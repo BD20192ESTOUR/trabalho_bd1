@@ -86,14 +86,14 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ### 7	MODELO FÍSICO<br>
 
-![Modelo físico do Sistema](https://github.com/ESTour/trabalho_bd1/blob/master/modelo%20fisico"Modelo físico - ESTour")
+https://github.com/ESTour/trabalho_bd1/blob/master/modelo%20fisico"Modelo
 
 >## Marco de Entrega 01 em:<br>
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 	
 	
-![Modelo físico do Sistema](https://github.com/ESTour/trabalho_bd1/blob/master/INSERTS"Modelo físico - ESTour")
+https://github.com/ESTour/trabalho_bd1/blob/master/INSERTS
 	
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
         (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
