@@ -108,6 +108,24 @@ https://github.com/ESTour/trabalho_bd1/blob/master/drop_create_insert
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+	SELECT *FROM EMPREENDIMENTO;
+	SELECT *FROM PESSOA;
+	SELECT *FROM ONIBUS;
+	SELECT *FROM EVENTO;
+	SELECT *FROM EMPREENDIMENTO_EVENTO;
+	SELECT *FROM EMPREENDIMENTO_ONIBUS;
+	SELECT *FROM HISTORICOVISITA;
+	SELECT *FROM AVALIACAO;
+	
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento.jpg?raw=true "Table Empreendimento")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/pessoa.jpg?raw=true "Table Pessoa")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/onibus.jpg?raw=true "Table Onibus")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/evento.jpg?raw=true "Table Evento")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento_evento.jpg?raw=true "Table Empreendimento_evento")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento_onibus.jpg?raw=true "Table Empreendimento_onibus")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/historicovisita.jpg?raw=true "Table Historicovisita")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/avaliacaolocal.jpg?raw=true "Table Avaliacao")
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
