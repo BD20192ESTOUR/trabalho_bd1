@@ -108,22 +108,22 @@ https://github.com/ESTour/trabalho_bd1/blob/master/drop_create_insert
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-	SELECT *FROM EMPREENDIMENTO;
-	SELECT *FROM PESSOA;
-	SELECT *FROM ONIBUS;
-	SELECT *FROM EVENTO;
-	SELECT *FROM EMPREENDIMENTO_EVENTO;
-	SELECT *FROM EMPREENDIMENTO_ONIBUS;
-	SELECT *FROM HISTORICOVISITA;
-	SELECT *FROM AVALIACAO;
 	
+	SELECT *FROM EMPREENDIMENTO;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento.jpg?raw=true "Table Empreendimento")
+	SELECT *FROM PESSOA;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/pessoa.jpg?raw=true "Table Pessoa")
+	SELECT *FROM ONIBUS;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/onibus.jpg?raw=true "Table Onibus")
+	SELECT *FROM EVENTO;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/evento.jpg?raw=true "Table Evento")
+	SELECT *FROM EMPREENDIMENTO_EVENTO;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento_evento.jpg?raw=true "Table Empreendimento_evento")
+	SELECT *FROM EMPREENDIMENTO_ONIBUS;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento_onibus.jpg?raw=true "Table Empreendimento_onibus")
+	SELECT *FROM HISTORICOVISITA;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/historicovisita.jpg?raw=true "Table Historicovisita")
+	SELECT *FROM AVALIACAO;	
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/avaliacaolocal.jpg?raw=true "Table Avaliacao")
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
