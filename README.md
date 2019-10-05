@@ -134,6 +134,9 @@ https://github.com/ESTour/trabalho_bd1/blob/master/drop_create_insert
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/avaliacaolocal.jpg?raw=true "Table Avaliacao")
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+	SELECT TIPO_EMPREENDIMENTO, NOME, TIPO_AMBIENTE, DESCRICAO FROM empreendimento WHERE PUBLICO_ALVO = 'Família';
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where1.jpg?raw=true "Table Avaliacao")	
+	
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
