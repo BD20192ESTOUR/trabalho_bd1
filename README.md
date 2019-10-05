@@ -92,9 +92,12 @@ https://github.com/ESTour/trabalho_bd1/blob/master/modelo%20fisico
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 	
-	
+	Inserts das tabelas:
 https://github.com/ESTour/trabalho_bd1/blob/master/INSERTS
 	
+	Destruição e recriação das tabelas:
+https://github.com/ESTour/trabalho_bd1/blob/master/drop_create_insert
+
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
         (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
