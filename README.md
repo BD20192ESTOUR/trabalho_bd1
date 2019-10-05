@@ -135,7 +135,16 @@ https://github.com/ESTour/trabalho_bd1/blob/master/drop_create_insert
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 	SELECT TIPO_EMPREENDIMENTO, NOME, TIPO_AMBIENTE, DESCRICAO FROM empreendimento WHERE PUBLICO_ALVO = 'Família';
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where1.jpg?raw=true "Table Avaliacao")	
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where1.jpg?raw=true "Filtro Where")	
+
+	SELECT *FROM EVENTO WHERE DATA_EVENTO >= '01-09-2019';
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where2.jpg?raw=true "Filtro Where")	
+
+	SELECT *FROM  ONIBUS WHERE SISTEMA_TRANSPORTE = 'Transcol';
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where3.jpg?raw=true "Filtro Where")	
+
+	SELECT TIPO_USUARIO, NOME, EMAIL, DATA_NASCIMENTO FROM PESSOA WHERE SEXO = 'F';
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where4.jpg?raw=true "Filtro Where")	
 	
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
