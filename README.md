@@ -86,7 +86,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ### 7	MODELO FÍSICO<br>
 
-https://github.com/ESTour/trabalho_bd1/blob/master/modelo%20fisico"Modelo
+https://github.com/ESTour/trabalho_bd1/blob/master/modelo%20fisico
 
 >## Marco de Entrega 01 em:<br>
         
