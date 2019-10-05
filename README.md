@@ -80,18 +80,18 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+	![Alt text]https://github.com/ESTour/trabalho_bd1/blob/master/images/modelo%20logico.jpg?raw=true "Modelo Conceitual")
+        
 
 ### 7	MODELO FÍSICO<br>
-   ![Modelo físico do Sistema](https://github.com/ESTour/trabalho_bd1/blob/master/modelo_fisico.sql"Modelo físico - ESTour")
+   ![Modelo físico do Sistema](https://github.com/ESTour/trabalho_bd1/blob/master/modelo%20fisico"Modelo físico - ESTour")
 
 >## Marco de Entrega 01 em:<br>
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 	
-	https://github.com/ESTour/trabalho_bd1/blob/master/INSERTS.sql
+	
+	![Modelo físico do Sistema](https://github.com/ESTour/trabalho_bd1/blob/master/INSERTS"Modelo físico - ESTour")
 	
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
         (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
