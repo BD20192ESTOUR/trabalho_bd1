@@ -111,18 +111,25 @@ https://github.com/ESTour/trabalho_bd1/blob/master/drop_create_insert
 	
 	SELECT *FROM EMPREENDIMENTO;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento.jpg?raw=true "Table Empreendimento")
+
 	SELECT *FROM PESSOA;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/pessoa.jpg?raw=true "Table Pessoa")
+
 	SELECT *FROM ONIBUS;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/onibus.jpg?raw=true "Table Onibus")
+
 	SELECT *FROM EVENTO;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/evento.jpg?raw=true "Table Evento")
+
 	SELECT *FROM EMPREENDIMENTO_EVENTO;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento_evento.jpg?raw=true "Table Empreendimento_evento")
+
 	SELECT *FROM EMPREENDIMENTO_ONIBUS;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento_onibus.jpg?raw=true "Table Empreendimento_onibus")
+
 	SELECT *FROM HISTORICOVISITA;
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/historicovisita.jpg?raw=true "Table Historicovisita")
+
 	SELECT *FROM AVALIACAO;	
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/avaliacaolocal.jpg?raw=true "Table Avaliacao")
 
