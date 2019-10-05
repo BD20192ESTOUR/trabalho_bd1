@@ -27,8 +27,8 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![Alt text](https://github.com/BD20192ESTOUR/trabalho_bd1/blob/master/tela_principal_estour.png "Página principal ESTour")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa ESTour](https://github.com/BD20192ESTOUR/trabalho_bd1/blob/master/TELAS_DO_SISTEMA_EsTour.pdf "ESTour")
+![Alt text](https://github.com/BD20192ESTOUR/trabalho_bd1/blob/master/tela_principal_estour.png "Página principal EsTour")
+![Arquivo PDF do Protótipo Balsamiq feito para Empresa EsTour](https://github.com/BD20192ESTOUR/trabalho_bd1/blob/master/TELAS_DO_SISTEMA_EsTour.pdf "ESTour")
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
@@ -37,7 +37,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 * Relatório que informe a quantidade de pontos turisticos públicos e privados agrupados por município incluindo: a quantidade de pontos turisticos públicos, quantidade de pontos turisticos privados e nome do município.
 * Relatório que informe o histórico de visita  de um usuario agrupado por município incluindo: o nome do ponto turistico, a data da visita, a hora da visita e o nome do município.
 * Relatório que informe os eventos dos pontos turisticos que irão ocorrer agrupados por município incluindo: descrição do evento, data, hora, nome do ponto turistico e município.
-* Relatório que informe os usuários cadastrados na plataforma agrupados por tipo de usuário e ordernados pelo nome dos usuários incluindo: nome do usuário, email e tipo usuário.
+* Relatório que informe os usuários do tipo empreendimento cadastrados na plataforma agrupados por município incluindo: nome do usuário, descricao do empreendimento, email, município e tipo usuário.
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
     a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
