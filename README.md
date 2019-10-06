@@ -113,9 +113,14 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 5.3 Principais fluxos de informação e principais tabelas do sistema     
     a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
+    O principal fluxo de dados no sistema é o que disponibiliza os dados de um determinado local para o usuário. Neste fluxo quando um Ponto Turístico é buscado ele está relacionado com  dados da tabela Arquivo onde contém arquivos de fotos, videos que são responsaveis pela parte visual do ponto turistico
+    outro fluxo importante é o cadastro de usuário. Neste fluxo de dados, o usuário entra com os dados através da interface gráfica e estes dados serão inseridos na tabela USUARIO.
+    Por fim o fluxo de upload de arquivos popula a tabela arquivos com os dados relevantes aos arquivos multimídia que são o atrativo visual de várias telas do aplicativo.
+    
     b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
+    As tabelas que vão conter mais dados são : USUARIO, PONTOTURISTICO, ARQUIVO.
     c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
-
+    As tabelas mais importantes para o sistema são : USUARIO, PONTOTURISTICO, AVALIACAOPONTOTURISTICO, HISTORICOVISITA e ARQUIVO.
 ### 6.	MODELO LÓGICO <br> 
 
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/MODELO_LOGICO_ATUAL.png?raw=true "Modelo Lógico")
