@@ -113,14 +113,14 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 5.3 Principais fluxos de informação e principais tabelas do sistema     
     a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
-    O principal fluxo de dados no sistema é o que disponibiliza os dados de um determinado local para o usuário. Neste fluxo quando um Ponto Turístico é buscado ele está relacionado com  dados da tabela Arquivo onde contém arquivos de fotos, videos que são responsaveis pela parte visual do ponto turistico
+    O principal fluxo de dados no sistema é o que disponibiliza os dados de um determinado local para o usuário. Neste fluxo quando um Ponto Turístico é buscado ele está relacionado com  dados da tabela Onibus e Evento onde contém informações de qual o transporte publico pegar para chegar ao local, e quais os eventos esse local tera em determinadas datas.
     outro fluxo importante é o cadastro de usuário. Neste fluxo de dados, o usuário entra com os dados através da interface gráfica e estes dados serão inseridos na tabela USUARIO.
-    Por fim o fluxo de upload de arquivos popula a tabela arquivos com os dados relevantes aos arquivos multimídia que são o atrativo visual de várias telas do aplicativo.
+    Por fim o fluxo de de avaliação onde cada ponto turistico é pontuado com notas disponibilizadas pelos usuaios.
     
     b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
-    As tabelas que vão conter mais dados são : USUARIO, PONTOTURISTICO, ARQUIVO.
+    As tabelas que vão conter mais dados são : USUARIO, PONTOTURISTICO, AVALIACAO, EVENTO.
     c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
-    As tabelas mais importantes para o sistema são : USUARIO, PONTOTURISTICO, AVALIACAOPONTOTURISTICO, HISTORICOVISITA e ARQUIVO.
+    As tabelas mais importantes para o sistema são : USUARIO, PONTOTURISTICO, AVALIACAOPONTOTURISTICO, HISTORICOVISITA e EVENTO.
 
 ### 6.	MODELO LÓGICO <br> 
 
