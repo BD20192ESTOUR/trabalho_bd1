@@ -48,7 +48,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
     
 ### 5.MODELO CONCEITUAL<br>    
-![Alt text](https://github.com/ESTour/trabalho_bd1//blob/master/images/MODELO_CONCEITUA_ATUAL.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/MODELO_CONCEITUA_ATUAL.png?raw=true "Modelo Conceitual")
 
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
@@ -66,14 +66,13 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
     c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
 
-### 6	MODELO LÓGICO<br>
+### 6.	MODELO LÓGICO <br> 
 
-![Alt text](https://github.com/ESTour/trabalho_bd1/images//blob/master/MODELO_LOGICO_ATUAL.png?raw=true "Modelo Lógico")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/MODELO_LOGICO_ATUAL.png?raw=true "Modelo Lógico")
         
 
-### 7	MODELO FÍSICO<br>
+### 7.	MODELO FÍSICO<br>
 
-https://github.com/ESTour/trabalho_bd1/blob/master/modelo%20fisico
 
 >## Marco de Entrega 01 em:<br>
         
@@ -95,44 +94,9 @@ https://github.com/ESTour/trabalho_bd1/blob/master/drop_create_insert
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-	
-	SELECT *FROM EMPREENDIMENTO;
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento.jpg?raw=true "Table Empreendimento")
-
-	SELECT *FROM PESSOA;
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/pessoa.jpg?raw=true "Table Pessoa")
-
-	SELECT *FROM ONIBUS;
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/onibus.jpg?raw=true "Table Onibus")
-
-	SELECT *FROM EVENTO;
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/evento.jpg?raw=true "Table Evento")
-
-	SELECT *FROM EMPREENDIMENTO_EVENTO;
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento_evento.jpg?raw=true "Table Empreendimento_evento")
-
-	SELECT *FROM EMPREENDIMENTO_ONIBUS;
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/empreendimento_onibus.jpg?raw=true "Table Empreendimento_onibus")
-
-	SELECT *FROM HISTORICOVISITA;
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/historicovisita.jpg?raw=true "Table Historicovisita")
-
-	SELECT *FROM AVALIACAO;	
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/avaliacaolocal.jpg?raw=true "Table Avaliacao")
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
-	SELECT TIPO_EMPREENDIMENTO, NOME, TIPO_AMBIENTE, DESCRICAO FROM empreendimento WHERE PUBLICO_ALVO = 'Família';
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where1.jpg?raw=true "Filtro Where")	
 
-	SELECT *FROM EVENTO WHERE DATA_EVENTO >= '01-09-2019';
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where2.jpg?raw=true "Filtro Where")	
-
-	SELECT *FROM  ONIBUS WHERE SISTEMA_TRANSPORTE = 'Transcol';
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where3.jpg?raw=true "Filtro Where")	
-
-	SELECT TIPO_USUARIO, NOME, EMAIL, DATA_NASCIMENTO FROM PESSOA WHERE SEXO = 'F';
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/consulta%20where4.jpg?raw=true "Filtro Where")	
-	
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
