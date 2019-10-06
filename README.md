@@ -51,9 +51,9 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/MODELO_CONCEITUA_ATUAL.png?raw=true "Modelo Conceitual")
 
 #### 5.1 Validação do Modelo Conceitual
-    grupo: Vinicius, Juliano e Gabriel<br>
-    Nome do aplicativo: AppDoações<br>
-    feedback : Bem organizado, válido. Poderia utilizar coordenadas latitude e longitude para endereço.<br>
+    grupo: Vinicius, Juliano e Gabriel
+    Nome do aplicativo: AppDoações
+    feedback : Bem organizado, válido. Poderia utilizar coordenadas latitude e longitude para endereço.
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
