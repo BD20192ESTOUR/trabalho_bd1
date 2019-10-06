@@ -124,7 +124,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ### 6.	MODELO LÓGICO <br> 
 
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/MODELO_LOGICO_ATUAL.png?raw=true "Modelo Lógico")
-        
+
 
 ### 7.	MODELO FÍSICO<br>
 
