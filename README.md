@@ -40,7 +40,8 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 * Relatório que informe os usuários do tipo empreendimento cadastrados na plataforma agrupados por município incluindo: nome do usuário, descricao do empreendimento, email, município e tipo usuário.
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-![Tabela de dados do EsTour](https://github.com/discipbd1/trab01/blob/master/arquivos/Tabela_Dados.xlsx?raw=true "Tabela - Dados EsTour")
+![Tabela de dados do EsTour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Tabela_Dados.xlsx?raw=true "Tabela - Dados EsTour")
+
     
 ### 5.MODELO CONCEITUAL<br>    
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Conceitual_Atual.png "Modelo Conceitual")
