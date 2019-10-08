@@ -27,8 +27,8 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-![Alt text](https://github.com/BD20192ESTOUR/trabalho_bd1/blob/master/tela_principal_estour.png "Página principal EsTour")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa EsTour](https://github.com/BD20192ESTOUR/trabalho_bd1/blob/master/TELAS_DO_SISTEMA_EsTour.pdf "ESTour")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/tela_principal.png "Página principal EsTour")
+![Arquivo PDF do Protótipo Balsamiq feito para Empresa EsTour](hhttps://github.com/ESTour/trabalho_bd1/blob/master/arquivos/TELAS_DO_SISTEMA_EsTour.pdf "ESTour")
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
