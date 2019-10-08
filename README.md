@@ -43,7 +43,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
     
 ### 5.MODELO CONCEITUAL<br>    
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/MODELO_CONCEITUA_ATUAL.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Conceitual_Atual.png "Modelo Conceitual")
 
 #### 5.1 Validação do Modelo Conceitual
     Grupo: Vinicius, Juliano e Gabriel
@@ -124,7 +124,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ### 6.	MODELO LÓGICO <br> 
 
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/MODELO_LOGICO_ATUAL.png?raw=true "Modelo Lógico")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/L%C3%B3gicoReduzido_Atual.png "Modelo Lógico")
 
 
 ### 7.	MODELO FÍSICO<br>
