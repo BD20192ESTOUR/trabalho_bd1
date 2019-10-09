@@ -55,50 +55,55 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 #### 5.2 Descrição dos dados 
     USUARIO: Tabela que armazena as informações do usuário cadastrado no EsTour
     - idusuario: campo que identifica um usuario no sistema
-    - nome: campo que possui o nome completo do usuario turista ou empreendimento
     - tipo_usuario: campo que identifica qual tipo de usuário usa o sistema, usuário pode ser do tipo Turista ou Empreendimento
-    - dt_nascimento: campo que possui a data de nascimento do usuário, não é obrigatorio informar
-    - sexo: campo que identifica o sexo do usuário,  não é obrigatorio informar
+    - nome: campo que possui o nome do usuario turista ou empreendimento
     - email: campo que identifica o usuário ao fazer login no sistema
     - senha: campo que autentica o usuário ao fazer login no sistema
     
-    PONTOTURISTICOAVALIACAO: Tabela que armazena as avaliações dos usuarios turistas em relação aos pontos turisticos visitados
+    EMPREENDIMENTO: Tabela que armazena informações sobre o empreendimento que é ponto turistico privado
+    - idempreendimento: campo que é reponsavel por identificar o empreendimento
+    - nome_empreendimento: campo que descreve o nome do empreendimento
+    - cnpj: campo que informa o cadastro de pessoa juridica do empreendimento
+    
+    TURISTA: Tabela que armazena informações sobre o turista
+    - idturista: campo que é responsável por identificar o turista
+    - dt_nacimento: campo que informa a data de nascimento do turista
+    - sexo: campo que informa o sexo do turista
+    
+    PONTOTURISTICOAVALIACAO: Tabela que armazena as avaliações dos turistas em relação aos pontos turisticos visitados
     - idpontoturisticoavaliacao: campo que identifica a avalição do usuário turista no sistema
     - comentario: campo que descreve as expectativas do usuário turista
     - nota: campo que guarda a nota dada ao ponto turistico
     - dt_avaliacao: campo que guarda a data que foi feita a avaliação
-    - hr_avaliacao: campo que guarda a hora que foi feita a avaliação
     
-    HISTORICOVISITA: Tabela que armazena dados sobre os pontos turisticos visitados pelos usuários turistas
-    - idhistoricovisita: campo que identifica o histórico de visita de um ponto turistico de um usuario turista
+    HISTORICOVISITA: Tabela que armazena dados sobre os pontos turisticos visitados pelos turistas
+    - idhistoricovisita: campo que identifica o histórico de visita de um turista em um ponto turistico
     - dt_visita: campo que guarda a data que foi feita a visita no ponto turistico
-    - hr_visita: campo que guarda a hora que foi feita a visita no ponto turistico
     
     PONTOTURISTICO: Tabela que armazena informações dos pontos turisticos publicos e privados(empreendimentos)
     - idpontoturistico: campo que identifica o ponto turistico
-    - cnpj: campo que identifica o cadastro de pessoa juridica de um ponto turistico do tipo privado
     - tipo_pontoturistico: campo que identifica se o ponto turistico é do tipo publico ou privado
+    - nome_pontoturistico: campo que armazena o nome do ponto turisrico
     - descricao: campo que descreve o ponto turistico e suas caracteristicas
     - publico_alvo: campo que informa o tipo de público do ponto turistico
     - tipo_ambiente: campo que informa as caracteristica do ambiente do ponto turistico
-    - endereco: campo que descreve a localização do ponto turistico
-    - telefone: campo que descreve o contato do ponto turistico
+    - endereco: campo que descreve a localização do ponto turistico(poisui, tipologradouro, logradouro, numero, bairro, cep, muncipio)
     
+    CONTATO: Tabela que armazena as informações de contato do ponto turistico
+    - idcontato: campo que é responsável por identifica o contato.
+    - contato: campo que descreve o contato
+    
+    TIPOCONTATO: Tabela que armazena as informações do tipo(meio) de contato do ponto turistico
+    - idtipocontato: campo que identifica o tipo de contato
+    - tipo: campo que descreve o tipo de contato. Ex (Facebook, Telefone, Celular, Instagram,Email)
+
     EVENTO: Tabela que armazena informações dos eventos de um determinado ponto turistico
     - idevento: campo que identifica o evento
     - descricao_evento: campo que descreve o evento e suas caracteristicas
     - dt_evento: campo que informa a data do evento
-    - hr_evento: campo que informa a hora do evento
     - link_evento: campo que armazena o link para um site externo do evento do ponto turistico
     
-    REDESOCIAL: Tabela que armazena dados das redes sociais do ponto turistico
-    - idredesocial: campo que identifica a rede social
-    - redesocial_usuario: campo que informa nome do ponto turistico na rede social informada
-    - tipo_redesocial: campo que identifica qual é a rede social usada
-    - link_redesocial: campo que armazena o link para a pagina web da redesocial do ponto turistico
-    
     ONIBUSPONTOTURISTICO: Tabela que armazena os onibus municípais que trafegam próximo ao ponto turistico
-    - idonibuspontoturistico: campo que identifica o onibus que trafega próximo ao ponto turistico
     
     ONIBUS: Tabela que armazena os dados dos onibus municipais públicos
     - idonibus: campo que identifica o onibus
@@ -106,7 +111,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     - nome_linha: campo que descreve o nome da linha do onibus
     - sistema_transporte: campo que informa qual o tipo de sistema do transporte público (transcol, grande vitoria, seletivo)
     
-    ARQUIVO: Tabela que armazena os arquivos do ponto turistico do tipo imagem, video, texto inseridos pelo usuario empreendimento
+    ARQUIVO: Tabela que armazena os arquivos dos pontos turisticos do tipo imagem, video, texto inseridos pelos usuarios do sistema
     - idarquivo: campo que identifica o arquivo
     - tipo_arquivo: campo que informa o tipo de arquivo a ser armazenado(imagem, video, txt)
     - endereco_arquivo: campo que identifica o endereço do arquivo no servidor
