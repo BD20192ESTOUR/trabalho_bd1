@@ -29,7 +29,7 @@ CREATE TABLE EVENTO (
     idevento SERIAL PRIMARY KEY,
     idpontoturistico INT,
     descricao_evento TEXT,
-    dt_evento DATETIME,
+    dt_evento TIMESTAMP,
     link_evento TEXT
 );
 
@@ -54,14 +54,14 @@ CREATE TABLE PONTOTURISTICOAVALIACAO (
     idpontoturistico INT,
     comentario TEXT,
     nota NUMERIC,
-    dt_avaliacao DATETIME
+    dt_avaliacao TIMESTAMP
 );
 
 CREATE TABLE HISTORICOVISITA (
     idhistoricovisita SERIAL PRIMARY KEY,
     idturista INT,
     idpontoturistico INT,
-    dt_visita DATETIME
+    dt_visita TIMESTAMP
 );
 
 CREATE TABLE ONIBUSPONTOTURISTICO (
