@@ -52,8 +52,8 @@ CREATE TABLE PONTOTURISTICOAVALIACAO (
     idpontoturisticoavaliacao SERIAL PRIMARY KEY,
     idturista INT,
     idpontoturistico INT,
-    comentario TEXT,
     nota NUMERIC,
+    comentario TEXT,
     dt_avaliacao TIMESTAMP
 );
 
