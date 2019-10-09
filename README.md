@@ -144,7 +144,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 	
-	Inserts das tabelas:
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/inserts.sql?raw=true " Inserts Modelo Fisico do EsTour ")
 	
 	Destruição e recriação das tabelas:
 
