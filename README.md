@@ -37,7 +37,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 * Relatório que informe a quantidade de pontos turisticos públicos e privados agrupados por município incluindo: a quantidade de pontos turisticos públicos, quantidade de pontos turisticos privados e nome do município.
 * Relatório que informe o histórico de visita  de um usuario agrupado por município incluindo: o nome do ponto turistico, a data da visita, a hora da visita e o nome do município.
 * Relatório que informe os eventos dos pontos turisticos que irão ocorrer agrupados por município incluindo: descrição do evento, data, hora, nome do ponto turistico e município.
-* Relatório que informe os usuários do tipo empreendimento cadastrados na plataforma agrupados por município incluindo: nome do usuário, descricao do empreendimento, email, município e tipo usuário.
+* Relatório que informe os onibus que trafegam próximo a um ponto turistico da plataforma ordenado por numero da linha do onibus, incluindo: nome do ponto turistico, o numero da linha, o nome da linha do onibus.
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
 ![Tabela de dados do EsTour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Tabela_Dados.xlsx?raw=true "Tabela - Dados EsTour")
