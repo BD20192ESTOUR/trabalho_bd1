@@ -2,10 +2,10 @@
 
 CREATE TABLE USUARIO (
     idusuario SERIAL PRIMARY KEY,
+    nome VARCHAR(300),
     tipo_usuario VARCHAR(20),
     email VARCHAR(100),
-    senha VARCHAR(30),
-    nome VARCHAR(300)
+    senha VARCHAR(30)
 );
 
 CREATE TABLE PONTOTURISTICO (
@@ -20,8 +20,9 @@ CREATE TABLE PONTOTURISTICO (
     logradouro VARCHAR(300),
     numero INT,
     bairro VARCHAR(300),
-    municipio VARCHAR(200),
-    cep VARCHAR(12)
+    cep VARCHAR(12),
+    municipio VARCHAR(200)
+  
 );
 
 CREATE TABLE EVENTO (
