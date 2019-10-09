@@ -1,5 +1,3 @@
-/* Lógico_Atual: */
-
 CREATE TABLE USUARIO (
     idusuario SERIAL PRIMARY KEY,
     nome VARCHAR(300),
@@ -52,7 +50,7 @@ CREATE TABLE PONTOTURISTICOAVALIACAO (
     idpontoturisticoavaliacao SERIAL PRIMARY KEY,
     idturista INT,
     idpontoturistico INT,
-    nota NUMERIC,
+	nota NUMERIC,
     comentario TEXT,
     dt_avaliacao TIMESTAMP
 );
