@@ -176,7 +176,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
 
->## Marco de Entrega 02 em:<br>
+>## Marco de Entrega 02 em: 21/10/2019<br>
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
@@ -190,7 +190,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 #### 9.11 Relatórios e Gráficos 
     a)análises e resultados provenientes do banco de dados
 
->## Marco de Entrega 03 em:<br>
+>## Marco de Entrega 03 em: 04/11/2019<br>
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 #### a) Pontos Chave do MINI-MUNDO
@@ -208,7 +208,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
 
->## Marco de Entrega 04 em:<br>
+>## Marco de Entrega 04 em: 18/11/2019<br>
 
 
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
