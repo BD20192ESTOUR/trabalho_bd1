@@ -28,7 +28,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/tela_principal.png "Página principal EsTour")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa EsTour](hhttps://github.com/ESTour/trabalho_bd1/blob/master/arquivos/TELAS_DO_SISTEMA_EsTour.pdf "ESTour")
+![Arquivo PDF do Protótipo Balsamiq feito para o EsTour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/TELAS_DO_SISTEMA_EsTour.pdf "ESTour")
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
@@ -118,15 +118,18 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     - dt_envio: campo que informa a data de envio do arquivo
 
 #### 5.3 Principais fluxos de informação e principais tabelas do sistema     
-    a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
-    O principal fluxo de dados no sistema é o que disponibiliza os dados de um determinado local para o usuário. Neste fluxo quando um Ponto Turístico é buscado ele está relacionado com  dados da tabela Onibus e Evento onde contém informações de qual o transporte publico pegar para chegar ao local, e quais os eventos esse local tera em determinadas datas.
-    outro fluxo importante é o cadastro de usuário. Neste fluxo de dados, o usuário entra com os dados através da interface gráfica e estes dados serão inseridos na tabela USUARIO.
-    Por fim o fluxo de de avaliação onde cada ponto turistico é pontuado com notas disponibilizadas pelos usuaios.
+    a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3):
     
-    b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
-    As tabelas que vão conter mais dados são : USUARIO, PONTOTURISTICO, AVALIACAO, EVENTO.
+    O principal fluxo de dados no sistema é o que disponibiliza os dados de um determinado local para o usuário. Neste fluxo quando um Ponto Turístico é buscado ele está relacionado com  dados da tabela PontoTuristico, Evento, OnibusPontoTuristico, PontoTuristicoAvaliacao, Onibus e Arquivos onde contém um conjuntos de informação que são responsaveis por montar a informação completa sobre o Ponto Turistico.
+    Outro fluxo importante é o cadastro de Usuário. Neste fluxo de dados, os dados são especificados de acordo com  tipo de usuário do sistema que poderá ser Turista ou Empreendimento e assim o fluxo de dado terá ação de acordo com o tipo de usuário logado no sistema.
+    
+    b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3):
+    
+    As tabelas que vão conter mais dados são : USUARIO, PONTOTURISTICO, PONTOTURISTICOAVALIACAO, EVENTO, ONIBUSPONTOTURISTICO,ARQUIVO,HISTORICOVISITA.
+    
     c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
-    As tabelas mais importantes para o sistema são : USUARIO, PONTOTURISTICO, AVALIACAOPONTOTURISTICO, HISTORICOVISITA e EVENTO.
+    
+    As tabelas mais importantes para o sistema são : USUARIO,TURISTA,PONTOTURISTICO,PONTOTURISTICOAVALIACAO,HISTORICOVISITA.
 
 ### 6.	MODELO LÓGICO <br> 
 
@@ -142,10 +145,8 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 	
 	Inserts das tabelas:
-https://github.com/ESTour/trabalho_bd1/blob/master/INSERTS
 	
 	Destruição e recriação das tabelas:
-https://github.com/ESTour/trabalho_bd1/blob/master/drop_create_insert
 
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
         (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
