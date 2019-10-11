@@ -63,6 +63,7 @@ CREATE TABLE HISTORICOVISITA (
 );
 
 CREATE TABLE ONIBUSPONTOTURISTICO (
+    idonibuspontoturistico SERIAL PRIMARY KEY,
     idonibus INT,
     idpontoturistico INT
 );
