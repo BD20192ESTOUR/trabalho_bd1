@@ -1,11 +1,7 @@
+/* Lógico_Atual: */
+
 CREATE TABLE USUARIO (
     idusuario SERIAL PRIMARY KEY,
-    nome VARCHAR(50) NOT NULL,
-    tipo_usuario VARCHAR(30) NOT NULL,
-    dt_nascimento DATE,
-    sexo VARCHAR(10),
-    email VARCHAR(50) UNIQUE,
-    senha VARCHAR(30)
     tipo_usuario VARCHAR(20),
     email VARCHAR(100),
     senha VARCHAR(30),
@@ -14,13 +10,6 @@ CREATE TABLE USUARIO (
 
 CREATE TABLE PONTOTURISTICO (
     idpontoturistico SERIAL PRIMARY KEY,
-	id_usuario INT,
-    cnpj VARCHAR(15) UNIQUE,
-    tipo_pontoturistico VARCHAR(30),
-    descricao VARCHAR(1000),
-    publico_alvo VARCHAR(30),
-    tipo_ambiente VARCHAR(30),
-    logradouro VARCHAR(100),
     idusuario INT,
     tipo_pontoturistico VARCHAR(10),
     nome_pontoturistico VARCHAR(400),
@@ -30,9 +19,6 @@ CREATE TABLE PONTOTURISTICO (
     tipo_logradouro VARCHAR(10),
     logradouro VARCHAR(300),
     numero INT,
-    bairro VARCHAR(50),
-    cep VARCHAR(15),
-    municipio VARCHAR(50)
     bairro VARCHAR(300),
     municipio VARCHAR(200),
     cep VARCHAR(12)
@@ -40,88 +26,42 @@ CREATE TABLE PONTOTURISTICO (
 
 CREATE TABLE EVENTO (
     idevento SERIAL PRIMARY KEY,
-    id_pontoturistico INT NOT NULL,
-    descricao_evento VARCHAR(1000),
-    dt_evento DATE,
-    hr_evento TIME,
-    link_evento VARCHAR(300)
     idpontoturistico INT,
     descricao_evento TEXT,
-    dt_evento DATETIME,
+    dt_evento TIMESTAMP,
     link_evento TEXT
 );
 
-
 CREATE TABLE ONIBUS (
     idonibus SERIAL PRIMARY KEY,
-    numero_linha INT,
-    nome_linha VARCHAR(100),
-    sistema_transporte VARCHAR(30)
     numero_linha VARCHAR(15),
     nome_linha VARCHAR(200),
     sistema_transporte VARCHAR(40)
 );
 
-CREATE TABLE PONTOTURISTICOONIBUS (
-    idponto_turistico SERIAL PRIMARY KEY,
-	id_pontoturistico INT NOT NULL,
-    id_onibus INT NOT NULL
 CREATE TABLE TURISTA (
     idturista SERIAL PRIMARY KEY,
     idusuario INT,
     dt_nascimento DATE,
     sexo VARCHAR(10)
-
 );
 
 CREATE TABLE PONTOTURISTICOAVALIACAO (
     idpontoturisticoavaliacao SERIAL PRIMARY KEY,
-    id_usuario INT NOT NULL,
-    id_pontoturistico INT NOT NULL,
     idturista INT,
     idpontoturistico INT,
     comentario TEXT,
     nota NUMERIC,
-    comentario VARCHAR(1000),
-    dt_avaliacao DATE,
-    hr_avaliacao TIME
-    dt_avaliacao DATETIME
+    dt_avaliacao TIMESTAMP
 );
 
 CREATE TABLE HISTORICOVISITA (
     idhistoricovisita SERIAL PRIMARY KEY,
-    id_usuario INT NOT NULL,
-    id_pontoturistico INT NOT NULL,
-    dt_visita DATE,
-    hr_visita TIME
     idturista INT,
     idpontoturistico INT,
-    dt_visita DATETIME
+    dt_visita TIMESTAMP
 );
 
-ALTER TABLE PONTOTURISTICO ADD CONSTRAINT PONTOTURISTICO_USUARIO_FK
-FOREIGN KEY (id_usuario) REFERENCES USUARIO(idusuario) 
-MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
-
-ALTER TABLE PONTOTURISTICOONIBUS ADD CONSTRAINT PONTOTURISTICOONIBUS_ONIBUS_FK
-FOREIGN KEY (id_onibus) REFERENCES ONIBUS(idonibus) 
-MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
-
-ALTER TABLE PONTOTURISTICOONIBUS ADD CONSTRAINT PONTOTURISTICOONIBUS_PONTOTURISTICO_FK
-FOREIGN KEY (id_pontoturistico) REFERENCES PONTOTURISTICO(idpontoturistico) 
-MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
-
-ALTER TABLE PONTOTURISTICOAVALIACAO ADD CONSTRAINT PONTOTURISTICOAVALIACAO_USUARIO_FK
-FOREIGN KEY (id_usuario) REFERENCES USUARIO(idusuario);
-
-ALTER TABLE PONTOTURISTICOAVALIACAO ADD CONSTRAINT PONTOTURISTICOAVALIACAO_PONTOTURISTICO_FK
-FOREIGN KEY (id_pontoturistico) REFERENCES PONTOTURISTICO(idpontoturistico);
-
-ALTER TABLE HISTORICOVISITA ADD CONSTRAINT HISTORICOVISITA_USUARIO_FK
-FOREIGN KEY (id_usuario) REFERENCES USUARIO(idusuario);
-
-ALTER TABLE HISTORICOVISITA ADD CONSTRAINT HISTORICOVISITA_PONTOTURISTICO_FK
-FOREIGN KEY (id_pontoturistico) REFERENCES PONTOTURISTICO(idpontoturistico);
 CREATE TABLE ONIBUSPONTOTURISTICO (
     idonibus INT,
     idpontoturistico INT
