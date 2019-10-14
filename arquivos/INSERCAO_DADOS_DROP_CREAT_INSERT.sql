@@ -1,4 +1,4 @@
-﻿DROP TABLE IF EXISTS USUARIO CASCADE;
+DROP TABLE IF EXISTS USUARIO CASCADE;
 DROP TABLE IF EXISTS PONTOTURISTICO CASCADE;
 DROP TABLE IF EXISTS EVENTO CASCADE;
 DROP TABLE IF EXISTS ONIBUS CASCADE;
@@ -122,7 +122,7 @@ ALTER TABLE ONIBUSPONTOTURISTICO ADD CONSTRAINT FK_ONIBUSPONTOTURISTICO_2
 
 
 
-INSERT INTO USUARIO VALUES
+INSERT INTO USUARIO (idusuario,tipo_usuario,nome,email,senha) VALUES 
 (DEFAULT,'Turista','Willian João Daniel','willianirl639@gmail.com','12345'),
 (DEFAULT,'Turista','Alexandre Jastrow','jastrow@gmail.com','12345'),
 (DEFAULT,'Turista','Carolina de Souza','carolina.wuu@gmail.com','12345'),
@@ -145,7 +145,7 @@ INSERT INTO USUARIO VALUES
 
 
 
-INSERT INTO PONTOTURISTICO VALUES
+INSERT INTO PONTOTURISTICO (idpontoturisticoavaliacao,idturista,idpontoturistico,comentario,nota,dt_avaliacao) VALUES 
 (DEFAULT,6,'Privado','Fluente','As festas são muito criativas, o ambiente é maravilhoso e a galera é bem de boa. Um dos melhores lugares pra se divertir na Grande Vitória','Adultos','Danceteria','Avenida','Saturnino Rangel Mauro',505,'Jardim da Penha','Vitória','29060-770'),
 
 (DEFAULT,7,'Privado','Sofá da Hebe','Sempre movimentado e convidativo para estar com amigos a qualquer dia da semana, melhor custo benefício sem frescuras da região','Amigos','Bar','Rua','Artur Czartorisk',661,'Jardim da Penha','Vitória','29060-500'),
@@ -188,7 +188,7 @@ INSERT INTO PONTOTURISTICO VALUES
 
 
 
-INSERT INTO EVENTO VALUES 
+INSERT INTO EVENTO (idevento,idpontoturistico,descricao_evento,dt_evento,link_evento) VALUES 
 (DEFAULT,1,'Hallowen frenético','2019-10-19 22:00:00','http://www.shoppingmoxuara.com.br/exposicao-projeto-tamar/'),
 (DEFAULT,1,'To sofrendo mais to sarrando','2019-10-20 22:00:00','http://descubraoespiritosanto.es.gov.br/pt/evento/festival-maior-cafe-mundo.html'),
 (DEFAULT,1,'Beyonce Queen Pop','2019-10-21 22:00:00','http://soues.com.br/plus/modulos/agenda/ver.php?id=100944&categoria=1'),
@@ -211,7 +211,7 @@ INSERT INTO EVENTO VALUES
 (DEFAULT,1,'Just Dance Reveillon','2019-12-31 20:00:00','http://www.shoppingmoxuara.com.br/exposicao-projeto-tamar/');
 
 
-INSERT INTO ONIBUS VALUES 
+INSERT INTO ONIBUS (idonibus,numero_linha,nome_linha, sistema_transporte) VALUES 
 (DEFAULT,'501','T.Vila Velha','Transcol'),
 (DEFAULT,'504','T.Itacibá','Transcol'),
 (DEFAULT,'507','T.Vila Velha','Transcol'),
@@ -244,7 +244,7 @@ INSERT INTO ONIBUS VALUES
 (DEFAULT,'7','PORTO GRANDE / MEAIPE','Seletivo');
 
 
-INSERT INTO TURISTA VALUES 
+INSERT INTO TURISTA (idturista,idusuario,dt_nascimento,sexo) VALUES 
 (DEFAULT,1,'1995-08-22','Masculino'),
 (DEFAULT,2,'1992-02-01','Masculino'),
 (DEFAULT,3,'1994-03-24','Feminino'),
@@ -257,7 +257,7 @@ INSERT INTO TURISTA VALUES
 (DEFAULT,18,'2010-06-26','Masculino');
 
 
-INSERT INTO PONTOTURISTICOAVALIACAO VALUES 
+INSERT INTO PONTOTURISTICOAVALIACAO (idpontoturisticoavaliacao,idturista,idpontoturistico,comentario,nota,dt_avaliacao) VALUES 
 (DEFAULT,1,1,'Não gostei do atendimento',5,'2019-10-01 15:00:00'), 
 (DEFAULT,4,1,'Local muito movimentado',6,'2019-10-02 15:00:00'),
 (DEFAULT,2,10,'Pouca oferta de onibus',7,'2019-10-03 15:00:00'),
@@ -280,7 +280,7 @@ INSERT INTO PONTOTURISTICOAVALIACAO VALUES
 (DEFAULT,8,13,'Lugar muito movimentado e quisques com variedades de produtos, mas a praia não é muito bonita',5,'2019-10-01 15:00:00');
 
 
-INSERT INTO HISTORICOVISITA VALUES 
+INSERT INTO HISTORICOVISITA (idhistoricovisita,idturista,idpontoturistico,dt_visita) VALUES 
 (DEFAULT,1,1,'2019-09-30 15:00:00'),
 (DEFAULT,1,2,'2019-10-01 16:00:00'),
 (DEFAULT,1,3,'2019-10-02 17:00:00'),
@@ -304,7 +304,7 @@ INSERT INTO HISTORICOVISITA VALUES
 (DEFAULT,10,20,'2019-10-14 16:00:00');
 
 
-INSERT INTO ONIBUSPONTOTURISTICO VALUES 
+INSERT INTO ONIBUSPONTOTURISTICO (idonibus,idpontoturistico) VALUES 
 (1,4),
 (1,6),
 (1,7),
