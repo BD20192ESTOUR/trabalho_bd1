@@ -3,9 +3,9 @@
 CREATE TABLE USUARIO (
     idusuario SERIAL PRIMARY KEY,
     tipo_usuario VARCHAR(20),
+    nome VARCHAR(300),
     email VARCHAR(100),
-    senha VARCHAR(30),
-    nome VARCHAR(300)
+    senha VARCHAR(30)
 );
 
 CREATE TABLE PONTOTURISTICO (
