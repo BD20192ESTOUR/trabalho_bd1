@@ -145,7 +145,8 @@ INSERT INTO USUARIO (idusuario,tipo_usuario,nome,email,senha) VALUES
 
 
 
-INSERT INTO PONTOTURISTICO (idpontoturisticoavaliacao,idturista,idpontoturistico,comentario,nota,dt_avaliacao) VALUES 
+INSERT INTO PONTOTURISTICO (idpontoturistico,idusuario,tipo_pontoturistico,nome_pontoturistico,descricao,publico_alvo,tipo_ambiente,tipo_logradouro,logradouro,numero,bairro,municipio,cep) VALUES 
+
 (DEFAULT,6,'Privado','Fluente','As festas são muito criativas, o ambiente é maravilhoso e a galera é bem de boa. Um dos melhores lugares pra se divertir na Grande Vitória','Adultos','Danceteria','Avenida','Saturnino Rangel Mauro',505,'Jardim da Penha','Vitória','29060-770'),
 
 (DEFAULT,7,'Privado','Sofá da Hebe','Sempre movimentado e convidativo para estar com amigos a qualquer dia da semana, melhor custo benefício sem frescuras da região','Amigos','Bar','Rua','Artur Czartorisk',661,'Jardim da Penha','Vitória','29060-500'),
