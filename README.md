@@ -41,7 +41,6 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
 ![Tabela de dados do EsTour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Tabela_Dados.xlsx?raw=true "Tabela - Dados EsTour")
-
     
 ### 5.MODELO CONCEITUAL<br>    
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Conceitual_Atual.png "Modelo Conceitual")
@@ -144,7 +143,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 	
-![Inserts](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/inserts.sql?raw=true " Inserts Modelo Fisico do EsTour ")
+![Inserts com os Dados do EsTour - (DROP + CREATE + INSERT INTO)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/INSERCAO_DADOS_DROP_CREAT_INSERT.sql?raw=true " Inserts Modelo Fisico do EsTour ")
 	
 	Destruição e recriação das tabelas:
 
