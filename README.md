@@ -49,7 +49,9 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     Grupo: Vinicius, Juliano e Gabriel
     Nome do aplicativo: AppDoações
     Feedback : Bem organizado, válido. Poderia utilizar coordenadas latitude e longitude para endereço.
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    Grupo: Kaio, Renato, Maikysuel
+    Nome do aplicativo : Bora Jogar
+    Feedback : Precisa separar usuários em tipos, contato tem relação 0,n com tipocontato
 
 #### 5.2 Descrição dos dados 
     USUARIO: Tabela que armazena as informações do usuário cadastrado no EsTour
