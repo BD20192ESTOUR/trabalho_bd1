@@ -123,13 +123,13 @@ ALTER TABLE ONIBUSPONTOTURISTICO ADD CONSTRAINT FK_ONIBUSPONTOTURISTICO_2
 
 
 INSERT INTO USUARIO (idusuario,tipo_usuario,nome,email,senha) VALUES 
-(DEFAULT,'Turista','Willian João Daniel','willianirl639@gmail.com','12345'),
+(DEFAULT,'Turista','Willian Joao Daniel','willianirl639@gmail.com','12345'),
 (DEFAULT,'Turista','Alexandre Jastrow','jastrow@gmail.com','12345'),
 (DEFAULT,'Turista','Carolina de Souza','carolina.wuu@gmail.com','12345'),
 (DEFAULT,'Turista','Fernando Pessoa','ferpessoa@hotmail.com','12345'),
 (DEFAULT,'Turista','Machado de Assis','assismachado@gmail.com','12345'),
 (DEFAULT,'Empreendimento','Fluente','produtorfluente@gmail.com','12345'),
-(DEFAULT,'Empreendimento','Sofá da Hebe','sofahebe@gmail.com','12345'),
+(DEFAULT,'Empreendimento','Sofa da Hebe','sofahebe@gmail.com','12345'),
 (DEFAULT,'Empreendimento','Shopping Vitoria','shoppingvitoria@gmail.com','12345'),
 (DEFAULT,'Empreendimento','Shopping MontSerrat','shoppingmontserrat@gmail.com','12345'),
 (DEFAULT,'Empreendimento','Restaurante Enseada','enseada@gmail.com','12345'),
@@ -140,81 +140,81 @@ INSERT INTO USUARIO (idusuario,tipo_usuario,nome,email,senha) VALUES
 (DEFAULT,'Empreendimento','Rota Eventos','rota@gmail.com','12345'),
 (DEFAULT,'Turista','Moises Savedra Omena','moises.omena@ifes.br','12345'),
 (DEFAULT,'Turista','Carlos Lins','carlos@ifes.br','12345'),
-(DEFAULT,'Empreendimento','Máxima Eventos','contatomaxima@gmail.com','12345'),
+(DEFAULT,'Empreendimento','Maxima Eventos','contatomaxima@gmail.com','12345'),
 (DEFAULT,'Empreendimento','Win eventos','winespsanto@gmail.com','12345');
 
 
 
 INSERT INTO PONTOTURISTICO (idpontoturistico,idusuario,tipo_pontoturistico,nome_pontoturistico,descricao,publico_alvo,tipo_ambiente,tipo_logradouro,logradouro,numero,bairro,municipio,cep) VALUES 
 
-(DEFAULT,6,'Privado','Fluente','As festas são muito criativas, o ambiente é maravilhoso e a galera é bem de boa. Um dos melhores lugares pra se divertir na Grande Vitória','Adultos','Danceteria','Avenida','Saturnino Rangel Mauro',505,'Jardim da Penha','Vitória','29060-770'),
+(DEFAULT,6,'Privado','Fluente','As festas são muito criativas, o ambiente é maravilhoso e a galera é bem de boa. Um dos melhores lugares pra se divertir na Grande Vitória','Adultos','Danceteria','Avenida','Saturnino Rangel Mauro',505,'Jardim da Penha','Vitoria','29060-770'),
 
-(DEFAULT,7,'Privado','Sofá da Hebe','Sempre movimentado e convidativo para estar com amigos a qualquer dia da semana, melhor custo benefício sem frescuras da região','Amigos','Bar','Rua','Artur Czartorisk',661,'Jardim da Penha','Vitória','29060-500'),
+(DEFAULT,7,'Privado','Sofa da Hebe','Sempre movimentado e convidativo para estar com amigos a qualquer dia da semana, melhor custo benefício sem frescuras da região','Amigos','Bar','Rua','Artur Czartorisk',661,'Jardim da Penha','Vitoria','29060-500'),
 
-(DEFAULT,8,'Privado','Shopping Vitoria','O Shopping Vitória alia beleza arquitetônica, valorização da paisagem natural e localização privilegiada, ao que há de mais moderno em produtos e serviços','Familia','Shopping',	'Avenida','Américo Buaiz',200,'Enseada do Suá','Vitória','29050-902'),
+(DEFAULT,8,'Privado','Shopping Vitoria','O Shopping Vitória alia beleza arquitetônica, valorização da paisagem natural e localização privilegiada, ao que há de mais moderno em produtos e serviços','Familia','Shopping',	'Avenida','Americo Buaiz',200,'Enseada do Sua','Vitoria','29050-902'),
 
 (DEFAULT,9,'Privado','Shopping MontSerrat','Um empreendimento moderno e completo, que agrega atividades comerciais e opções de entretenimento e lazer em um só lugar. Possui 14.000m² de Área Bruta Locável, além de estacionamento totalmente coberto com mais de 800 vagas. A Praça de alimentação conta com diversas opções e no coração do centro de compras há uma Praça de Eventos que sempre oferece uma atração diferente. Próximo ao maior terminal rodoviário do estado e de fácil acesso','Familia','Shopping','Avenida','Eldes Scherrer Souza',2162,'Colina de Laranjeiras','Serra','29167-080'),
 
-(DEFAULT,10,'Privado','Restaurante Enseada','Um restaurante onde tanto a carne, quanto o peixe são maravilhosos. Com a  vista deliciosa para a praia de Manguinhos, local ideal para curtir um dia tranquilo','Familia','Restaurante','Avenida','Atapoã',3,'Manguinhos','Serra','29173-000'),
+(DEFAULT,10,'Privado','Restaurante Enseada','Um restaurante onde tanto a carne, quanto o peixe são maravilhosos. Com a  vista deliciosa para a praia de Manguinhos, local ideal para curtir um dia tranquilo','Familia','Restaurante','Avenida','Atapoa',3,'Manguinhos','Serra','29173-000'),
 
-(DEFAULT,11,'Público','Convento da Penha','Num penhasco de 154 metros de altitude e localização privilegiada a 500 metros do mar  que ostenta no seu entorno imponente fragmento da mata atlântica  está edificado o Santuário de Nossa Senhora da Penha, fundado por Frei Pedro Palácios','Familia','Igreja','Rua','Vasco Coutinho',0,'Prainha','Vila Velha','29100-231'),
+(DEFAULT,11,'Publico','Convento da Penha','Num penhasco de 154 metros de altitude e localização privilegiada a 500 metros do mar  que ostenta no seu entorno imponente fragmento da mata atlântica  está edificado o Santuário de Nossa Senhora da Penha, fundado por Frei Pedro Palácios','Familia','Igreja','Rua','Vasco Coutinho',0,'Prainha','Vila Velha','29100-231'),
 
-(DEFAULT,11,'Público','Praia da Costa','Com toda infraestrutura muito bem montada para o turismo, quem chega no local encontra hotéis e pousadas para todos os bolsos, bons restaurantes, bares com a deliciosa comida capixaba e cerveja sempre gelada e muita badalação quando a noite cai','Amigos','Praia','Avenida','Antônio Gil Veloso',0,'Praia da Costa','Vila Velha','29101-011'),
+(DEFAULT,11,'Publico','Praia da Costa','Com toda infraestrutura muito bem montada para o turismo, quem chega no local encontra hotéis e pousadas para todos os bolsos, bons restaurantes, bares com a deliciosa comida capixaba e cerveja sempre gelada e muita badalação quando a noite cai','Amigos','Praia','Avenida','Antonio Gil Veloso',0,'Praia da Costa','Vila Velha','29101-011'),
 
-(DEFAULT,11,'Público','Praia do Morro',	'Praia calma de águas claras com uma boa infraestrutura de calçadão, comércio e estacionamento. No verão costuma ser difícil estacionar devido a grande procura no local','Familia','Praia','Avenida','Beira Mar',0,'Praia do Morro','Guarapari','29216-430'),
+(DEFAULT,11,'Publico','Praia do Morro',	'Praia calma de águas claras com uma boa infraestrutura de calçadão, comércio e estacionamento. No verão costuma ser difícil estacionar devido a grande procura no local','Familia','Praia','Avenida','Beira Mar',0,'Praia do Morro','Guarapari','29216-430'),
 
-(DEFAULT,11,'Público','Praia dos Padres','Uma praia realmente bonita que ainda consegue preservar sua beleza natural! Por ficar quase escondida por rochedos e ter um único acesso, a Praia dos Padres conserva uma mata ao redor que fornece sombra e um lindo cenário exótico para seus visitantes','Amigos','Praia','Rua','Onze',0,'Meaípe','Guarapari','29206-500'),
+(DEFAULT,11,'Publico','Praia dos Padres','Uma praia realmente bonita que ainda consegue preservar sua beleza natural! Por ficar quase escondida por rochedos e ter um único acesso, a Praia dos Padres conserva uma mata ao redor que fornece sombra e um lindo cenário exótico para seus visitantes','Amigos','Praia','Rua','Onze',0,'Meaipe','Guarapari','29206-500'),
 
-(DEFAULT,11,'Público','Praia de Manguinhos','É um balneário bucólico, conhecido por sua pequena vila de pescadores,  situada a cerca de 20 km de Vitória, manguinhos também conta com vários restaurantes que atendem os turistas e nativos, tradicionalmente especializados na culinária capixaba (moquecas capixabas e outros pratos típicos)','Familia','Praia','Avenida','Atapoã',0,'Manguinhos','Serra','29173-000'),
+(DEFAULT,11,'Publico','Praia de Manguinhos','É um balneário bucólico, conhecido por sua pequena vila de pescadores,  situada a cerca de 20 km de Vitória, manguinhos também conta com vários restaurantes que atendem os turistas e nativos, tradicionalmente especializados na culinária capixaba (moquecas capixabas e outros pratos típicos)','Familia','Praia','Avenida','Atapoa',0,'Manguinhos','Serra','29173-000'),
 
-(DEFAULT,11,'Público','Praia de Jacaraipe','Balneário de praia maravilhosa é jacaraipe, povo hospitaleiro e alegre, a praia é bem provida de restaurantes, lojinhas, bancos e supermercados, agua as vezes bem clara e faixa de areia bem definida, ótimo para bons mergulhos e aproveitar o sol, para quem gosta, a praia do solemar é otima para surf','Familia','Praia','Rua','C',0,'Parque Jacaraipe','Serra','29172-635'),
+(DEFAULT,11,'Publico','Praia de Jacaraipe','Balneário de praia maravilhosa é jacaraipe, povo hospitaleiro e alegre, a praia é bem provida de restaurantes, lojinhas, bancos e supermercados, agua as vezes bem clara e faixa de areia bem definida, ótimo para bons mergulhos e aproveitar o sol, para quem gosta, a praia do solemar é otima para surf','Familia','Praia','Rua','C',0,'Parque Jacaraipe','Serra','29172-635'),
 
-(DEFAULT,11,'Público','Praia de Bicanga','A Praia de Bicanga é bem tranquila,lugar bom para levar crianças ,pois sus ondas quebram serenamente nas areias.Tem vários quiosques ,barraquinhas que servem comidas a base de peixe e frutos do mar,inclusive a famosa casquinha de Siri, que é saborosíssima, mas outros delicias também são servidos com tempero bem caseiro','Familia','Praia','Avenida','Beira Mar',0,'Bicanga','Serra','29164-800'),
+(DEFAULT,11,'Publico','Praia de Bicanga','A Praia de Bicanga é bem tranquila,lugar bom para levar crianças ,pois sus ondas quebram serenamente nas areias.Tem vários quiosques ,barraquinhas que servem comidas a base de peixe e frutos do mar,inclusive a famosa casquinha de Siri, que é saborosíssima, mas outros delicias também são servidos com tempero bem caseiro','Familia','Praia','Avenida','Beira Mar',0,'Bicanga','Serra','29164-800'),
 
-(DEFAULT,11,'Público','Praia Curva da Jurema','Possui uma estrutura de quiosques padronizados e com urbanismo trabalhado, que servem os tradicionais petiscos da culinária capixaba. O local também é muito procurado pelos adeptos do Jet ski, esportes à vela, barcos e lanchas.A Curva da Jurema é um ponto de encontro e lazer de Vitória. À noite a praia se transforma em um local de encontro de jovens, com uma programação diferente a cada dia da semana. Encontra-se também nesta praia uma escola de vela municipal, uma ciclovia e um calçadão',	'Amigos','Praia','Avenida','Américo Buaiz',0,'Enseada do Suá','Vitória','29050-902'),
+(DEFAULT,11,'Publico','Praia Curva da Jurema','Possui uma estrutura de quiosques padronizados e com urbanismo trabalhado, que servem os tradicionais petiscos da culinária capixaba. O local também é muito procurado pelos adeptos do Jet ski, esportes à vela, barcos e lanchas.A Curva da Jurema é um ponto de encontro e lazer de Vitória. À noite a praia se transforma em um local de encontro de jovens, com uma programação diferente a cada dia da semana. Encontra-se também nesta praia uma escola de vela municipal, uma ciclovia e um calçadão',	'Amigos','Praia','Avenida','Américo Buaiz',0,'Enseada do Suá','Vitoria','29050-902'),
 
-(DEFAULT,11,'Público','Praia Secreta','A praia secreta tem este nome por que por anos o local ficou impedido de ser visitado devido um grande muro feito pela iniciativa privada, que ali iria fazer um resort. Após abrirem acesso à população a praia (que antes não havia acesso) passou a ser mais uma opção aos turistas.A praia tem águas calmas, boa temperatura, é curta e tem ambulantes vendendo bebidas e comidas','Amigos','Praia','Rua','Santa Luzia',0,'Praia da Costa','Vila Velha','29101-100'),
+(DEFAULT,11,'Publico','Praia Secreta','A praia secreta tem este nome por que por anos o local ficou impedido de ser visitado devido um grande muro feito pela iniciativa privada, que ali iria fazer um resort. Após abrirem acesso à população a praia (que antes não havia acesso) passou a ser mais uma opção aos turistas.A praia tem águas calmas, boa temperatura, é curta e tem ambulantes vendendo bebidas e comidas','Amigos','Praia','Rua','Santa Luzia',0,'Praia da Costa','Vila Velha','29101-100'),
 
-(DEFAULT,11,'Público','Farol de Santa Luzia','Área da marinha do Brasil, e residência de alguns oficiais da marinha, abriga um mini museu que conta a história do farol, mas a atração mesmo é o antigo farol','Familia','Farol','Rua','Santa Luzia',2,'Praia da Costa','Vila Velha','29101-100'),
+(DEFAULT,11,'Publico','Farol de Santa Luzia','Área da marinha do Brasil, e residência de alguns oficiais da marinha, abriga um mini museu que conta a história do farol, mas a atração mesmo é o antigo farol','Familia','Farol','Rua','Santa Luzia',2,'Praia da Costa','Vila Velha','29101-100'),
 
-(DEFAULT,11,'Público','Igreja Dos Reis Magos','A Igreja dos Reis Magos é um templo católico. É considerada um importante exemplo da arquitetura jesuítica, realizada no estilo chão, uma variante do Maneirismo português','Familia','Igreja','Trevo','Reis Magos II',0,'Nova Almeida','Serra','29182-528'),
+(DEFAULT,11,'Publico','Igreja Dos Reis Magos','A Igreja dos Reis Magos é um templo católico. É considerada um importante exemplo da arquitetura jesuítica, realizada no estilo chão, uma variante do Maneirismo português','Familia','Igreja','Trevo','Reis Magos II',0,'Nova Almeida','Serra','29182-528'),
 
-(DEFAULT,11,'Público','Palácio Anchieta','Palácio Anchieta é a sede do poder executivo do estado do Espírito Santo. O palácio localiza-se exatamente a frente do Porto de Vitória, na entrada da Cidade Alta, um dos bairros mais antigos da cidade','Familia','Palácio','Rua','Nestor Gomes',0,'Centro','Vitória','29015-220'),
+(DEFAULT,11,'Publico','Palacio Anchieta','Palácio Anchieta é a sede do poder executivo do estado do Espírito Santo. O palácio localiza-se exatamente a frente do Porto de Vitória, na entrada da Cidade Alta, um dos bairros mais antigos da cidade','Familia','Palácio','Rua','Nestor Gomes',0,'Centro','Vitoria','29015-220'),
 
-(DEFAULT,11,'Público','Parque da Fonte Grande','Lugar de beleza única e vista que não tem em nenhum lugar de Vitória, sendo possível ver de dois mirantes duas belas paisagens, ótimo para subir a pé, de bike ou de carro. Possui seguranças. Falta apenas algo para servir alimentação, mas acredito que seja proposital para conservar mais ainda a natureza','Familia','Parque','Rua','João Ferreira de Souza','62','Fradinhos','Vitória','29042-620'),
+(DEFAULT,11,'Publico','Parque da Fonte Grande','Lugar de beleza única e vista que não tem em nenhum lugar de Vitória, sendo possível ver de dois mirantes duas belas paisagens, ótimo para subir a pé, de bike ou de carro. Possui seguranças. Falta apenas algo para servir alimentação, mas acredito que seja proposital para conservar mais ainda a natureza','Familia','Parque','Rua','Joao Ferreira de Souza','62','Fradinhos','Vitoria','29042-620'),
 
-(DEFAULT,11,'Público','Praia de Camburi','Calçada maravilhosa para caminhadas em família. Quiosques para tomar uma cervejinha na praia acompanhado de um excelente petisco. Existem pontos onde ímproprios para banho, há a prática de vôlei e frescobol na areia da praia','Familia','Praia','Avenida','Dante Michelini',0,'Jardim Camburi','Vitória','29066-430'),
+(DEFAULT,11,'Publico','Praia de Camburi','Calçada maravilhosa para caminhadas em família. Quiosques para tomar uma cervejinha na praia acompanhado de um excelente petisco. Existem pontos onde ímproprios para banho, há a prática de vôlei e frescobol na areia da praia','Familia','Praia','Avenida','Dante Michelini',0,'Jardim Camburi','Vitoria','29066-430'),
 
-(DEFAULT,11,'Público','Praia da Bacutia','Praia linda e frequentada por jovens e gente bonita, água calma e gostosa com opcoes de estacionamento e ótimo local para uma boa caminhada','Amigos','Praia','Avenida','Viña del Mar',0,'Enseada Azul','Guarapari','29206-170');
+(DEFAULT,11,'Publico','Praia da Bacutia','Praia linda e frequentada por jovens e gente bonita, água calma e gostosa com opcoes de estacionamento e ótimo local para uma boa caminhada','Amigos','Praia','Avenida','Vina del Mar',0,'Enseada Azul','Guarapari','29206-170');
 
 
 
 INSERT INTO EVENTO (idevento,idpontoturistico,descricao_evento,dt_evento,link_evento) VALUES 
-(DEFAULT,1,'Hallowen frenético','2019-10-19 22:00:00','http://www.shoppingmoxuara.com.br/exposicao-projeto-tamar/'),
+(DEFAULT,1,'Hallowen frenetico','2019-10-19 22:00:00','http://www.shoppingmoxuara.com.br/exposicao-projeto-tamar/'),
 (DEFAULT,1,'To sofrendo mais to sarrando','2019-10-20 22:00:00','http://descubraoespiritosanto.es.gov.br/pt/evento/festival-maior-cafe-mundo.html'),
 (DEFAULT,1,'Beyonce Queen Pop','2019-10-21 22:00:00','http://soues.com.br/plus/modulos/agenda/ver.php?id=100944&categoria=1'),
 (DEFAULT,1,'Só 90','2019-10-22 22:00:00','http://www.multiplacemais.com.br/agenda/jorge-mateus/'),
 (DEFAULT,1,'Eletromusic','2019-10-23 22:00:00','http://www.soues.com.br/plus/modulos/agenda/ver.php?categoria=1&id=100984'),
-(DEFAULT,4,'Décimo Oitavo Espírito Santo Restaurante Week','2019-10-24 22:00:00','http://soues.com.br/plus/modulos/agenda/ver.php?id=101087&categoria=1'),
+(DEFAULT,4,'Decimo Oitavo Espirito Santo Restaurante Week','2019-10-24 22:00:00','http://soues.com.br/plus/modulos/agenda/ver.php?id=101087&categoria=1'),
 (DEFAULT,4,'Corrida maluca','2019-10-25	14:00:00','http://www.shoppingpraiadacosta.com.br/lazer/'),
 (DEFAULT,3,'Expor pet','2019-10-26 10:00:00','https://site.blueticket.com.br/evento/27341'),
-(DEFAULT,3,'Vitória Moda 2019','2019-10-27 09:00:00','https://clubealvarescabral.com.br/'),
+(DEFAULT,3,'Vitoria Moda 2019','2019-10-27 09:00:00','https://clubealvarescabral.com.br/'),
 (DEFAULT,5,'Caranguejada e musica ao vivo','2019-10-28 11:00:00','http://www.multiplacemais.com.br/agenda/bruno-marrone-e-raca-negra/'),
-(DEFAULT,6,'Romaria das Mães','2020-04-29 07:00:00','https://aves.org.br/noticia/romaria-das-maes-ao-convento-da-penha-2'),	
+(DEFAULT,6,'Romaria das Maes','2020-04-29 07:00:00','https://aves.org.br/noticia/romaria-das-maes-ao-convento-da-penha-2'),	
 (DEFAULT,8,'Jesus Vida Verão','2020-01-12 14:00:00','https://jesusvidaverao.com.br/'),
 (DEFAULT,3,'Abertura da Subway','2019-11-03 09:00:00','http://www.shoppingvitoria.com.br/'),
 (DEFAULT,2,'Palestra com Silvio Santos','2019-12-04 10:00:00','https://www.facebook.com/pages/Sofa-Da-Hebe/918243008201410'),
-(DEFAULT,5,'Aniversário 10 anos Restaurante Enseada','2019-12-21 11:00:00','http://www.restauranteenseada.com.br/'),
+(DEFAULT,5,'Aniversario 10 anos Restaurante Enseada','2019-12-21 11:00:00','http://www.restauranteenseada.com.br/'),
 (DEFAULT,4,'Artesanato Expo','2019-12-10 09:00:00','http://www.shoppingmontserrat.com.br/'),
 (DEFAULT,11,'Campeonato Nacional de Surf','2019-12-05 09:00:00','https://globoesporte.globo.com/radicais/surfe/mundial-de-surfe/'),
-(DEFAULT,16,'Vigília dos Solteiros','2019-12-13 07:00:00','https://aves.org.br/noticia/vigilia-eucaristica-com-os-jovens-na-festa-da-penha'),
+(DEFAULT,16,'Vigilia dos Solteiros','2019-12-13 07:00:00','https://aves.org.br/noticia/vigilia-eucaristica-com-os-jovens-na-festa-da-penha'),
 (DEFAULT,13,'Campeonato Mundial de Pipa','2019-12-05 09:00:00','https://www.facebook.com/abraspepipa2015/posts/1749649908591767/'),
 (DEFAULT,1,'Just Dance Reveillon','2019-12-31 20:00:00','http://www.shoppingmoxuara.com.br/exposicao-projeto-tamar/');
 
 
 INSERT INTO ONIBUS (idonibus,numero_linha,nome_linha, sistema_transporte) VALUES 
 (DEFAULT,'501','T.Vila Velha','Transcol'),
-(DEFAULT,'504','T.Itacibá','Transcol'),
+(DEFAULT,'504','T.Itaciba','Transcol'),
 (DEFAULT,'507','T.Vila Velha','Transcol'),
 (DEFAULT,'572','T.São Torquato','Transcol'),
 (DEFAULT,'503','T.Vila Velha','Transcol'),
@@ -224,7 +224,7 @@ INSERT INTO ONIBUS (idonibus,numero_linha,nome_linha, sistema_transporte) VALUES
 (DEFAULT,'1801','JACARAIPE,SAMBÃO DO POVO - VIA LARANJEIRAS','Seletivo'),
 (DEFAULT,'1603','ITAPARICA  / SAMBÃO DO POVO - VIA  P.ITAPOÃ/ SHOPPING VITÓRIA','Seletivo'),
 (DEFAULT,'651','T. VILA VELHA / PRAIA DA COSTA','Transcol'),
-(DEFAULT,'848','BALNEÁRIO DE CARAPEBUS / T. CARAPINA VIA OCEANIA','Transcol'),
+(DEFAULT,'848','BALNEARIO DE CARAPEBUS / T. CARAPINA VIA OCEANIA','Transcol'),
 (DEFAULT,'662','T. VILA VELHA / PRAIA DA COSTA VIA CREFES - CIRCULAR','Transcol'),
 (DEFAULT,'884','BICANGA / T. LARANJEIRAS VIA BALNEÁRIO CARAPEBUS/OCEANIA/LARANJEIRAS','Transcol'),
 (DEFAULT,'561','T. JACARAIPE / T. CAMPO GRANDE VIA DANTE MICHELINI/BR 262','Transcol'),
@@ -323,15 +323,3 @@ INSERT INTO ONIBUSPONTOTURISTICO (idonibus,idpontoturistico) VALUES
 (6,3),
 (6,5),
 (10,1);
-
-
-
-
-
-
-
-
-
-
-
-
