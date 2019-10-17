@@ -167,6 +167,14 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_3.PNG "Consulta OPERADORES LÓGICOS 3")
 <br>
+![Código SQL 4- Pontos Turisticos onde média de nota de avaliação é maior que 6, e o público alvo seja amigos ou adultos, e o municipio não seja Serra](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_4.sql?raw=true "Codigo OPERADORES LÓGICOS 4")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_4.PNG "Consulta OPERADORES LÓGICOS 4")
+<br>
+![Código SQL 5- Pontos Turisticos que não receberam nenhuma avaliação, e publico alvo seja amigos ou o municipio não seja serra](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_5.sql?raw=true "Codigo OPERADORES LÓGICOS 5")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_5.PNG "Consulta OPERADORES LÓGICOS 5")
+<br>
 
     b) Criar no mínimo 3 consultas com operadores aritméticos
 
