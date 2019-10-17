@@ -167,7 +167,9 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_3.PNG "Consulta OPERADORES LÓGICOS 3")
 <br>
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
+
+    b) Criar no mínimo 3 consultas com operadores aritméticos
+
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
