@@ -146,24 +146,27 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 	
 ![Inserts com os Dados do EsTour - (DROP + CREATE + INSERT INTO)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/INSERCAO_DADOS_DROP_CREAT_INSERT.sql?raw=true " Inserts Modelo Fisico do EsTour ")
-	
-	Destruição e recriação das tabelas:
-
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
-
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
+
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
+    a) 5 consultas que envolvam os operadores lógicos AND, OR e Not
+![Código SQL 1- Pontos Turisticos onde o publico alvo seja adultos ou amigos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_1.sql?raw=true "Código OPERADORES LÓGICOS 1")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_1.PNG "Consulta OPERADORES LÓGICOS 1")
+ <br>
+![Código SQL 2- Pontos Turisticos onde o tipo de ambiente não seja praia, nem shopping e nem igreja](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_2.sql?raw=true "Código OPERADORES LÓGICOS 2")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_2.PNG "Consulta OPERADORES LÓGICOS 2")
+<br>
+![Código SQL 3- Pontos Turisticos onde o municipio seja Guarapari ou Serra, e tipo de ambiente seja praia e o publico alvo não seja amigos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_3.sql?raw=true "Codigo OPERADORES LÓGICOS 3")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_3.PNG "Consulta OPERADORES LÓGICOS 3")
+<br>
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
 
