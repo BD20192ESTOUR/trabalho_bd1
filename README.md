@@ -140,30 +140,33 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ### 7.	MODELO FÍSICO<br>
 
 ![ Modelo Fisico ](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/MODELO_FISICO.sql?raw=true " Modelo Fisico do EsTour ")
+<br>
 
 >## Marco de Entrega 01 em: 07/10/2019<br>
-        
-### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-	
+<br><br> 
+
+### 8.	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+
 ![Inserts com os Dados do EsTour - (DROP + CREATE + INSERT INTO)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/INSERCAO_DADOS_DROP_CREAT_INSERT.sql?raw=true " Inserts Modelo Fisico do EsTour ")
 
-### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+<br>
+
+### 9.	TABELAS E PRINCIPAIS CONSULTAS<br>
+<br>
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 >## CONSULTAS WILLIAN
-<br>
 
 
-
+<br><br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 >## CONSULTAS ALEXANDRE
-<br>
 
 
-
+<br><br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) 5 consultas que envolvam os operadores lógicos AND, OR e Not
@@ -186,20 +189,18 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 5- Pontos Turisticos que não receberam nenhuma avaliação, e publico alvo seja amigos ou o municipio não seja serra](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_5.sql?raw=true "Codigo OPERADORES LÓGICOS 5")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_5.PNG "Consulta OPERADORES LÓGICOS 5")
-<br>
+<br><br>
 
-
-
-    b) 3 consultas com operadores aritméticos
+	b) 3 consultas com operadores aritméticos
 
 >## CONSULTAS WILLIAN
-<br>
 
 
 
+	
+<br><br>
 
-
-    c) 3 consultas com operação de renomear nomes de campos ou tabelas
+	c) 3 consultas com operação de renomear nomes de campos ou tabelas
 ![Código SQL 1- Alterar o campo nome_ponto turistico para nome na tabela PontoTuristico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_6.sql?raw=true "Código Renomear nomes 1")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_6.PNG "Consulta Renomear nomes 1")
@@ -211,48 +212,50 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 3- Alterar o nome da tabela PontoTuristicoAvaliacao para avaliacao](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_8.sql?raw=true "Código Renomear nomes 3")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_8.PNG "Consulta Renomear nomes 3")
-<br>
+
+<br><br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
     a) 5 consultas que envolvam like ou ilike
  
 >## CONSULTAS WILLIAN
-<br>
 
 
-
+<br><br>
 
     b) Criar uma consulta para cada tipo de função data apresentada em aula (7 consultas)
 
 >## CONSULTAS ALEXANDRE
-<br>
 
+
+<br><br>
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
 >## CONSULTAS WILLIAN
-<br>
 
 
+<br><br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado (3 consultas)
 
 >## CONSULTAS CAROLINA
-<br>
 
 
+<br><br>
 
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho (3 consultas)
 
 >## CONSULTAS ALEXANDRE
-<br>
 
 
 
-<br>
+<br><br>
+
 >## Marco de Entrega 02 em: 21/10/2019<br>
+<br>
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
