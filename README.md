@@ -148,10 +148,23 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Inserts com os Dados do EsTour - (DROP + CREATE + INSERT INTO)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/INSERCAO_DADOS_DROP_CREAT_INSERT.sql?raw=true " Inserts Modelo Fisico do EsTour ")
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+<br>
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+<br>
+# CONSULTAS WILLIAN
+<br>
+
+
+
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+<br>
+# CONSULTAS ALEXANDRE
+<br>
+
+
+
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) 5 consultas que envolvam os operadores lógicos AND, OR e Not
@@ -177,12 +190,15 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 
 
-    b) Criar no mínimo 3 consultas com operadores aritméticos
-
+    b) 3 consultas com operadores aritméticos
+<br>
+# CONSULTAS WILLIAN
 <br>
 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
-![Código SQL 1- Alterar o campo nome_ponto turistico para nome da tabela PontoTuristico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_6.sql?raw=true "Código Renomear nomes 1")
+
+
+    c) 3 consultas com operação de renomear nomes de campos ou tabelas
+![Código SQL 1- Alterar o campo nome_ponto turistico para nome na tabela PontoTuristico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_6.sql?raw=true "Código Renomear nomes 1")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_6.PNG "Consulta Renomear nomes 1")
 <br>
@@ -196,15 +212,44 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
-    a) Criar outras 5 consultas que envolvam like ou ilike
-    b) Criar uma consulta para cada tipo de função data apresentada.
+
+    a) 5 consultas que envolvam like ou ilike
+    
+<br>
+# CONSULTAS WILLIAN
+<br>
+
+
+    b) Criar uma consulta para cada tipo de função data apresentada em aula (7 consultas)
+    
+<br>
+# CONSULTAS ALEXANDRE
+<br>
+
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
+<br>
+# CONSULTAS WILLIAN
+<br>
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+<br>
+# CONSULTAS CAROLINA
+<br>
 
+
+
+        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+	
+<br>
+# CONSULTAS ALEXANDRE
+<br>
+
+
+
+<br>
 >## Marco de Entrega 02 em: 21/10/2019<br>
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
