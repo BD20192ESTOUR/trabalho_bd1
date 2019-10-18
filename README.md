@@ -176,9 +176,24 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_5.PNG "Consulta OPERADORES LÓGICOS 5")
 <br>
 
+
     b) Criar no mínimo 3 consultas com operadores aritméticos
 
+<br>
+
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+![Código SQL 1- Alterar o campo nome_ponto turistico para nome da tabela PontoTuristico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_6.sql?raw=true "Código Renomear nomes 1")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_6.PNG "Consulta Renomear nomes 1")
+<br>
+![Código SQL 2- Alterar o nome do campo comentario para avaliacao na tabela PontoTuristicoAvaliacao](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_7.sql?raw=true "Código Renomear nomes 2")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_7.PNG "Consulta Renomear nomes 2")
+<br>
+![Código SQL 3- Alterar o nome da tabela PontoTuristicoAvaliacao para avaliacao](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_8.sql?raw=true "Código Renomear nomes 3")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_8.PNG "Consulta Renomear nomes 3")
+<br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
