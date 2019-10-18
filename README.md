@@ -148,19 +148,18 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Inserts com os Dados do EsTour - (DROP + CREATE + INSERT INTO)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/INSERCAO_DADOS_DROP_CREAT_INSERT.sql?raw=true " Inserts Modelo Fisico do EsTour ")
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-<br>
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-<br>
-# CONSULTAS WILLIAN
+
+>## CONSULTAS WILLIAN
 <br>
 
 
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
-<br>
-# CONSULTAS ALEXANDRE
+
+>## CONSULTAS ALEXANDRE
 <br>
 
 
@@ -190,10 +189,13 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 
 
+
     b) 3 consultas com operadores aritméticos
+
+>## CONSULTAS WILLIAN
 <br>
-# CONSULTAS WILLIAN
-<br>
+
+
 
 
 
@@ -214,10 +216,11 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
     a) 5 consultas que envolvam like ou ilike
-    
+ 
+>## CONSULTAS WILLIAN
 <br>
-# CONSULTAS WILLIAN
-<br>
+
+
 
 
     b) Criar uma consulta para cada tipo de função data apresentada em aula (7 consultas)
@@ -229,22 +232,22 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
+>## CONSULTAS WILLIAN
 <br>
-# CONSULTAS WILLIAN
-<br>
+
+
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-<br>
-# CONSULTAS CAROLINA
+
+>## CONSULTAS CAROLINA
 <br>
 
 
 
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
-	
-<br>
-# CONSULTAS ALEXANDRE
+
+>## CONSULTAS ALEXANDRE
 <br>
 
 
