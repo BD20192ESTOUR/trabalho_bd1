@@ -224,8 +224,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 
     b) Criar uma consulta para cada tipo de função data apresentada em aula (7 consultas)
-    
-<br>
+
 >## CONSULTAS ALEXANDRE
 <br>
 
@@ -238,14 +237,14 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
+        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado (3 consultas)
 
 >## CONSULTAS CAROLINA
 <br>
 
 
 
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
+        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho (3 consultas)
 
 >## CONSULTAS ALEXANDRE
 <br>
