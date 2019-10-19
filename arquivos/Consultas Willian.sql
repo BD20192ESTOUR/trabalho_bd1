@@ -107,22 +107,28 @@ delete from onibus where idonibus = 22
 #ANTES
 update evento
 set link_evento = 'http://www.soues.com.br/plus/modulos/agenda/ver.php?categoria=1&id=100984'
-where descricao evento ilike '%Eletromusic%'
+where descricao_evento ilike '%Eletromusic%'
 
 #DEPOIS
 update evento
 set link_evento = 'http://www.grupoantimofo.com.br/fluente/'
-where descricao evento ilike '%Eletromusic%'
+where descricao_evento ilike '%Eletromusic%'
 
 #ANTES
-update onibus
-set nome_linha = 'T.So Torquato'
-where nome ilike '%sao torquato%'
+result = pd.read_sql_query(
+"""
+update turista
+set dt_nascimento = '1995-08-22'
+where idturista = 1;
+""",conn)
 
 #DEPOIS
-update onibus
-set nome_linha = 'Sao Torquato'
-where nome ilike '%so torquato%'
+result = pd.read_sql_query(
+"""
+update turista
+set dt_nascimento = '2001-08-26'
+where idturista= 1;
+""",conn)
 
 #ANTES
 update usuario
