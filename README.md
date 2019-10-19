@@ -168,6 +168,18 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_where_9_2_1.png "Consulta filtro where 1")
  <br>
+ ![Código SQL 1- Ponto turísticos de Vila Velha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_2.sql?raw=true "Código filtro where 2")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_where_9_2_2.png "Consulta filtro where 1")
+ <br>
+ ![Código SQL 1- Ponto turísticos da Serra que sejam praias publicas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_3.sql?raw=true "Código filtro where 3")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_where_9_2_3.png "Consulta filtro where 1")
+ <br>
+ ![Código SQL 1- Linhas de ônibus que passam no Convento da Penha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_4.sql?raw=true "Código filtro where 4")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_where_9_2_4.png "Consulta filtro where 1")
+ <br>
 
 
 <br><br>
