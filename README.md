@@ -241,7 +241,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![seleciona os 5 pontos turisticos mais populares ou com mais eventos que podem ser visitados a partir do terminal de Vila Velha, São Torquato ou Jardim América](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_aritmetica3.sql "codigo avaliacao positiva")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_aritmetica3.png "consulta popular Vila velha, São Torquato, Jardim América")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_aritmetica3.png "consulta popular Vila velha, São Torquato, Jardim América")
 <br>
 <br><br>
 
