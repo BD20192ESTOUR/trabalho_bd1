@@ -115,20 +115,14 @@ set link_evento = 'http://www.grupoantimofo.com.br/fluente/'
 where descricao_evento ilike '%Eletromusic%'
 
 #ANTES
-result = pd.read_sql_query(
-"""
 update turista
 set dt_nascimento = '1995-08-22'
 where idturista = 1;
-""",conn)
 
 #DEPOIS
-result = pd.read_sql_query(
-"""
 update turista
 set dt_nascimento = '2001-08-26'
-where idturista= 1;
-""",conn)
+where idturista= 1
 
 #ANTES
 update usuario
