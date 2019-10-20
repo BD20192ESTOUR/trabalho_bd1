@@ -150,11 +150,13 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ### 9.	TABELAS E PRINCIPAIS CONSULTAS <br>
 
+<br>
+
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
 >## CONSULTAS WILLIAN
 
-<br>
+<br><br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
@@ -203,8 +205,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 >## CONSULTAS WILLIAN
 	
-<br>
-<br>
+<br><br>
 
 	c) 3 consultas com operação de renomear nomes de campos ou tabelas
 ![Código SQL 1- Alterar o campo nome_ponto turistico para nome na tabela PontoTuristico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_6.sql?raw=true "Código Renomear nomes 1")
@@ -219,7 +220,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_8.PNG "Consulta Renomear nomes 3")
 
-<br>
+<br><br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
@@ -227,8 +228,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
  
 >## CONSULTAS WILLIAN
 
-<br>
-<br>
+<br><br>
 
     b) Criar uma consulta para cada tipo de função data apresentada em aula (7 consultas)
 
@@ -260,14 +260,13 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_7.png "Consulta função data 7")
 
-<br>
+<br><br>
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
 >## CONSULTAS WILLIAN
 
-<br>
-<br>
+<br><br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
@@ -281,10 +280,10 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 >## CONSULTAS ALEXANDRE
 
 <br>
-<br>
 
 >## Marco de Entrega 02 em: 21/10/2019<br>
 
+<br>
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
