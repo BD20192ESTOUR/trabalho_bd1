@@ -140,9 +140,8 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ### 7.	MODELO FÍSICO<br>
 
 ![ Modelo Fisico ](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/MODELO_FISICO.sql?raw=true " Modelo Fisico do EsTour ")
-<br>
 
->## Marco de Entrega 01 em: 07/10/2019 <br>
+>## Marco de Entrega 01 em: 07/10/2019 <br><br>
 
 ### 8.	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS <br>
 
@@ -150,11 +149,10 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ### 9.	TABELAS E PRINCIPAIS CONSULTAS <br>
 
-<br>
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
->## CONSULTAS WILLIAN
+>## CONSULTA WILLIAN
 
 <br><br>
 
@@ -203,7 +201,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 	b) 3 consultas com operadores aritméticos
 
->## CONSULTAS WILLIAN
+>## CONSULTA WILLIAN
 	
 <br><br>
 
@@ -220,13 +218,13 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_8.PNG "Consulta Renomear nomes 3")
 
-<br><br>
+<br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
     a) 5 consultas que envolvam like ou ilike
  
->## CONSULTAS WILLIAN
+>## CONSULTA WILLIAN
 
 <br><br>
 
@@ -264,7 +262,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
->## CONSULTAS WILLIAN
+>## CONSULTA WILLIAN
 
 <br><br>
 
@@ -284,6 +282,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 >## Marco de Entrega 02 em: 21/10/2019<br>
 
 <br>
+
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
