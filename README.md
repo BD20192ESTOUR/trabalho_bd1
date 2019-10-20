@@ -354,6 +354,19 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho (5 consultas)
+	
+![Código SQL 1- Pontos turísticos visitados recentemente](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_join_9_6_1.sql?raw=true " Código join/orderby 1")
+ <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_join_9_6_1.png " Consulta join/orderby 1")
+ <br>
+![Código SQL 2- Ponto turísticos com melhor media de notas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_join_9_6_2.sql?raw=true " Código join/orderby 2")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_join_9_6_2.png " Consulta join/orderby 2")
+ <br>
+![Código SQL 3- Proxímos eventos dos pontos turísticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_join_9_6_3.sql "join/orderby 3")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_join_9_6_3.png " Consulta join/orderby 3")
+ <br>
 
 >## CONSULTAS ALEXANDRE
 
