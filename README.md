@@ -152,8 +152,38 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
->## CONSULTA WILLIAN
-
+![Consulta da tabela usuario com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_usuario.sql "Codigo CONSULTA USUARIO")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_usuario_dados_inseridos.png " Consulta tabela USUARIO")
+ <br>
+![Consulta da tabela turista com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_turista.sql "Codigo CONSULTA TURISTA")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_turista_dados_inseridos.png " Consulta tabela TURISTA")
+<br>
+![Consulta da tabela evento com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_evento.sql "Codigo CONSULTA EVENTO")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_evento_dados_inseridos.png " Consulta tabela EVENTO")
+<br>
+![Consulta da tabela pontoturistico com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_pontoturistico.sql "Codigo CONSULTA PONTOTURISTICO")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_pontoturistico_dados_inseridos.png " Consulta tabela PONTOTURISTICO")
+<br>
+![Consulta da tabela pontoturisticoavaliacao com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_pontoturisticoavaliacao.sql "Codigo CONSULTA PONTOTURISTICOAVALIACAO")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_pontoturisticoavaliacao_dados_inseridos.png " Consulta tabela PONTOTURISTICOAVALIACAO")
+<br>
+![Consulta da tabela historicovisita com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_historicovisita.sql "Codigo CONSULTA HISTORICOVISITA")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_historicovisita_dados_inseridos.png " Consulta tabela HISTORICOVISITA")
+<br>
+![Consulta da tabela onibus com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_onibus.sql "Codigo CONSULTA ONIBUS")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_onibus_dados_inseridos.png " Consulta tabela ONIBUS")
+<br>
+![Consulta da tabela onibuspontoturistico com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_onibuspontoturistico.sql "Codigo CONSULTA ONIBUSPONTOTURISTICO")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_onibuspontoturistico_dados_inseridos.png " Consulta tabela ONIBUSPONTOTURISTICO")
+<br>
 <br><br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
@@ -201,8 +231,18 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 	b) 3 consultas com operadores aritméticos
 
->## CONSULTA WILLIAN
-	
+![Seleciona os pontos turisticos que recebem avaliações consistentemente positivas(>8)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_aritmetica1.sql "codigo avaliacao positiva")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_aritmetica1.png " Consulta avaliações positivas")
+<br>
+![seleciona os pontos turisticos mais visitados ou avaliados por usuários do sexo feminino nas ultimas duas semanas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_aritmetica2.sql "codigo avaliacao positiva")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_aritmetica2.png "consulta popular feminino")
+<br>
+![seleciona os 5 pontos turisticos mais populares ou com mais eventos que podem ser visitados a partir do terminal de Vila Velha, São Torquato ou Jardim América](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_aritmetica3.sql "codigo avaliacao positiva")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_aritmetica3.png "consulta popular Vila velha, São Torquato, Jardim América")
+<br>
 <br><br>
 
 	c) 3 consultas com operação de renomear nomes de campos ou tabelas
@@ -224,8 +264,26 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
     a) 5 consultas que envolvam like ou ilike
  
->## CONSULTA WILLIAN
-
+![Exemplo de busca que ocorre quando o usuário pesquisa por "Vila Velha" na página principal](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like1.sql "Codigo consulta Vila Velha")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like1.png "Consulta Vila Velha")
+<br>
+![Busca por pontos turísticos naturais de Vitória, e mostra eventos que ocorrem nesses locais (Se esses existirem)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like2.sql "Codigo consulta pontos naturais Vitória")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like2.png "Consulta pontos naturais Vitória")
+<br>
+![Busca avaliacões feitas por nome da pessoa](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like3.sql "Codigo consulta por nome")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like3.png "Consulta por nome")
+<br>
+![Busca locais pra praticar esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like4.sql "Codigo Consulta por esportes")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like4.png "Consulta por esportes")
+<br>
+![Mostra quantidade de pontos turísticos e eventos para cada cidade na Grande Vitória, assim como sua média de notas.](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like5.sql "Codigo consulta Eventos e notas da Grande Vitória")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like5.png "Consulta Eventos e notas da Grande Vitória")
+<br>
 <br><br>
 
     b) Criar uma consulta para cada tipo de função data apresentada em aula (7 consultas)
@@ -262,8 +320,30 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
->## CONSULTA WILLIAN
-
+![Altera local do evento Corrida Maluca de um ponto turístico para outro](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao1.png "Codigo altera local")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao3.png "consulta altera local")
+<br>
+![Altera senha do usuario de nome Willian Joao Daniel para '54321'](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao2.png "Codigo altera senha")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_alteracao2.png " Consulta altera senha")
+<br>
+![Exclui o vigésimo segundo registo da tabela ONIBUS](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao3.png "Codigo deleta registro")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_alteracao3.png " Consulta deleta registro")
+<br>
+![Altera a página do evento Eletromusic](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao4.png "Codigo altera página")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_alteracao4.png " Consulta altera página")
+<br>
+![Altera a data de nascimento de um usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao5.png "Codigo altera data de nascimento")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_alteracao5.png " Consulta data de nascimento")
+<br>
+ ![Altera e-mail de usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao6.png "Codigo altera e-mail")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_alteracao6.png " Consulta altera e-mail")
+<br>
 <br><br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
