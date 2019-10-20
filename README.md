@@ -368,8 +368,6 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_join_9_6_3.png " Consulta join/orderby 3")
  <br>
 
->## CONSULTAS ALEXANDRE
-
 <br>
 
 >## Marco de Entrega 02 em: 21/10/2019<br>
