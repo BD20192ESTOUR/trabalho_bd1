@@ -143,7 +143,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 
 >## Marco de Entrega 01 em: 07/10/2019<br>
-<br><br> 
+<br>
 
 ### 8.	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
@@ -152,7 +152,6 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 
 ### 9.	TABELAS E PRINCIPAIS CONSULTAS<br>
-<br>
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
@@ -168,21 +167,19 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_where_9_2_1.png " Consulta filtro where 1")
  <br>
-![Código SQL 1- Ponto turísticos de Vila Velha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_2.sql?raw=true " Código filtro where 2")
+![Código SQL 2- Ponto turísticos de Vila Velha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_2.sql?raw=true " Código filtro where 2")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_where_9_2_2.png " Consulta filtro where 1")
  <br>
-![Código SQL 1- Ponto turísticos da Serra que sejam praias publicas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_3.sql?raw=true " Código filtro where 3")
+![Código SQL 3- Ponto turísticos da Serra que sejam praias publicas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_3.sql?raw=true " Código filtro where 3")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_where_9_2_3.png " Consulta filtro where 1")
  <br>
-![Código SQL 1- Linhas de ônibus que passam no Convento da Penha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_4.sql?raw=true " Código filtro where 4")
+![Código SQL 4- Linhas de ônibus que passam no Convento da Penha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_4.sql?raw=true " Código filtro where 4")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_where_9_2_4.png " Consulta filtro where 1")
- <br>
-
-
-<br><br>
+<br>
+<br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) 5 consultas que envolvam os operadores lógicos AND, OR e Not
@@ -246,27 +243,27 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_1.png "Consulta função data 1")
  <br>
- ![Código SQL 1- Avaliação dos últimos 10 dias](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_2.sql?raw=true "Código função data 2")
+ ![Código SQL 2- Avaliação dos últimos 10 dias](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_2.sql?raw=true "Código função data 2")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_2.png "Consulta função data 2")
  <br>
- ![Código SQL 1- Idade dos turistas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_3.sql?raw=true "Código função data 3")
+ ![Código SQL 3- Idade dos turistas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_3.sql?raw=true "Código função data 3")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_3.png "Consulta função data 3")
  <br>
- ![Código SQL 1- Tempo restante para o próximo evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_4.sql?raw=true "Código função data 4")
+ ![Código SQL 4- Tempo restante para o próximo evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_4.sql?raw=true "Código função data 4")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_4.png "Consulta função data 4")
  <br>
-![Código SQL 1- Ano de nascimento dos turistas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_5.sql?raw=true "Código função data 5")
+![Código SQL 5- Ano de nascimento dos turistas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_5.sql?raw=true "Código função data 5")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_5.png "Consulta função data 5")
  <br>
- ![Código SQL 1- Histórico de visitas ordenados pelo mais recente](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_6.sql?raw=true "Código função data 6")
+ ![Código SQL 6- Histórico de visitas ordenados pelo mais recente](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_6.sql?raw=true "Código função data 6")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_6.png "Consulta função data 6")
  <br>
- ![Código SQL 1- Evento do dia e a quantidade de horas até o evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_7.sql?raw=true "Código função data 7")
+ ![Código SQL 7- Evento do dia e a quantidade de horas até o evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_7.sql?raw=true "Código função data 7")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_7.png "Consulta função data 7")
 
@@ -280,12 +277,10 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br><br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado (3 consultas)
+        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
 
->## CONSULTAS CAROLINA
-
-
-<br><br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_9_6.PNG "Consulta JOIN 1")
+<br>
 
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho (3 consultas)
 
@@ -293,7 +288,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 
 
-<br><br>
+<br>
 
 >## Marco de Entrega 02 em: 21/10/2019<br>
 <br>
