@@ -244,31 +244,31 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ![Código SQL 1- Lista dos próximos eventos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_1.sql?raw=true "Código função data 1")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_1.png"Consulta função data 1")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_1.png "Consulta função data 1")
  <br>
  ![Código SQL 1- Avaliação dos últimos 10 dias](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_2.sql?raw=true "Código função data 2")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_2.png"Consulta função data 2")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_2.png "Consulta função data 2")
  <br>
  ![Código SQL 1- Idade dos turistas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_3.sql?raw=true "Código função data 3")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_3.png"Consulta função data 3")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_3.png "Consulta função data 3")
  <br>
  ![Código SQL 1- Tempo restante para o próximo evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_4.sql?raw=true "Código função data 4")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_4.png"Consulta função data 4")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_4.png "Consulta função data 4")
  <br>
 ![Código SQL 1- Ano de nascimento dos turistas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_5.sql?raw=true "Código função data 5")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_5.png"Consulta função data 5")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_5.png "Consulta função data 5")
  <br>
  ![Código SQL 1- Histórico de visitas ordenados pelo mais recente](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_6.sql?raw=true "Código função data 6")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_6.png"Consulta função data 6")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_6.png "Consulta função data 6")
  <br>
  ![Código SQL 1- Evento do dia e a quantidade de horas até o evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_7.sql?raw=true "Código função data 7")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_7.png"Consulta função data 7")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_7.png "Consulta função data 7")
 
 <br><br>
 
