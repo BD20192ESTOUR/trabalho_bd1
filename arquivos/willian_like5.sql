@@ -1,0 +1,4 @@
+select municipio as "Municipio", count(nome_pontoturistico) as "Quantidade de Pontos Turisticos", count(evento.descricao_evento) as "Quantidade de Eventos", avg(pontoturisticoavaliacao.nota) as "Media das Avaliacoes de Usuario"  from pontoturistico left outer join evento on (pontoturistico.idpontoturistico = evento.idpontoturistico) left outer join pontoturisticoavaliacao on (pontoturistico.idpontoturistico = pontoturisticoavaliacao.idpontoturistico) where nome_pontoturistico in(
+select nome_pontoturistico from pontoturistico where municipio like 'Vila Velha' or municipio like 'Cariacica' or municipio like 'Guarapari' or municipio like 'Serra' or municipio like 'Vitoria' or municipio like 'Viana' or municipio like 'Fundão')
+group by municipio
+order by count(nome_pontoturistico) desc
