@@ -278,11 +278,12 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-
+![Código SQL 1- Consulta envolvendo dados de todas as tabelas - Historico de visita dos turistas nos pontos turisticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_9_6.SQL?raw=true "Código JOIN 1")
+<br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_9_6.PNG "Consulta JOIN 1")
 <br>
 
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho (3 consultas)
+        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho (5 consultas)
 
 >## CONSULTAS ALEXANDRE
 
