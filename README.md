@@ -7,8 +7,7 @@ Professor: Moises Savedra Omena.<br>
 
 ### 1. COMPONENTES<br>
 Alexandre Jastrow: alexandre.jastrow@gmail.com<br>
-Carolina de Souza: carolina.wuu@gmail.com<br>
-Willian João Daniel: willianirl639@gmail.com<br>
+Carolina de Souza Viana: carolina.wuu@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
 Este documento contém a especificação do projeto do banco de dados ESTOUR e motivação da escolha realizada. <br>
