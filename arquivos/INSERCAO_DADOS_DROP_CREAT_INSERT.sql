@@ -4,7 +4,6 @@ DROP TABLE IF EXISTS EVENTO CASCADE;
 DROP TABLE IF EXISTS ONIBUS CASCADE;
 DROP TABLE IF EXISTS TURISTA CASCADE;
 DROP TABLE IF EXISTS PONTOTURISTICOAVALIACAO CASCADE;
-DROP TABLE IF EXISTS HISTORICOVISITA CASCADE;
 DROP TABLE IF EXISTS ONIBUSPONTOTURISTICO CASCADE;
 
 
@@ -12,29 +11,29 @@ CREATE TABLE USUARIO (
     idusuario SERIAL PRIMARY KEY,
     tipo_usuario VARCHAR(20),
     nome VARCHAR(300),
-    email VARCHAR(100),
-    senha VARCHAR(30)
+    email VARCHAR(150),
+    senha VARCHAR(20)
 );
 
 CREATE TABLE PONTOTURISTICO (
     idpontoturistico SERIAL PRIMARY KEY,
-    idusuario INT,
-    tipo_pontoturistico VARCHAR(10),
-    nome_pontoturistico VARCHAR(400),
+    idusuario SERIAL,
+    tipo_pontoturistico VARCHAR(40),
+    nome_pontoturistico TEXT,
     descricao TEXT,
-    publico_alvo VARCHAR(100),
-    tipo_ambiente VARCHAR(100),
-    tipo_logradouro VARCHAR(10),
+    publico_alvo VARCHAR(40),
+    tipo_ambiente VARCHAR(150),
+    tipo_logradouro VARCHAR(20),
     logradouro VARCHAR(300),
     numero INT,
     bairro VARCHAR(300),
-    municipio VARCHAR(200),
+    municipio VARCHAR(300),
     cep VARCHAR(12)
 );
 
 CREATE TABLE EVENTO (
     idevento SERIAL PRIMARY KEY,
-    idpontoturistico INT,
+    idpontoturistico SERIAL,
     descricao_evento TEXT,
     dt_evento TIMESTAMP,
     link_evento TEXT
@@ -42,37 +41,31 @@ CREATE TABLE EVENTO (
 
 CREATE TABLE ONIBUS (
     idonibus SERIAL PRIMARY KEY,
-    numero_linha VARCHAR(15),
+    numero_linha INT,
     nome_linha VARCHAR(200),
-    sistema_transporte VARCHAR(40)
+    sistema_transporte VARCHAR(100)
 );
 
 CREATE TABLE TURISTA (
     idturista SERIAL PRIMARY KEY,
-    idusuario INT,
+    idusuario SERIAL,
     dt_nascimento DATE,
-    sexo VARCHAR(10)
+    sexo VARCHAR(20)
 );
 
 CREATE TABLE PONTOTURISTICOAVALIACAO (
     idpontoturisticoavaliacao SERIAL PRIMARY KEY,
-    idturista INT,
-    idpontoturistico INT,
+    idturista SERIAL,
+    idpontoturistico SERIAL,
     comentario TEXT,
     nota NUMERIC,
-    dt_avaliacao TIMESTAMP
-);
-
-CREATE TABLE HISTORICOVISITA (
-    idhistoricovisita SERIAL PRIMARY KEY,
-    idturista INT,
-    idpontoturistico INT,
+    dt_avaliacao TIMESTAMP,
     dt_visita TIMESTAMP
 );
 
 CREATE TABLE ONIBUSPONTOTURISTICO (
-    idonibus INT,
-    idpontoturistico INT
+    idonibus SERIAL
+    idpontoturistico SERIAL
 );
 
 ALTER TABLE PONTOTURISTICO ADD CONSTRAINT FK_PONTOTURISTICO_2
@@ -100,16 +93,6 @@ ALTER TABLE PONTOTURISTICOAVALIACAO ADD CONSTRAINT FK_PONTOTURISTICOAVALIACAO_3
     REFERENCES PONTOTURISTICO (idpontoturistico)
     MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
 
-ALTER TABLE HISTORICOVISITA ADD CONSTRAINT FK_HISTORICOVISITA_2
-    FOREIGN KEY (idpontoturistico)
-    REFERENCES PONTOTURISTICO (idpontoturistico)
-    MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
-
-ALTER TABLE HISTORICOVISITA ADD CONSTRAINT FK_HISTORICOVISITA_3
-    FOREIGN KEY (idturista)
-    REFERENCES TURISTA (idturista)
-    MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
-
 ALTER TABLE ONIBUSPONTOTURISTICO ADD CONSTRAINT FK_ONIBUSPONTOTURISTICO_1
     FOREIGN KEY (idonibus)
     REFERENCES ONIBUS (idonibus)
@@ -119,7 +102,6 @@ ALTER TABLE ONIBUSPONTOTURISTICO ADD CONSTRAINT FK_ONIBUSPONTOTURISTICO_2
     FOREIGN KEY (idpontoturistico)
     REFERENCES PONTOTURISTICO (idpontoturistico)
     MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
-
 
 
 INSERT INTO USUARIO (idusuario,tipo_usuario,nome,email,senha) VALUES 
@@ -203,13 +185,13 @@ INSERT INTO EVENTO (idevento,idpontoturistico,descricao_evento,dt_evento,link_ev
 (DEFAULT,6,'Romaria das Maes','2020-04-29 07:00:00','https://aves.org.br/noticia/romaria-das-maes-ao-convento-da-penha-2'),	
 (DEFAULT,8,'Jesus Vida Verão','2020-01-12 14:00:00','https://jesusvidaverao.com.br/'),
 (DEFAULT,3,'Abertura da Subway','2019-11-03 09:00:00','http://www.shoppingvitoria.com.br/'),
-(DEFAULT,2,'Palestra com Silvio Santos','2019-12-04 10:00:00','https://www.facebook.com/pages/Sofa-Da-Hebe/918243008201410'),
+(DEFAULT,2,'Roda de Samba','2019-12-04 10:00:00','https://www.facebook.com/pages/Sofa-Da-Hebe/918243008201410'),
 (DEFAULT,5,'Aniversario 10 anos Restaurante Enseada','2019-12-21 11:00:00','http://www.restauranteenseada.com.br/'),
 (DEFAULT,4,'Artesanato Expo','2019-12-10 09:00:00','http://www.shoppingmontserrat.com.br/'),
 (DEFAULT,11,'Campeonato Nacional de Surf','2019-12-05 09:00:00','https://globoesporte.globo.com/radicais/surfe/mundial-de-surfe/'),
 (DEFAULT,16,'Vigilia dos Solteiros','2019-12-13 07:00:00','https://aves.org.br/noticia/vigilia-eucaristica-com-os-jovens-na-festa-da-penha'),
 (DEFAULT,13,'Campeonato Mundial de Pipa','2019-12-05 09:00:00','https://www.facebook.com/abraspepipa2015/posts/1749649908591767/'),
-(DEFAULT,1,'Just Dance Reveillon','2019-12-31 20:00:00','http://www.shoppingmoxuara.com.br/exposicao-projeto-tamar/');
+(DEFAULT,19,'Just Dance Reveillon','2019-12-31 20:00:00','http://www.prefeituravitoria.com.br/exposicao-projeto-tamar/');
 
 
 INSERT INTO ONIBUS (idonibus,numero_linha,nome_linha, sistema_transporte) VALUES 
@@ -222,88 +204,63 @@ INSERT INTO ONIBUS (idonibus,numero_linha,nome_linha, sistema_transporte) VALUES
 (DEFAULT,'508','T.Vila Velha','Transcol'),
 (DEFAULT,'635','Prainha','Transcol'),
 (DEFAULT,'1801','JACARAIPE,SAMBÃO DO POVO - VIA LARANJEIRAS','Seletivo'),
-(DEFAULT,'1603','ITAPARICA  / SAMBÃO DO POVO - VIA  P.ITAPOÃ/ SHOPPING VITÓRIA','Seletivo'),
-(DEFAULT,'651','T. VILA VELHA / PRAIA DA COSTA','Transcol'),
-(DEFAULT,'848','BALNEARIO DE CARAPEBUS / T. CARAPINA VIA OCEANIA','Transcol'),
-(DEFAULT,'662','T. VILA VELHA / PRAIA DA COSTA VIA CREFES - CIRCULAR','Transcol'),
-(DEFAULT,'884','BICANGA / T. LARANJEIRAS VIA BALNEÁRIO CARAPEBUS/OCEANIA/LARANJEIRAS','Transcol'),
-(DEFAULT,'561','T. JACARAIPE / T. CAMPO GRANDE VIA DANTE MICHELINI/BR 262','Transcol'),
-(DEFAULT,'516','T. JACARAIPE / T. IBES VIA T. CARAPINA/MARUIPE/T. SÃO TORQUATO','Transcol'),
-(DEFAULT,'505','T. LARANJEIRAS / T. ITACIBÁ VIA CAMBURI/BEIRA MAR','Transcol'),
-(DEFAULT,'515','T. LARANJEIRAS / T. CAMPO GRANDE VIA BEIRA MAR','Transcol'),
-(DEFAULT,'500','T. VILA VELHA / T. ITACIBÁ VIA 3ª PONTE','Transcol'),
-(DEFAULT,'559','T. LARANJEIRAS / T. SÃO TORQUATO VIA T. CARAPINA/RETA DA PENHA','Transcol'),
+(DEFAULT,'1603','ITAPARICA/SAMBÃO DO POVO - VIA P.ITAPOÃ/SHOPPING VITÓRIA','Seletivo'),
+(DEFAULT,'651','T.VILA VELHA/PRAIA DA COSTA','Transcol'),
+(DEFAULT,'848','BALNEARIO DE CARAPEBUS/T.CARAPINA VIA OCEANIA','Transcol'),
+(DEFAULT,'662','T.VILA VELHA/PRAIA DA COSTA VIA CREFES - CIRCULAR','Transcol'),
+(DEFAULT,'884','BICANGA/T.LARANJEIRAS VIA BALNEÁRIO CARAPEBUS/OCEANIA/LARANJEIRAS','Transcol'),
+(DEFAULT,'561','T.JACARAIPE/T.CAMPO GRANDE VIA DANTE MICHELINI/BR 262','Transcol'),
+(DEFAULT,'516','T.JACARAIPE/T.IBES VIA T. CARAPINA/MARUIPE/T. SÃO TORQUATO','Transcol'),
+(DEFAULT,'505','T.LARANJEIRAS/T.ITACIBÁ VIA CAMBURI/BEIRA MAR','Transcol'),
+(DEFAULT,'515','T.LARANJEIRAS/T.CAMPO GRANDE VIA BEIRA MAR','Transcol'),
+(DEFAULT,'500','T.VILA VELHA/T.ITACIBÁ VIA 3ª PONTE','Transcol'),
+(DEFAULT,'559','T.LARANJEIRAS/T.SÃO TORQUATO VIA T.CARAPINA/RETA DA PENHA','Transcol'),
 (DEFAULT,'812','SERRA DOURADA 2','Transcol'),
 (DEFAULT,'813','SERRA DOURADA 3','Transcol'),
-(DEFAULT,'510','T.VILA VELHA / T. CARAPINA','Transcol'),
-(DEFAULT,'820','T. JACARAIPE / T. CARAPINA','Transcol'),
-(DEFAULT,'882','T. JACARAIPE / T. CARAPINA','Transcol'),
-(DEFAULT,'854','PRAIA GRANDE / T. JACARAIPE','Transcol'),
-(DEFAULT,'873','PARQUE RESIDENCIAL NOVA ALMEIDA / T. JACARAIPE','Transcol'),
-(DEFAULT,'518','T. CARAPINA / T. IBES','Transcol'),
-(DEFAULT,'535','T. CARAPINA / T. CAMPO GRANDE','Transcol'),
-(DEFAULT,'7','PORTO GRANDE / MEAIPE','Seletivo');
+(DEFAULT,'510','T.VILA VELHA/T.CARAPINA','Transcol'),
+(DEFAULT,'820','T.JACARAIPE/T.CARAPINA','Transcol'),
+(DEFAULT,'882','T.JACARAIPE/T.CARAPINA','Transcol'),
+(DEFAULT,'854','PRAIA GRANDE/T.JACARAIPE','Transcol'),
+(DEFAULT,'873','PARQUE RESIDENCIAL NOVA ALMEIDA/T.JACARAIPE','Transcol'),
+(DEFAULT,'518','T.CARAPINA/T.IBES','Transcol'),
+(DEFAULT,'535','T.CARAPINA/T.CAMPO GRANDE','Transcol'),
+(DEFAULT,'7','PORTO GRANDE/MEAIPE','Seletivo');
 
 
 INSERT INTO TURISTA (idturista,idusuario,dt_nascimento,sexo) VALUES 
 (DEFAULT,1,'1995-08-22','Masculino'),
 (DEFAULT,2,'1992-02-01','Masculino'),
 (DEFAULT,3,'1994-03-24','Feminino'),
-(DEFAULT,4,'1988-06-13','Masculino'),
-(DEFAULT,5,'1989-06-21','Masculino'),
-(DEFAULT,12,'2003-06-22','Masculino'),
-(DEFAULT,13,'2004-06-23','Masculino'),
-(DEFAULT,14,'2005-06-24','Masculino'),
-(DEFAULT,17,'2009-06-25','Masculino'),
-(DEFAULT,18,'2010-06-26','Masculino');
+(DEFAULT,4,'1988-04-13','Masculino'),
+(DEFAULT,5,'1989-07-21','Masculino'),
+(DEFAULT,12,'2000-08-22','Masculino'),
+(DEFAULT,13,'2002-09-23','Masculino'),
+(DEFAULT,14,'2005-10-24','Masculino'),
+(DEFAULT,16,'1980-11-25','Masculino'),
+(DEFAULT,17,'2007-12-26','Masculino');
 
 
-INSERT INTO PONTOTURISTICOAVALIACAO (idpontoturisticoavaliacao,idturista,idpontoturistico,comentario,nota,dt_avaliacao) VALUES 
-(DEFAULT,1,1,'Não gostei do atendimento',5,'2019-10-01 15:00:00'), 
-(DEFAULT,4,1,'Local muito movimentado',6,'2019-10-02 15:00:00'),
-(DEFAULT,2,10,'Pouca oferta de onibus',7,'2019-10-03 15:00:00'),
-(DEFAULT,2,1,'Ambiente jovem e dançante',8,'2019-10-04 15:00:00'),
-(DEFAULT,1,5,'Lugar muito tranquilo e natureza linda',9,'2019-10-05 15:00:00'),
-(DEFAULT,3,5,'Otima praia',10,'2019-10-06 15:00:00'),
-(DEFAULT,2,2,'Otimas bebidas e preço justo',9,'2019-10-07 15:00:00'),
-(DEFAULT,3,2,'Ambiente agradavel',8,'2019-10-08 15:00:00'),
-(DEFAULT,4,2,'Adorei o lugar, irei voltar',10,'2019-10-09 15:00:00'),
-(DEFAULT,5,2,'Excelente para passear com amigos',10,'2019-10-10 15:00:00'),
-(DEFAULT,6,20,'Praia com publico jovem e muito cheia nos finais de semana',6,'2019-09-11 15:00:00'),
-(DEFAULT,7,20,'Praia ótima para passear com a galera da faculdade',10,'2019-10-01 15:00:00'),
-(DEFAULT,8,19,'Praia poluída impropria pra banho',5,'2019-09-07 15:00:00'),
-(DEFAULT,9,18,'Parque ótimo para caminhar e apreciar a natureza',9,'2019-09-04 15:00:00'),
-(DEFAULT,10,17,'Palácio com arquitetura antiga e classica muito bonito para tirar fotos',10,'2019-09-30 15:00:00'),
-(DEFAULT,10,15,'Farol antigo com vista para o mar, bom para apreciar a paisagem',7,'2019-09-25 15:00:00'),
-(DEFAULT,5,16,'Igreja antiga com uma linda paisagem para o mar',8,'2019-10-06 15:00:00'),
-(DEFAULT,6,14,'Praia boa para ir com amigos zuar, muito movimentada e a agua é tranquila e verde clara, muito bonita',9,'2019-10-12 15:00:00'),
-(DEFAULT,7,12,'Praia de águas calma, bom para estar com a familia',10,'2019-10-13 14:00:00'),
-(DEFAULT,8,13,'Lugar muito movimentado e quisques com variedades de produtos, mas a praia não é muito bonita',5,'2019-10-01 15:00:00');
-
-
-INSERT INTO HISTORICOVISITA (idhistoricovisita,idturista,idpontoturistico,dt_visita) VALUES 
-(DEFAULT,1,1,'2019-09-30 15:00:00'),
-(DEFAULT,1,2,'2019-10-01 16:00:00'),
-(DEFAULT,1,3,'2019-10-02 17:00:00'),
-(DEFAULT,2,1,'2019-10-03 15:00:00'),
-(DEFAULT,2,2,'2019-10-04 16:00:00'),
-(DEFAULT,2,3,'2019-10-05 14:00:00'),
-(DEFAULT,2,4,'2019-10-06 14:00:00'),
-(DEFAULT,3,4,'2019-10-07 14:00:00'),
-(DEFAULT,3,5,'2019-10-02 15:00:00'),
-(DEFAULT,3,1,'2019-10-03 16:00:00'),
-(DEFAULT,5,11,'2019-10-04 14:00:00'),
-(DEFAULT,5,12,'2019-09-05 17:00:00'),
-(DEFAULT,6,13,'2019-09-06 18:00:00'),
-(DEFAULT,6,14,'2019-10-07 19:00:00'),
-(DEFAULT,7,15,'2019-10-08 14:00:00'),
-(DEFAULT,7,16,'2019-08-09 15:00:00'),
-(DEFAULT,8,17,'2019-08-10 14:00:00'),
-(DEFAULT,8,18,'2019-07-11 15:00:00'),
-(DEFAULT,9,19,'2019-07-12 17:00:00'),
-(DEFAULT,10,20,'2019-10-13 14:00:00'),
-(DEFAULT,10,20,'2019-10-14 16:00:00');
-
+INSERT INTO PONTOTURISTICOAVALIACAO (idpontoturisticoavaliacao,idturista,idpontoturistico,comentario,nota,dt_avaliacao,dt_visita) VALUES 
+(DEFAULT,1,1,'Não gostei do atendimento',5,'2019-10-01 15:00:00',2019-10-01 14:00:00), 
+(DEFAULT,4,1,'Local muito movimentado',6,'2019-10-02 15:00:00','2019-10-02 13:00:00'),
+(DEFAULT,2,10,'Pouca oferta de onibus',7,'2019-10-03 15:00:00','2019-10-03 12:00:00'),
+(DEFAULT,2,1,'Ambiente jovem e dançante',8,'2019-10-04 21:00:00','2019-10-04 20:00:00'),
+(DEFAULT,1,5,'Lugar muito tranquilo e natureza linda',9,'2019-10-05 15:00:00','2019-10-05 13:30:00'),
+(DEFAULT,3,5,'Otima praia',10,'2019-10-06 15:00:00','2019-10-06 11:00:00'),
+(DEFAULT,2,2,'Otimas bebidas e preço justo',9,'2019-10-07 15:00:00','2019-10-07 14:00:00'),
+(DEFAULT,3,2,'Ambiente agradavel',8,'2019-10-08 15:00:00','2019-10-08 14:00:00'),
+(DEFAULT,4,2,'Adorei o lugar, irei voltar',10,'2019-10-09 15:00:00','2019-10-09 13:00:00'),
+(DEFAULT,5,2,'Excelente para passear com amigos',10,'2019-10-10 15:00:00','2019-10-10 13:20:00'),
+(DEFAULT,7,20,'Praia com publico jovem e muito cheia nos finais de semana',6,'2019-09-11 15:00:00','2019-09-11 09:00:00'),
+(DEFAULT,7,20,'Praia ótima para passear com a galera da faculdade',10,'2019-10-01 15:00:00','2019-10-01 10:00:00'),
+(DEFAULT,8,19,'Praia poluída impropria pra banho',5,'2019-09-07 15:00:00','2019-09-07 11:00:00'),
+(DEFAULT,9,18,'Parque ótimo para caminhar e apreciar a natureza',9,'2019-09-04 15:00:00','2019-09-04 08:00:00'),
+(DEFAULT,10,17,'Palácio com arquitetura antiga e classica muito bonito para tirar fotos',10,'2019-09-30 15:00:00','2019-09-30 13:00:00'),
+(DEFAULT,10,15,'Farol antigo com vista para o mar, bom para apreciar a paisagem',7,'2019-09-25 15:00:00','2019-09-25 12:00:00'),
+(DEFAULT,5,16,'Igreja antiga com uma linda paisagem para o mar',8,'2019-10-06 15:00:00','2019-10-06 09:00:00'),
+(DEFAULT,6,14,'Praia boa para ir com amigos zuar, muito movimentada e a agua é tranquila e verde clara, muito bonita',9,'2019-10-12 15:00:00','2019-10-12 09:30:00'),
+(DEFAULT,7,12,'Praia de águas calma, bom para estar com a familia',10,'2019-10-13 14:00:00','2019-10-13 10:30:00'),
+(DEFAULT,8,13,'Lugar muito movimentado e quisques com variedades de produtos, mas a praia não é muito bonita',5,'2019-10-01 15:00:00','2019-10-01 08:00:00');
 
 INSERT INTO ONIBUSPONTOTURISTICO (idonibus,idpontoturistico) VALUES 
 (1,4),
