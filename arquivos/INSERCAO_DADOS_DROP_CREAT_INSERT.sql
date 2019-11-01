@@ -64,7 +64,7 @@ CREATE TABLE PONTOTURISTICOAVALIACAO (
 );
 
 CREATE TABLE ONIBUSPONTOTURISTICO (
-    idonibus SERIAL
+    idonibus SERIAL,
     idpontoturistico SERIAL
 );
 
@@ -137,7 +137,7 @@ INSERT INTO PONTOTURISTICO (idpontoturistico,idusuario,tipo_pontoturistico,nome_
 
 (DEFAULT,9,'Privado','Shopping MontSerrat','Um empreendimento moderno e completo, que agrega atividades comerciais e opções de entretenimento e lazer em um só lugar. Possui 14.000m² de Área Bruta Locável, além de estacionamento totalmente coberto com mais de 800 vagas. A Praça de alimentação conta com diversas opções e no coração do centro de compras há uma Praça de Eventos que sempre oferece uma atração diferente. Próximo ao maior terminal rodoviário do estado e de fácil acesso','Familia','Shopping','Avenida','Eldes Scherrer Souza',2162,'Colina de Laranjeiras','Serra','29167-080'),
 
-(DEFAULT,10,'Privado','Restaurante Enseada','Um restaurante onde tanto a carne, quanto o peixe são maravilhosos. Com a  vista deliciosa para a praia de Manguinhos, local ideal para curtir um dia tranquilo','Familia','Restaurante','Avenida','Atapoa',3,'Manguinhos','Serra','29173-000'),
+(DEFAULT,10,'Privado','Restaurante Enseada','Um restaurante onde tanto a carne, quanto o peixe são maravilhosos. Com a  vista deliciosa para a praia de Manguinhos, local ideal para curtir um dia tranquilo','Familia','Restaurante','Avenida','Atapoa',3,'Manguinhos','Serra','29173-000'),
 
 (DEFAULT,11,'Publico','Convento da Penha','Num penhasco de 154 metros de altitude e localização privilegiada a 500 metros do mar  que ostenta no seu entorno imponente fragmento da mata atlântica  está edificado o Santuário de Nossa Senhora da Penha, fundado por Frei Pedro Palácios','Familia','Igreja','Rua','Vasco Coutinho',0,'Prainha','Vila Velha','29100-231'),
 
@@ -241,7 +241,7 @@ INSERT INTO TURISTA (idturista,idusuario,dt_nascimento,sexo) VALUES
 
 
 INSERT INTO PONTOTURISTICOAVALIACAO (idpontoturisticoavaliacao,idturista,idpontoturistico,comentario,nota,dt_avaliacao,dt_visita) VALUES 
-(DEFAULT,1,1,'Não gostei do atendimento',5,'2019-10-01 15:00:00',2019-10-01 14:00:00), 
+(DEFAULT,1,1,'Não gostei do atendimento',5,'2019-10-01 15:00:00','2019-10-01 14:00:00'), 
 (DEFAULT,4,1,'Local muito movimentado',6,'2019-10-02 15:00:00','2019-10-02 13:00:00'),
 (DEFAULT,2,10,'Pouca oferta de onibus',7,'2019-10-03 15:00:00','2019-10-03 12:00:00'),
 (DEFAULT,2,1,'Ambiente jovem e dançante',8,'2019-10-04 21:00:00','2019-10-04 20:00:00'),
