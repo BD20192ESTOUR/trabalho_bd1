@@ -1,32 +1,32 @@
-/* Lógico_Atual: */
+/* Fisico_Atual: */
 
 CREATE TABLE USUARIO (
     idusuario SERIAL PRIMARY KEY,
     tipo_usuario VARCHAR(20),
     nome VARCHAR(300),
-    email VARCHAR(100),
-    senha VARCHAR(30)
+    email VARCHAR(150),
+    senha VARCHAR(20)
 );
 
 CREATE TABLE PONTOTURISTICO (
     idpontoturistico SERIAL PRIMARY KEY,
-    idusuario INT,
-    tipo_pontoturistico VARCHAR(10),
-    nome_pontoturistico VARCHAR(400),
+    idusuario SERIAL,
+    tipo_pontoturistico VARCHAR(40),
+    nome_pontoturistico TEXT,
     descricao TEXT,
-    publico_alvo VARCHAR(100),
-    tipo_ambiente VARCHAR(100),
-    tipo_logradouro VARCHAR(10),
+    publico_alvo VARCHAR(40),
+    tipo_ambiente VARCHAR(150),
+    tipo_logradouro VARCHAR(20),
     logradouro VARCHAR(300),
     numero INT,
     bairro VARCHAR(300),
-    municipio VARCHAR(200),
+    municipio VARCHAR(300),
     cep VARCHAR(12)
 );
 
 CREATE TABLE EVENTO (
     idevento SERIAL PRIMARY KEY,
-    idpontoturistico INT,
+    idpontoturistico SERIAL,
     descricao_evento TEXT,
     dt_evento TIMESTAMP,
     link_evento TEXT
@@ -34,37 +34,31 @@ CREATE TABLE EVENTO (
 
 CREATE TABLE ONIBUS (
     idonibus SERIAL PRIMARY KEY,
-    numero_linha VARCHAR(15),
+    numero_linha INT,
     nome_linha VARCHAR(200),
-    sistema_transporte VARCHAR(40)
+    sistema_transporte VARCHAR(100)
 );
 
 CREATE TABLE TURISTA (
     idturista SERIAL PRIMARY KEY,
-    idusuario INT,
+    idusuario SERIAL,
     dt_nascimento DATE,
-    sexo VARCHAR(10)
+    sexo VARCHAR(20)
 );
 
 CREATE TABLE PONTOTURISTICOAVALIACAO (
     idpontoturisticoavaliacao SERIAL PRIMARY KEY,
-    idturista INT,
-    idpontoturistico INT,
+    idturista SERIAL,
+    idpontoturistico SERIAL,
     comentario TEXT,
     nota NUMERIC,
-    dt_avaliacao TIMESTAMP
-);
-
-CREATE TABLE HISTORICOVISITA (
-    idhistoricovisita SERIAL PRIMARY KEY,
-    idturista INT,
-    idpontoturistico INT,
+    dt_avaliacao TIMESTAMP,
     dt_visita TIMESTAMP
 );
 
 CREATE TABLE ONIBUSPONTOTURISTICO (
-    idonibus INT,
-    idpontoturistico INT
+    idonibus SERIAL
+    idpontoturistico SERIAL
 );
 
 ALTER TABLE PONTOTURISTICO ADD CONSTRAINT FK_PONTOTURISTICO_2
@@ -90,16 +84,6 @@ ALTER TABLE PONTOTURISTICOAVALIACAO ADD CONSTRAINT FK_PONTOTURISTICOAVALIACAO_2
 ALTER TABLE PONTOTURISTICOAVALIACAO ADD CONSTRAINT FK_PONTOTURISTICOAVALIACAO_3
     FOREIGN KEY (idpontoturistico)
     REFERENCES PONTOTURISTICO (idpontoturistico)
-    MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
-
-ALTER TABLE HISTORICOVISITA ADD CONSTRAINT FK_HISTORICOVISITA_2
-    FOREIGN KEY (idpontoturistico)
-    REFERENCES PONTOTURISTICO (idpontoturistico)
-    MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
-
-ALTER TABLE HISTORICOVISITA ADD CONSTRAINT FK_HISTORICOVISITA_3
-    FOREIGN KEY (idturista)
-    REFERENCES TURISTA (idturista)
     MATCH FULL ON UPDATE CASCADE ON DELETE CASCADE;
 
 ALTER TABLE ONIBUSPONTOTURISTICO ADD CONSTRAINT FK_ONIBUSPONTOTURISTICO_1
