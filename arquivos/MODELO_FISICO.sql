@@ -57,7 +57,7 @@ CREATE TABLE PONTOTURISTICOAVALIACAO (
 );
 
 CREATE TABLE ONIBUSPONTOTURISTICO (
-    idonibus SERIAL
+    idonibus SERIAL,
     idpontoturistico SERIAL
 );
 
