@@ -4,7 +4,7 @@ CREATE TABLE USUARIO (
     idusuario SERIAL PRIMARY KEY,
     tipo_usuario VARCHAR(20),
     nome VARCHAR(300),
-    email VARCHAR(150),
+    email VARCHAR(150) UNIQUE,
     senha VARCHAR(20)
 );
 
