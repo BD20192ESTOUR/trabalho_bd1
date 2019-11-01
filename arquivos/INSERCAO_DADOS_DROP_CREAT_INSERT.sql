@@ -161,7 +161,7 @@ INSERT INTO PONTOTURISTICO (idpontoturistico,idusuario,tipo_pontoturistico,nome_
 
 (DEFAULT,11,'Publico','Igreja Dos Reis Magos','A Igreja dos Reis Magos é um templo católico. É considerada um importante exemplo da arquitetura jesuítica, realizada no estilo chão, uma variante do Maneirismo português','Familia','Igreja','Trevo','Reis Magos II',0,'Nova Almeida','Serra','29182-528'),
 
-(DEFAULT,11,'Publico','Palacio Anchieta','Palácio Anchieta é a sede do poder executivo do estado do Espírito Santo. O palácio localiza-se exatamente a frente do Porto de Vitória, na entrada da Cidade Alta, um dos bairros mais antigos da cidade','Familia','Palácio','Rua','Nestor Gomes',0,'Centro','Vitoria','29015-220'),
+(DEFAULT,11,'Publico','Palacio Anchieta','Palácio Anchieta é a sede do poder executivo do estado do Espírito Santo. O palácio localiza-se exatamente a frente do Porto de Vitória, na entrada da Cidade Alta, um dos bairros mais antigos da cidade','Familia','Palacio','Rua','Nestor Gomes',0,'Centro','Vitoria','29015-220'),
 
 (DEFAULT,11,'Publico','Parque da Fonte Grande','Lugar de beleza única e vista que não tem em nenhum lugar de Vitória, sendo possível ver de dois mirantes duas belas paisagens, ótimo para subir a pé, de bike ou de carro. Possui seguranças. Falta apenas algo para servir alimentação, mas acredito que seja proposital para conservar mais ainda a natureza','Familia','Parque','Rua','Joao Ferreira de Souza','62','Fradinhos','Vitoria','29042-620'),
 
