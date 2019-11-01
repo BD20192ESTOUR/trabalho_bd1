@@ -42,7 +42,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Tabela de dados do EsTour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Tabela_Dados.xlsx?raw=true "Tabela - Dados EsTour")
     
 ### 5.MODELO CONCEITUAL<br>    
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Conceitual_Atual.png "Modelo Conceitual")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/conceitual_atual.png "Modelo Conceitual")
 
 #### 5.1 Validação do Modelo Conceitual
     Grupo: Vinicius, Juliano e Gabriel
