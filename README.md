@@ -374,11 +374,30 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
-	b) Criar uma consulta para cada tipo de função data apresentada em aula (7 consultas)
 
 ![Código SQL 1- Agrupamento por sexo](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_1.sql?raw=true "Código group by 1")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_1.png "Consulta group by 1")
+   <br>
+![Código SQL 1- Média das notas dadas pelos usuarios](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_2.sql?raw=true "Código group by 2")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_2.png "Consulta group by 2")
+   <br>
+![Código SQL 1- Desvio padrao das notas dadas pelos usuarios](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_3.sql?raw=true "Código group by 3")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_3.png "Consulta group by 3")
+   <br>
+![Código SQL 1- Quantidade de eventos nos pontos turisticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_4.sql?raw=true "Código group by 4")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_4.png "Consulta group by 4")
+   <br>
+![Código SQL 1- Maior nota dada a um ponto turistico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_5.sql?raw=true "Código group by 5")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_5.png "Consulta group by 5")
+   <br>
+![Código SQL 1- Menor nota dada a um ponto turistico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_6.sql?raw=true "Código group by 6")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_6.png "Consulta group by 6")
    <br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
