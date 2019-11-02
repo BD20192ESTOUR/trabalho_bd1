@@ -379,37 +379,66 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_1.png "Consulta group by 1")
    <br>
-![Código SQL 1- Média das notas dadas pelos usuarios](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_2.sql?raw=true "Código group by 2")
+![Código SQL 1- Média das notas dadas pelos usuários](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_2.sql?raw=true "Código group by 2")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_2.png "Consulta group by 2")
    <br>
-![Código SQL 1- Desvio padrao das notas dadas pelos usuarios](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_3.sql?raw=true "Código group by 3")
+![Código SQL 1- Desvio padrão das notas dadas pelos usuários](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_3.sql?raw=true "Código group by 3")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_3.png "Consulta group by 3")
    <br>
-![Código SQL 1- Quantidade de eventos nos pontos turisticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_4.sql?raw=true "Código group by 4")
+![Código SQL 1- Quantidade de eventos nos pontos turísticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_4.sql?raw=true "Código group by 4")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_4.png "Consulta group by 4")
    <br>
-![Código SQL 1- Maior nota dada a um ponto turistico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_5.sql?raw=true "Código group by 5")
+![Código SQL 1- Maior nota dada a um ponto turístico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_5.sql?raw=true "Código group by 5")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_5.png "Consulta group by 5")
    <br>
-![Código SQL 1- Menor nota dada a um ponto turistico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_6.sql?raw=true "Código group by 6")
+![Código SQL 1-  Menor nota dada a um ponto turístico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_6.sql?raw=true "Código group by 6")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_6.png "Consulta group by 6")
    <br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
+		Não existe tabela com auto referência no trabalho.
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 
+![Código SQL 1- View criada com comentários de um ponto turístico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_1.sql?raw=true "Código view 1")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_1.png "Consulta view 1")
+   <br>
+![Código SQL 1- View criada com busca por pontos turísticos para amigos e adultos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_2.sql?raw=true "Código view 2")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_2.png "Consulta view 2")
+   <br>
+![Código SQL 1- View criada com pontos turísticos populares de Vila Velha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_3.sql?raw=true "Código view 3")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_3.png "Consulta view 3")
+   <br>
+![Código SQL 1- View criada com avaliação positiva consistente dos pontos turísticos e desvio padrão](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_4.sql?raw=true "Código view 4")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_4.png "Consulta view 4")
+   <br>
+![Código SQL 1- View criada com lista dos próximos eventos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_5.sql?raw=true "Código view 5")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_5.png "Consulta view 5")
+   <br>
+![Código SQL 1- View criada com lista das melhores medias de notas dos pontos turísticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_6.sql?raw=true "Código view 6")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_6.png "Consulta view 6")
+   <br>
+![Código SQL 1- View criada com lista dos pontos turísticos com esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_7.sql?raw=true "Código view 7")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_7.png "Consulta view 7")
+   <br>
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
 
 #### 9.11 Relatórios e Gráficos 
     a)análises e resultados provenientes do banco de dados
-
+	
 >## Marco de Entrega 03 em: 04/11/2019<br>
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
