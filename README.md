@@ -389,7 +389,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
    <br>
 ![Código SQL 4- Quantidade de eventos nos pontos turísticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_4.sql?raw=true "Código group by 4")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_4.png "Consulta group by 4")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_b_9_7_4.png "Consulta group by 4")
    <br>
 ![Código SQL 5- Maior nota dada a um ponto turístico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_5.sql?raw=true "Código group by 5")
    <br>
@@ -426,10 +426,6 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
         
-![Código SQL 1- View criada com comentários de um ponto turístico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_1.sql?raw=true "Código view 1")
-   <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_1.png "Consulta view 1")
-   <br>
 ![Código SQL 2- View criada com busca por pontos turísticos para amigos e adultos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_2.sql?raw=true "Código view 2")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_2.png "Consulta view 2")
