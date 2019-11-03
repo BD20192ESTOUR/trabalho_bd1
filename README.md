@@ -404,7 +404,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ![Código SQL 1- Consulta que envolve pontos turisticos e a média de nota de avaliação, mostrando também os pontos turisticos que não possuíram nota de avaliação](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9-8_1.sql?raw=true "Código Left,Right Outer Join 1")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9-8_2.PNG "Código Left,Right Outer Join 2")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9-8_1.PNG "Código Left,Right Outer Join 1")
 <br>
 ![Código SQL 2- Consulta que envolve os pontos turisticos que tiveram eventos no ano de 2019, mostrando o nome dos pontos turisticos, o nome do evento e o mês do evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9-8_2.sql?raw=true "Código Left,Right Outer Join 1")
 <br>
