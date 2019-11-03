@@ -457,6 +457,18 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
+![Código SQL 1- Consulta que envolve os turistas, mostrando o nome e idade somente para os que nasceram após 1990](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9-10_1.sql?raw=true "Código SubConsulta 1")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9-10_1.PNG "Código SubConsulta 1")
+<br>
+![Código SQL 2- Consulta que envolve os turistas, mostrando o nome do turista e os pontos turisticos que já foram visitados no minimo 2 lugares distintos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9-10_2.sql?raw=true "Código SubConsulta 2")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9-10_2.PNG "Código SubConsulta 2")
+<br>
+![Código SQL 3- Consulta que envolve os pontos turisticos, mostrando os pontos turisticos e seus eventos do mes de dezembro de 2019, mostrando apenas os eventos com data após o dia 5](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9-10_3.sql?raw=true "Código SubConsulta 3")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9-10_3.PNG "Código SubConsulta 3")
+<br>
 
 #### 9.11 Relatórios e Gráficos 
     a)análises e resultados provenientes do banco de dados
