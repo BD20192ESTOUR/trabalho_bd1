@@ -426,27 +426,27 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
         
-![Código SQL 2- View criada com busca por pontos turísticos para amigos e adultos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_2.sql?raw=true "Código view 2")
+![Código SQL 1- View criada com busca por pontos turísticos para amigos e adultos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_2.sql?raw=true "Código view 2")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_2.png "Consulta view 2")
    <br>
-![Código SQL 3- View criada com pontos turísticos populares de Vila Velha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_3.sql?raw=true "Código view 3")
+![Código SQL 2- View criada com pontos turísticos populares de Vila Velha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_3.sql?raw=true "Código view 3")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_3.png "Consulta view 3")
    <br>
-![Código SQL 4- View criada com avaliação positiva consistente dos pontos turísticos e desvio padrão](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_4.sql?raw=true "Código view 4")
+![Código SQL 3- View criada com avaliação positiva consistente dos pontos turísticos e desvio padrão](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_4.sql?raw=true "Código view 4")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_4.png "Consulta view 4")
    <br>
-![Código SQL 5- View criada com lista dos próximos eventos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_5.sql?raw=true "Código view 5")
+![Código SQL 4- View criada com lista dos próximos eventos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_5.sql?raw=true "Código view 5")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_5.png "Consulta view 5")
    <br>
-![Código SQL 6- View criada com lista das melhores medias de notas dos pontos turísticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_6.sql?raw=true "Código view 6")
+![Código SQL 5- View criada com lista das melhores medias de notas dos pontos turísticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_6.sql?raw=true "Código view 6")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_6.png "Consulta view 6")
    <br>
-![Código SQL 7- View criada com lista dos pontos turísticos com esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_7.sql?raw=true "Código view 7")
+![Código SQL 6- View criada com lista dos pontos turísticos com esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_7.sql?raw=true "Código view 7")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_7.png "Consulta view 7")
    <br>
