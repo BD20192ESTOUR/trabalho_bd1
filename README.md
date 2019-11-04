@@ -32,11 +32,11 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
 > A plataforma EsTour disponibilizará as seguintes informações/relatórios:
-* Relatório que informe quais são os pontos turisticos mais bem avaliados pelos usuários da plataforma incluindo: nome do ponto turistico, a média das notas recebidas, nome do bairro e nome do município.
-* Relatório que informe a quantidade de pontos turisticos públicos e privados agrupados por município incluindo: a quantidade de pontos turisticos públicos, quantidade de pontos turisticos privados e nome do município.
-* Relatório que informe o histórico de visita  de um usuario agrupado por município incluindo: o nome do ponto turistico, a data da visita, a hora da visita e o nome do município.
-* Relatório que informe os eventos dos pontos turisticos que irão ocorrer agrupados por município incluindo: descrição do evento, data, hora, nome do ponto turistico e município.
-* Relatório que informe os onibus que trafegam próximo a um ponto turistico da plataforma ordenado por numero da linha do onibus, incluindo: nome do ponto turistico, o numero da linha, o nome da linha do onibus.
+* Relatório que informe quais são os 5 pontos turisticos cujo a média de avaliação são as mais altas, incluindo: nome do ponto turistico, a média das notas recebidas.
+* Relatório que informe quais os 5 pontos turisticos que obteveram as menores médias de e avaliação, incluindo: nome do ponto turistico, a média das notas recebidas.
+* Relatório que informe a quantidade de pontos turisticos privados agrupados por município, incluindo: a quantidade de pontos turisticos privados e nome do município.
+* Relatório que informe a quantidade de pontos turisticos públicos agrupados por município, incluindo: a quantidade de pontos turisticos públicos e nome do município.
+* Relatório que informe a quantidade de onibus que trafegam próximo aos pontos turisticos, agrupados por bairros, incluindo: o nome do bairro, municipio e a quantidade de onibus.
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
 ![Tabela de dados do EsTour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Tabela_Dados.xlsx?raw=true "Tabela - Dados EsTour")
@@ -467,9 +467,48 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 
 #### 9.11 Relatórios e Gráficos 
-    a)análises e resultados provenientes do banco de dados
-	
+### Relatório 1
+#### Objetivo: Os 5 pontos turisticos cujo a média de avaliação são as mais altas
+![Código SQL 1 - Codigo do Relatório 1](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/RELATORIO_1_CODIGO.SQL?raw=true "Código 1")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_1_IMAGEM.PNG "Consulta 1")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_1_GRAFICO.PNG "Grafico 1")
+<br>
+### Relatório 2
+#### Objetivo: Os 5 pontos turisticos que obteveram as menores médias de avaliação
+![Código SQL 2 - Codigo do Relatório 2](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/RELATORIO_2_CODIGO.SQL?raw=true "Código 2")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_2_IMAGEM.PNG "Consulta 2")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_2_GRAFICO.PNG "Grafico 2")
+<br>
+### Relatório 3
+#### Objetivo: A quantidade de pontos turisticos privados agrupados por município
+![Código SQL 3 - Codigo do Relatório 3](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/RELATORIO_3_CODIGO.SQL?raw=true "Código 3")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_3_IMAGEM.PNG "Consulta 3")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_3_GRAFICO.PNG "Grafico 3")
+<br>
+### Relatório 4
+#### Objetivo: A quantidade de pontos turisticos públicos agrupados por município
+![Código SQL 4 - Codigo do Relatório 4](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/RELATORIO_4_CODIGO.SQL?raw=true "Código 4")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_4_IMAGEM.PNG "Consulta 4")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_4_GRAFICO.PNG "Grafico 4")
+<br>
+### Relatório 5
+#### Objetivo: A quantidade de onibus que trafegam próximo aos pontos turisticos agrupados por bairros
+![Código SQL 5 - Codigo do Relatório 5](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/RELATORIO_5_CODIGO.SQL?raw=true "Código 5")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_5_IMAGEM.PNG "Consulta 5")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_5_GRAFICO.PNG "Grafico 5")
+<br>
 >## Marco de Entrega 03 em: 04/11/2019<br>
+<br>
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 #### a) Pontos Chave do MINI-MUNDO
