@@ -144,10 +144,12 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 #### O modelo físico está representando apenas o objetivo principal do trabalho, onde foi limitado a 5 principais tabelas e não esta seguindo as regras de normalização do modelo conceitual e lógico. Há campos de outras tabelas que serviriam como classificadoras de dados que foram encapsuladas em algumas tabelas por questão de necessidade para realizar as consultas. Essa foi a maneira escolhida para realizar o trabalho de maneira rápida e foi aceita pelo professor da disciplina por motivos de tempo de realização do trabalho.<br>
 
 ![ Modelo Fisico ](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/MODELO_FISICO.sql?raw=true " Modelo Fisico do EsTour ")
-<br>
+<br><br>
 
->## Marco de Entrega 01 em: 07/10/2019 <br><br>
+>## Marco de Entrega 01 em: 07/10/2019
 
+<br><br>
+ 
 ### 8.	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS <br>
 
 ![Inserts com os Dados do EsTour - (DROP + CREATE + INSERT INTO)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/INSERCAO_DADOS_DROP_CREAT_INSERT.sql?raw=true " Inserts Modelo Fisico do EsTour ")
@@ -155,11 +157,25 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ### 9.	TABELAS E PRINCIPAIS CONSULTAS <br>
 
 #### As consultas foram feitas mostrando no máximo cinco registros como resultado.
-<br>
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 <br>
-
+![Código SQL 1- Tabela Usuario](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_1_USUARIO?raw=true "Código Consulta 1")
+ <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_1.PNG "Código Consulta 1")
+ <br>
+![Código SQL 2- Tabela Turista](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_2_TURISTA?raw=true "Código Consulta 2")
+ <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_2.PNG "Código Consulta 2")
+ <br>
+ ![Código SQL 3- Tabela Ponto Turistico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_3_PONTOTURISTICO?raw=true "Código Consulta 3")
+ <br>
+ ![Código SQL 4- Tabela Ponto Turistico Avaliação](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_4_PONTOTURISTICOAVALIACAO?raw=true "Código Consulta 1")
+ <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_1.PNG "Código Consulta 1")
+ <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_1.PNG "Código Consulta 1")
+ <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 	a) 4 consultas com filtro where.
