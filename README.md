@@ -132,13 +132,19 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     As tabelas mais importantes para o sistema são : USUARIO,TURISTA,PONTOTURISTICO,PONTOTURISTICOAVALIACAO,HISTORICOVISITA.
 
 ### 6.	MODELO LÓGICO <br> 
+#### Para a realização do trabalho da disciplina de BD1, optamos por trabalhar apenas com as principais tabelas do sistema.<br>
+
+#### Obs: O modelo conceitual está na forma normalizada, o modelo lógico segue o modelo conceitual.
 
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/LOGICO_REDUZIDO_ATUAL.png "Modelo Lógico")
 
 
 ### 7.	MODELO FÍSICO<br>
+#### Para a realização do trabalho da disciplina de BD1, optamos por trabalhar apenas com as principais tabelas do sistema.<br>
+#### O modelo físico está representando apenas o objetivo principal do trabalho, onde foi limitado a 5 principais tabelas e não esta seguindo as regras de normalização do modelo conceitual e lógico. Há campos de outras tabelas que serviriam como classificadoras de dados que foram encapsuladas em algumas tabelas por questão de necessidade para realizar as consultas. Essa foi a maneira escolhida para realizar o trabalho de maneira rápida e foi aceita pelo professor da disciplina por motivos de tempo de realização do trabalho.<br>
 
 ![ Modelo Fisico ](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/MODELO_FISICO.sql?raw=true " Modelo Fisico do EsTour ")
+<br>
 
 >## Marco de Entrega 01 em: 07/10/2019 <br><br>
 
@@ -148,42 +154,11 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ### 9.	TABELAS E PRINCIPAIS CONSULTAS <br>
 
+#### As consultas foram feitas mostrando no máximo cinco registros como resultado.
+<br>
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-
-![Consulta da tabela usuario com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_usuario.sql "Codigo CONSULTA USUARIO")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_usuario_dados_inseridos.png " Consulta tabela USUARIO")
- <br>
-![Consulta da tabela turista com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_turista.sql "Codigo CONSULTA TURISTA")
-<br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_turista_dados_inseridos.png " Consulta tabela TURISTA")
-<br>
-![Consulta da tabela evento com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_evento.sql "Codigo CONSULTA EVENTO")
-<br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_evento_dados_inseridos.png " Consulta tabela EVENTO")
-<br>
-![Consulta da tabela pontoturistico com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_pontoturistico.sql "Codigo CONSULTA PONTOTURISTICO")
-<br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_pontoturistico_dados_inseridos.png " Consulta tabela PONTOTURISTICO")
-<br>
-![Consulta da tabela pontoturisticoavaliacao com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_pontoturisticoavaliacao.sql "Codigo CONSULTA PONTOTURISTICOAVALIACAO")
-<br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_pontoturisticoavaliacao_dados_inseridos.png " Consulta tabela PONTOTURISTICOAVALIACAO")
-<br>
-![Consulta da tabela historicovisita com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_historicovisita.sql "Codigo CONSULTA HISTORICOVISITA")
-<br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_historicovisita_dados_inseridos.png " Consulta tabela HISTORICOVISITA")
-<br>
-![Consulta da tabela onibus com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_onibus.sql "Codigo CONSULTA ONIBUS")
-<br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_onibus_dados_inseridos.png " Consulta tabela ONIBUS")
-<br>
-![Consulta da tabela onibuspontoturistico com todos os dados inseridos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_consulta_onibuspontoturistico.sql "Codigo CONSULTA ONIBUSPONTOTURISTICO")
-<br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_onibuspontoturistico_dados_inseridos.png " Consulta tabela ONIBUSPONTOTURISTICO")
-<br>
-<br><br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
