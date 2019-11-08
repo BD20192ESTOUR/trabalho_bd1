@@ -159,23 +159,27 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 #### As consultas foram feitas mostrando no máximo cinco registros como resultado.
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+
+![Código SQL 1- Tabela Usuario](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_1_USUARIO.SQL?raw=true "Código Consulta 1")
 <br>
-![Código SQL 1- Tabela Usuario](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_1_USUARIO?raw=true "Código Consulta 1")
- <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_1.PNG "Código Consulta 1")
- <br>
-![Código SQL 2- Tabela Turista](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_2_TURISTA?raw=true "Código Consulta 2")
- <br>
+<br>
+
+![Código SQL 2- Tabela Turista](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_2_TURISTA.SQL?raw=true "Código Consulta 2")
+<br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_2.PNG "Código Consulta 2")
- <br>
- ![Código SQL 3- Tabela Ponto Turistico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_3_PONTOTURISTICO?raw=true "Código Consulta 3")
- <br>
- ![Código SQL 4- Tabela Ponto Turistico Avaliação](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_4_PONTOTURISTICOAVALIACAO?raw=true "Código Consulta 1")
- <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_1.PNG "Código Consulta 1")
- <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_1.PNG "Código Consulta 1")
- <br>
+<br>
+ 
+![Código SQL 3- Tabela Ponto Turistico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_3_PONTOTURISTICO.SQL?raw=true "Código Consulta 3")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_3.PNG "Código Consulta 3")
+<br>
+
+![Código SQL 4- Tabela Ponto Turistico Avaliação](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_4_PONTOTURISTICOAVALIACAO.SQL?raw=true "Código Consulta 4")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_4.PNG "Código Consulta 4")
+<br>
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 	a) 4 consultas com filtro where.
