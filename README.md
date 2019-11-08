@@ -180,6 +180,21 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_4.PNG "Código Consulta 4")
 <br>
 
+![Código SQL 5- Tabela Evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_5_EVENTO.SQL?raw=true "Código Consulta 5")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_5.PNG "Código Consulta 5")
+<br>
+
+![Código SQL 6- Tabela Onibus](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_6_ONIBUS.SQL?raw=true "Código Consulta 6")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_6.PNG "Código Consulta 6")
+<br>
+
+![Código SQL 7- Tabela Onibus Ponto Turistico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_7_ONIBUSPONTOTURISTICO.SQL?raw=true "Código Consulta 7")
+<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_7.PNG "Código Consulta 7")
+<br>
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
 	a) 4 consultas com filtro where.
