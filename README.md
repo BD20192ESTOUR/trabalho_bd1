@@ -531,14 +531,23 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 
 ### 11 Backup completo do banco de dados postgres 
-    a) deve ser realizado no formato "backup" 
-        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
+    a) deve ser realizado no formato "backup" (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
+
+
+![Arquivo de Backup do banco Estour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/ESTOUR.backup?raw=true "Backup")
+
+<br>
+
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
 
+##### Maikysuel Simões Braga - Grupo de Trabalho - Bora Jogar.<br>
+##### Vinicius Hora Corte - Grupo de Trabalho - App Doações.
+<br>
+
 >## Marco de Entrega 04 em: 18/11/2019<br>
 
-
+<br><br>
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
     
