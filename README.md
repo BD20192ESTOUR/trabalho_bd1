@@ -331,7 +331,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ![Altera local do evento Corrida Maluca de um ponto turístico para outro](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao1.png "Codigo altera local")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_alteracao1.png "consulta altera local")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_1.png "consulta altera local")
 <br>
 ![Altera senha do usuario de nome Willian Joao Daniel para '54321'](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao2.png "Codigo altera senha")
 <br>
