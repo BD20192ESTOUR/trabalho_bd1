@@ -333,23 +333,23 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_1.png "consulta altera local")
 <br>
-![Altera senha do usuario de nome Willian Joao Daniel para '54321'](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao2.png "Codigo altera senha")
+![Altera senha do usuario de nome Willian Joao Daniel para '54321'](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_2.sql "Codigo altera senha")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_2.png " Consulta altera senha")
 <br>
-![Exclui o vigésimo segundo registo da tabela ONIBUS](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao3.png "Codigo deleta registro")
+![Exclui o vigésimo segundo registo da tabela ONIBUS](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_3.sql "Codigo deleta registro")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_3.png " Consulta deleta registro")
 <br>
-![Altera a página do evento Eletromusic](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao4.png "Codigo altera página")
+![Altera a página do evento Eletromusic](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_4.sql "Codigo altera página")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_4.png " Consulta altera página")
 <br>
-![Altera a data de nascimento de um usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao5.png "Codigo altera data de nascimento")
+![Altera a data de nascimento de um usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_5.sql "Codigo altera data de nascimento")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_5.png " Consulta data de nascimento")
 <br>
- ![Altera e-mail de usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao6.png "Codigo altera e-mail")
+ ![Altera e-mail de usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_6.sql "Codigo altera e-mail")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_6.png " Consulta altera e-mail")
 <br>
