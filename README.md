@@ -273,25 +273,25 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
     a) 5 consultas que envolvam like ou ilike
  
-![Exemplo de busca que ocorre quando o usuário pesquisa por "Vila Velha" na página principal](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like1.sql "Codigo consulta Vila Velha")
+![Exemplo de busca que ocorre quando o usuário pesquisa por "Vila Velha" na página principal](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_1.sql "Codigo consulta Vila Velha")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like1.png "Consulta Vila Velha")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_1.png "Consulta Vila Velha")
 <br>
-![Busca por pontos turísticos naturais de Vitória, e mostra eventos que ocorrem nesses locais (Se esses existirem)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like2.sql "Codigo consulta pontos naturais Vitória")
+![Busca por pontos turísticos naturais de Vitória, e mostra eventos que ocorrem nesses locais (Se esses existirem)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_2.sql "Codigo consulta pontos naturais Vitória")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like2.png "Consulta pontos naturais Vitória")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_2.png "Consulta pontos naturais Vitória")
 <br>
-![Busca avaliacões feitas por nome da pessoa](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like3.sql "Codigo consulta por nome")
+![Busca avaliacões feitas por nome da pessoa](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_3.sql "Codigo consulta por nome")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like3.png "Consulta por nome")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_3.png "Consulta por nome")
 <br>
-![Busca locais pra praticar esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like4.sql "Codigo Consulta por esportes")
+![Busca locais pra praticar esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_4.sql "Codigo Consulta por esportes")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like4.png "Consulta por esportes")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_4.png "Consulta por esportes")
 <br>
-![Mostra quantidade de pontos turísticos e eventos para cada cidade na Grande Vitória, assim como sua média de notas.](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_like5.sql "Codigo consulta Eventos e notas da Grande Vitória")
+![Mostra quantidade de pontos turísticos e eventos para cada cidade na Grande Vitória, assim como sua média de notas.](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_5.sql "Codigo consulta Eventos e notas da Grande Vitória")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_like5.png "Consulta Eventos e notas da Grande Vitória")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_5.png "Consulta Eventos e notas da Grande Vitória")
 <br>
 <br><br>
 
