@@ -242,15 +242,15 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ![Seleciona os pontos turisticos que recebem avaliações consistentemente positivas(>8)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_aritmetica1.sql "codigo avaliacao positiva")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_aritmetica1.png " Consulta avaliações positivas")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_1.png " Consulta avaliações positivas")
 <br>
 ![seleciona os pontos turisticos mais visitados ou avaliados por usuários do sexo feminino nas ultimas duas semanas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_aritmetica2.sql "codigo avaliacao positiva")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_aritmetica2.png "consulta popular feminino")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_2.png "consulta popular feminino")
 <br>
 ![seleciona os 5 pontos turisticos mais populares ou com mais eventos que podem ser visitados a partir do terminal de Vila Velha, São Torquato ou Jardim América](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_aritmetica3.sql "codigo avaliacao positiva")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/willian_aritmetica3.png "consulta popular Vila velha, São Torquato, Jardim América")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_3.png "consulta popular Vila velha, São Torquato, Jardim América")
 <br>
 <br><br>
 
