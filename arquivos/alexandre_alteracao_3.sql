@@ -1,1 +1,1 @@
-delete from onibus where idonibus = 22
+delete from onibus where idonibus = 22;
