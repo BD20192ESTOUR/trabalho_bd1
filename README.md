@@ -329,7 +329,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
-![Altera local do evento Corrida Maluca de um ponto turístico para outro](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/willian_alteracao1.png "Codigo altera local")
+![Altera local do evento Corrida Maluca de um ponto turístico para outro](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_1.sql "Codigo altera local")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_1.png "consulta altera local")
 <br>
