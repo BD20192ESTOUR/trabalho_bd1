@@ -340,18 +340,17 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_2.PNG "Consulta 2")
 <br>
-![Código SQL 3- Busca avaliacões feitas por nome da pessoa](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_3.sql "Codigo consulta por nome")
+![Código SQL 3- Buscar avaliacões feitas por um turista](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_3.sql "Código consulta 3)
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_3.png "Consulta por nome")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_3.png "Consulta 3")
 <br>
-![Código SQL 4- Busca locais pra praticar esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_4.sql "Codigo Consulta por esportes")
+![Código SQL 4- Buscar locais pra praticar esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_4.sql "Código consulta 4")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_4.png "Consulta por esportes")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_4.png "Consulta 4")
 <br>
-![Código SQL 5- Mostra quantidade de pontos turísticos e eventos para cada cidade na Grande Vitória, assim como sua média de notas.](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_5.sql "Codigo consulta Eventos e notas da Grande Vitória")
+![Código SQL 5- Mostrar os eventos dos pontos turisticos de Vitória](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_5.sql "Código consulta 5")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_5.png "Consulta Eventos e notas da Grande Vitória")
-<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_5.png "Consulta 5")
 <br><br>
 
     b) Criar uma consulta para cada tipo de função data apresentada em aula (7 consultas)
