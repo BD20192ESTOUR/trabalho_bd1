@@ -301,7 +301,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 	b) 3 consultas com operadores aritméticos
 
-![Código SQL 1- Seleciona os pontos turisticos que recebem avaliações consistentemente positivas(>8)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_aritmetica_1.sql "codigo avaliacao positiva")
+![Código SQL 1- Selecionar os Pontos Turisticos onde a média das notas de avaliação foi maior que 8](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_Aritmetico_1.sql "Código Operadores aritméticos 1")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_1.png " Consulta avaliações positivas")
 <br>
