@@ -307,11 +307,11 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Código SQL 2- Calcular a média de idade dos turistas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_Aritmetico_2.sql "Código Operadores aritméticos 2")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/operadores_aritimeticos_2.png "Consulta Operadores aritméticos 2")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/operadores_aritmeticos_2.PNG "Consulta Operadores aritméticos 2")
 <br>
 ![Código SQL 3- Calcular a quantidade de dias que faltam para chegar o dia do Evento Just dance Reveillon do ponto turistico com id 19](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_Aritmetico_3.sql "Operadores aritméticos 3")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/operadores_aritimeticos_3.png "Consulta Operadores aritméticos 3")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/operadores_aritmeticos_3.png "Consulta Operadores aritméticos 3")
 <br><br>
 
 	c) 3 consultas com operação de renomear nomes de campos ou tabelas
