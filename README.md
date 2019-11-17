@@ -334,11 +334,11 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
  
 ![Código SQL 1- Busca por Pontos Turisticos de vila velha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_1.sql "Código consulta 1")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_1.png "Consulta 1")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_1.png "Consulta 1")
 <br>
 ![Código SQL 2- Busca por Pontos turisticos de Vitoria que sejam Parque ou Praia ou Farol e mostrar seus Eventos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_2.sql "Código consulta 2")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_2.png "Consulta 2")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_2.PNG "Consulta 2")
 <br>
 ![Código SQL 3- Busca avaliacões feitas por nome da pessoa](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_3.sql "Codigo consulta por nome")
 <br>
