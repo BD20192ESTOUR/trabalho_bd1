@@ -382,7 +382,6 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
  ![Código SQL 7- Evento do dia e a quantidade de horas até o evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_7.sql?raw=true "Código função data 7")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_7.png "Consulta função data 7")
-
 <br><br>
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
@@ -407,7 +406,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_5.png " Consulta data de nascimento")
 <br>
- ![Código SQL 6- Altera e-mail de usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_6.sql "Codigo altera e-mail")
+ ![Código SQL 6- Altera e-mail do usuário Machado de Assis](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_6.sql "Codigo altera e-mail")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_6.PNG " Consulta altera e-mail")
 <br><br>
