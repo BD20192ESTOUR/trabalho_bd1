@@ -344,9 +344,9 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_3.png "Consulta 3")
 <br>
-![Código SQL 4- Buscar locais pra praticar esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_4.sql "Código consulta 4")
+![Código SQL 4- Buscar locais pra praticar esportes que tenham Surf ou Frecobol ou Bike](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_4.sql "Código consulta 4")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_4.png "Consulta 4")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_4.png "Consulta 4")
 <br>
 ![Código SQL 5- Mostrar os eventos dos pontos turisticos de Vitória](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_5.sql "Código consulta 5")
 <br>
