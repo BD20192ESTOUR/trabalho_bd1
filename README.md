@@ -10,7 +10,7 @@ Alexandre Jastrow: alexandre.jastrow@gmail.com<br>
 Carolina de Souza Viana: carolina.wuu@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
-Este documento contém a especificação do projeto do banco de dados ESTOUR e motivação da escolha realizada. <br>
+Este documento contém a especificação do projeto ESTOUR e motivação da escolha realizada. <br>
 
 > O EsTour é uma aplicação web com design responsivo que tem objetivo de auxiliar o turista a encontrar o melhor lugar para se visitar e que esteja de acordo com  o que ele está buscando no local. A aplicação mostrará aos usuários lugares para estar com a família, amigos ou mesmo estar sozinho, lugares para relaxar, conhecer o agroturismo ou se divertir na noite. Além disso, apresentará ao turista as linhas de ônibus municipais que trafegam próximo ao local visitado.<br>
  
@@ -167,13 +167,15 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     Arquivos (onde conterá as fotos e videos do lugar), Contato.
     Essas são informações que montaram a estrutura da busca e mostrará a infotmação completa sobre o Ponto Turistico.
     
+    
     - Outro fluxo importante é o Cadastro de Usuário. 
     Neste fluxo de dados, os dados são disponibilizados de acordo com  tipo de usuário do sistema
     que poderá ser Turista ou Empreendimento e apartir disso o sistema direcionará o usuario às
     páginas corretas.
     
-    - Outro fluxo importante é as avaliações dos pontos turisticos, pois os pontos turisticos que obtiveram maiores
-    médias de nota de avaliação, aparecerão no topo das pesquisas.
+    
+    - Outro fluxo importante é as avaliações dos pontos turisticos, pois os pontos turisticos
+    que obtiveram maiores médias de nota de avaliação, aparecerão no topo das pesquisas.
     
     
     b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3):
@@ -298,15 +300,15 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 	b) 3 consultas com operadores aritméticos
 
-![Seleciona os pontos turisticos que recebem avaliações consistentemente positivas(>8)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_aritmetica_1.sql "codigo avaliacao positiva")
+![Código SQL 1- Seleciona os pontos turisticos que recebem avaliações consistentemente positivas(>8)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_aritmetica_1.sql "codigo avaliacao positiva")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_1.png " Consulta avaliações positivas")
 <br>
-![seleciona os pontos turisticos mais visitados ou avaliados por usuários do sexo feminino nas ultimas duas semanas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_aritmetica_2.sql "codigo avaliacao positiva")
+![Código SQL 2- Seleciona os pontos turisticos mais visitados ou avaliados por usuários do sexo feminino nas ultimas duas semanas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_aritmetica_2.sql "codigo avaliacao positiva")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_2.png "consulta popular feminino")
 <br>
-![seleciona os 5 pontos turisticos mais populares ou com mais eventos que podem ser visitados a partir do terminal de Vila Velha, São Torquato ou Jardim América](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_aritmetica_3.sql "codigo avaliacao positiva")
+![Código SQL 3- Seleciona os 5 pontos turisticos mais populares ou com mais eventos que podem ser visitados a partir do terminal de Vila Velha, São Torquato ou Jardim América](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_aritmetica_3.sql "codigo avaliacao positiva")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_3.png "consulta popular Vila velha, São Torquato, Jardim América")
 <br>
@@ -331,23 +333,23 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
     a) 5 consultas que envolvam like ou ilike
  
-![Exemplo de busca que ocorre quando o usuário pesquisa por "Vila Velha" na página principal](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_1.sql "Codigo consulta Vila Velha")
+![Código SQL 1- Exemplo de busca que ocorre quando o usuário pesquisa por "Vila Velha" na página principal](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_1.sql "Codigo consulta Vila Velha")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_1.png "Consulta Vila Velha")
 <br>
-![Busca por pontos turísticos naturais de Vitória, e mostra eventos que ocorrem nesses locais (Se esses existirem)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_2.sql "Codigo consulta pontos naturais Vitória")
+![Código SQL 2- Busca por pCódigo SQL 5-ontos turísticos naturais de Vitória, e mostra eventos que ocorrem nesses locais (Se esses existirem)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_2.sql "Codigo consulta pontos naturais Vitória")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_2.png "Consulta pontos naturais Vitória")
 <br>
-![Busca avaliacões feitas por nome da pessoa](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_3.sql "Codigo consulta por nome")
+![Código SQL 3- Busca avaliacões feitas por nome da pessoa](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_3.sql "Codigo consulta por nome")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_3.png "Consulta por nome")
 <br>
-![Busca locais pra praticar esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_4.sql "Codigo Consulta por esportes")
+![Código SQL 4- Busca locais pra praticar esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_4.sql "Codigo Consulta por esportes")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_4.png "Consulta por esportes")
 <br>
-![Mostra quantidade de pontos turísticos e eventos para cada cidade na Grande Vitória, assim como sua média de notas.](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_5.sql "Codigo consulta Eventos e notas da Grande Vitória")
+![Código SQL 5- Mostra quantidade de pontos turísticos e eventos para cada cidade na Grande Vitória, assim como sua média de notas.](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_5.sql "Codigo consulta Eventos e notas da Grande Vitória")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_5.png "Consulta Eventos e notas da Grande Vitória")
 <br>
@@ -387,27 +389,27 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
-![Altera local do evento Corrida Maluca de um ponto turístico para outro](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_1.sql "Codigo altera local")
+![Código SQL 1- Altera local do evento Corrida Maluca de um ponto turístico para outro](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_1.sql "Codigo altera local")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_1.png "consulta altera local")
 <br>
-![Altera senha do usuario de nome Willian Joao Daniel para '54321'](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_2.sql "Codigo altera senha")
+![Código SQL 2- Altera senha do usuario de nome Willian Joao Daniel para '54321'](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_2.sql "Codigo altera senha")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_2.png " Consulta altera senha")
 <br>
-![Exclui o vigésimo segundo registo da tabela ONIBUS](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_3.sql "Codigo deleta registro")
+![Código SQL 3- Exclui o vigésimo segundo registo da tabela ONIBUS](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_3.sql "Codigo deleta registro")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_3.png " Consulta deleta registro")
 <br>
-![Altera a página do evento Eletromusic](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_4.sql "Codigo altera página")
+![Código SQL 4- Altera a página do evento Eletromusic](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_4.sql "Codigo altera página")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_4.png " Consulta altera página")
 <br>
-![Altera a data de nascimento de um usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_5.sql "Codigo altera data de nascimento")
+![Código SQL 5- Altera a data de nascimento de um usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_5.sql "Codigo altera data de nascimento")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_5.png " Consulta data de nascimento")
 <br>
- ![Altera e-mail de usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_6.sql "Codigo altera e-mail")
+ ![Código SQL 6- Altera e-mail de usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_6.sql "Codigo altera e-mail")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_6.png " Consulta altera e-mail")
 <br>
@@ -585,7 +587,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 #### d) Modelo Conceitual
 #### e) Modelo Lógico
 #### f) Relatórios e Gráficos mais importantes para o sistema (mínimo 5) 
-#### --> Tempo de apresentação 10 minutos
+#### --> Tempo de apresentação 6 min : 40s.
 
 
 ### 11 Backup completo do banco de dados postgres 
@@ -605,7 +607,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 >## Marco de Entrega 04 em: 18/11/2019<br>
 
-<br><br>
+<br><br><br>
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 <comentario no git>
     
