@@ -1,1 +1,1 @@
-update usuario set email = 'machado@gmail.com' where email ilike '%assis%';
+update usuario set email = 'machado@gmail.com' where idusuario = 5;
