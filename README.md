@@ -29,6 +29,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/tela_principal.png "Página principal EsTour")
 ![Arquivo PDF do Protótipo Balsamiq feito para o EsTour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/TELAS_DO_SISTEMA_EsTour.pdf "ESTour")
 
+
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
 > A plataforma EsTour disponibilizará as seguintes informações/relatórios:
