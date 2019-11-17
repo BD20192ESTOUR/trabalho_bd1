@@ -1,1 +1,8 @@
-Select nome_pontoturistico, evento.descricao_evento,evento.dt_evento, evento.link_evento, publico_alvo, tipo_ambiente from pontoturistico left outer join evento on (pontoturistico.idpontoturistico = evento.idpontoturistico) where pontoturistico.tipo_ambiente ilike '%praia%' or pontoturistico.tipo_ambiente ilike '%parque%' or pontoturistico.tipo_ambiente ilike '%farol%' and pontoturistico.municipio ilike '%Vitoria%';
+Select PT.nome_pontoturistico, E.descricao_evento, E.dt_evento, E.link_evento, PT.publico_alvo, PT.tipo_ambiente 
+FROM pontoturistico PT 
+LEFT OUTER JOIN evento E on (PT.idpontoturistico = E.idpontoturistico)
+where 
+(PT.tipo_ambiente ilike '%praia%' or 
+PT.tipo_ambiente ilike '%parque%' or 
+PT.tipo_ambiente ilike '%farol%') 
+AND PT.municipio ilike 'Vitoria';
