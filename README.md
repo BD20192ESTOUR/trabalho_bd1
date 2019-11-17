@@ -254,7 +254,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 7- Tabela Onibus Ponto Turistico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9_1_7_ONIBUSPONTOTURISTICO.SQL?raw=true "Código Consulta 7")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9_1_7.PNG "Código Consulta 7")
-<br>
+<br><br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 
@@ -274,7 +274,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 4- Selecionar todos os onibus que passam proximo ao Convento da Penha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_where_9_2_4.sql?raw=true " Código filtro where 4")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_where_9_2_4.png " Consulta filtro where 1")
-<br>
+<br><br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)<br>
     a) 5 consultas que envolvam os operadores lógicos AND, OR e Not
@@ -303,32 +303,30 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
 ![Código SQL 1- Selecionar os Pontos Turisticos onde a média das notas de avaliação foi maior que 8](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_Aritmetico_1.sql "Código Operadores aritméticos 1")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_1.png " Consulta avaliações positivas")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/operadores_aritimeticos_1.png "Consulta Operadores aritméticos 1")
 <br>
-![Código SQL 2- Seleciona os pontos turisticos mais visitados ou avaliados por usuários do sexo feminino nas ultimas duas semanas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_aritmetica_2.sql "codigo avaliacao positiva")
+![Código SQL 2- Calcular a média de idade dos turistas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_Aritmetico_2.sql "Código Operadores aritméticos 2")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_2.png "consulta popular feminino")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/operadores_aritimeticos_2.png "Consulta Operadores aritméticos 2")
 <br>
-![Código SQL 3- Seleciona os 5 pontos turisticos mais populares ou com mais eventos que podem ser visitados a partir do terminal de Vila Velha, São Torquato ou Jardim América](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_aritmetica_3.sql "codigo avaliacao positiva")
+![Código SQL 3- Calcular a quantidade de dias que faltam para chegar o dia do Evento Just dance Reveillon do ponto turistico com id 19](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_Aritmetico_3.sql "Operadores aritméticos 3")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_operadores_aritimeticos_3.png "consulta popular Vila velha, São Torquato, Jardim América")
-<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/operadores_aritimeticos_3.png "Consulta Operadores aritméticos 3")
 <br><br>
 
 	c) 3 consultas com operação de renomear nomes de campos ou tabelas
-![Código SQL 1- Alterar o campo nome_ponto turistico para nome na tabela PontoTuristico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_6.sql?raw=true "Código Renomear nomes 1")
+![Código SQL 1- Alterar o campo nome_ponto turistico para Nome na tabela PontoTuristico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_6.sql?raw=true "Código Renomear nomes 1")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_6.PNG "Consulta Renomear nomes 1")
 <br>
-![Código SQL 2- Alterar o nome do campo comentario para avaliacao na tabela PontoTuristicoAvaliacao](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_7.sql?raw=true "Código Renomear nomes 2")
+![Código SQL 2- Alterar o nome do campo comentario para Avaliacao na tabela PontoTuristicoAvaliacao](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_7.sql?raw=true "Código Renomear nomes 2")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_7.PNG "Consulta Renomear nomes 2")
 <br>
-![Código SQL 3- Alterar o nome da tabela PontoTuristicoAvaliacao para avaliacao](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_8.sql?raw=true "Código Renomear nomes 3")
+![Código SQL 3- Alterar o nome da tabela PontoTuristicoAvaliacao para Avaliacao](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_3_8.sql?raw=true "Código Renomear nomes 3")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_3_8.PNG "Consulta Renomear nomes 3")
-
-<br>
+<br><br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
