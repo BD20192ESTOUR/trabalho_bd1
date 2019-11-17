@@ -165,7 +165,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     Quando um Ponto Turístico é buscado ele está relacionado com as principais tabelas: 
     PontoTuristico, Endereço, Evento, OnibusPontoTuristico, PontoTuristicoAvaliacao,
     Arquivos (onde conterá as fotos e videos do lugar), Contato.
-    Essas são informações que montaram a estrutura da busca e mostrará a infotmação completa sobre o Ponto Turistico.
+    Essas são informações que montarão a estrutura da busca e mostrará a informação completa sobre o Ponto Turistico.
     
     
     - Outro fluxo importante é o Cadastro de Usuário. 
