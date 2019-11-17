@@ -340,7 +340,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_2.PNG "Consulta 2")
 <br>
-![Código SQL 3- Buscar avaliacões feitas por um turista](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_3.sql "Código consulta 3)
+![Código SQL 3- Buscar avaliacões feitas por um turista](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_3.sql "Código consulta 3")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_3.png "Consulta 3")
 <br>
