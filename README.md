@@ -375,9 +375,9 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_5.png "Consulta função data 5")
  <br>
- ![Código SQL 6- Histórico de visitas ordenados pelo mais recente](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_6.sql?raw=true "Código função data 6")
+ ![Código SQL 6- Histórico de visitas dos Turistas nos Pontos Turisticos ordenados pela visita mais recente](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_6.sql?raw=true "Código função data 6")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_6.png "Consulta função data 6")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_data_9_4_6.png.PNG "Consulta função data 6")
  <br>
  ![Código SQL 7- Evento do dia e a quantidade de horas até o evento](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_data_9_4_7.sql?raw=true "Código função data 7")
    <br>
