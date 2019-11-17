@@ -53,95 +53,153 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
     Feedback : Precisa separar usuários em tipos, endereço precisa de uma tabela própria,contato tem relação 0,n com tipocontato.
 
 #### 5.2 Descrição dos dados 
-    USUARIO: Tabela que armazena as informações do usuário cadastrado no EsTour
-    - idusuario: campo que identifica um usuario no sistema
-    - tipo_usuario: campo que identifica qual tipo de usuário usa o sistema, usuário pode ser do tipo Turista ou Empreendimento
-    - nome: campo que possui o nome do usuario turista ou empreendimento
-    - email: campo que identifica o usuário ao fazer login no sistema
-    - senha: campo que autentica o usuário ao fazer login no sistema
     
-    EMPREENDIMENTO: Tabela que armazena informações sobre o empreendimento que é ponto turistico privado
-    - idempreendimento: campo que é reponsavel por identificar o empreendimento
-    - nome_empreendimento: campo que descreve o nome do empreendimento
-    - cnpj: campo que informa o cadastro de pessoa juridica do empreendimento
+    TIPOUSUARIO: Tabela que identifica o tipo de usuario a ser cadastro no sistema.
+    - idtipousuario: campo que identifica o tipo de usuario no sistema;
+    - tipo_usuario: campo que descreve o tipo de usuario.
     
-    TURISTA: Tabela que armazena informações sobre o turista
-    - idturista: campo que é responsável por identificar o turista
-    - dt_nacimento: campo que informa a data de nascimento do turista
-    - sexo: campo que informa o sexo do turista
+    USUARIO: Tabela que armazena as informações do usuario cadastrado no EsTour.
+    - idusuario: campo que identifica um usuario no sistema;
+    - nome: campo que possui o nome do usuario;
+    - email: campo que identifica o usuário ao fazer login no sistema;
+    - senha: campo que autentica o usuário ao fazer login no sistema.
     
-    PONTOTURISTICOAVALIACAO: Tabela que armazena as avaliações dos turistas em relação aos pontos turisticos visitados
-    - idpontoturisticoavaliacao: campo que identifica a avalição do usuário turista no sistema
-    - comentario: campo que descreve as expectativas do usuário turista
-    - nota: campo que guarda a nota dada ao ponto turistico
-    - dt_avaliacao: campo que guarda a data que foi feita a avaliação
+    EMPREENDIMENTO: Tabela que armazena informações sobre o empreendimento que é um ponto turistico privado.
+    - idempreendimento: campo que é reponsavel por identificar o empreendimento;
+    - nome_empreendimento: campo que descreve o nome do empreendimento;
+    - cnpj: campo que informa o cadastro de pessoa juridica do empreendimento.
     
-    HISTORICOVISITA: Tabela que armazena dados sobre os pontos turisticos visitados pelos turistas
-    - idhistoricovisita: campo que identifica o histórico de visita de um turista em um ponto turistico
-    - dt_visita: campo que guarda a data que foi feita a visita no ponto turistico
+    TURISTA: Tabela que armazena informações sobre o turista.
+    - idturista: campo que é responsável por identificar o turista;
+    - dt_nacimento: campo que informa a data de nascimento do turista.
     
-    PONTOTURISTICO: Tabela que armazena informações dos pontos turisticos publicos e privados(empreendimentos)
-    - idpontoturistico: campo que identifica o ponto turistico
-    - tipo_pontoturistico: campo que identifica se o ponto turistico é do tipo publico ou privado
-    - nome_pontoturistico: campo que armazena o nome do ponto turisrico
-    - descricao: campo que descreve o ponto turistico e suas caracteristicas
-    - publico_alvo: campo que informa o tipo de público do ponto turistico
-    - tipo_ambiente: campo que informa as caracteristica do ambiente do ponto turistico
-    - endereco: campo que descreve a localização do ponto turistico(poisui, tipologradouro, logradouro, numero, bairro, cep, muncipio)
+    SEXO: Tabela que guarda informações sobre genero sexual dos usuarios turistas.
+    - idsexo: campo que identifica o tipo de sexo no sistema;
+    - sexo: campo de descreve o gênero sexual.
     
-    CONTATO: Tabela que armazena as informações de contato do ponto turistico
-    - idcontato: campo que é responsável por identifica o contato.
-    - contato: campo que descreve o contato
+    PONTOTURISTICOAVALIACAO: Tabela que armazena as avaliações dos turistas em relação aos pontos turisticos visitados.
+    - idpontoturisticoavaliacao: campo que identifica a avaliação do usuário turista no sistema;
+    - comentario: campo que descreve a experiencia do usuário turista no local visitado;
+    - nota: campo que guarda a nota dada ao ponto turistico;
+    - dt_avaliacao: campo que guarda a data que foi feita a avaliação;
+    - dt_visita: campo que guarda a data que foi feita a visita no ponto turistico.
     
-    TIPOCONTATO: Tabela que armazena as informações do tipo(meio) de contato do ponto turistico
-    - idtipocontato: campo que identifica o tipo de contato
-    - tipo: campo que descreve o tipo de contato. Ex (Facebook, Telefone, Celular, Instagram,Email)
+    PONTOTURISTICO: Tabela que armazena informações dos pontos turisticos publicos e privados(empreendimentos).
+    - idpontoturistico: campo que identifica o ponto turistico;
+    - nome_pontoturistico: campo que armazena o nome do ponto turisrico;
+    - descricao: campo que descreve o ponto turistico.
+    
+    TIPOPONTOTURISTICO: Tabela que identifica o tipo do ponto turistico.
+    - idtipopontoturistico: campo que identifica o tipo no sistema;
+    - tipo_pontoturistico: campo que descreve o tipo de ponto turistico (publico, privado).
+    
+    PUBLICOALVO: Tabela que identifica o publico alvo do ponto turistico.
+    - idpublicoalvo: campo que identifica o tipo de publico alvo;
+    - publico_alvo: campo que descreve o tipo de publico (jovens,crianças, adultos...).
+    
+    AMBIENTEPONTOTURISTICO: Tabela que guarda as caracteristicas do ambiente do ponto turistico.
+    - idpontoturistico: campo que identifica o ponto turistico;
+    - idtipoambiente: campo que identifica o tipo de ambiente;
+    
+    TIPOAMBIENTE: tabela que identifica os tipos de ambientes.
+    - idtipoambiente: campo que identifica o tipo de ambiente no sistema;
+    - tipo_ambiente: campo que descreve o tipo de ambiente (praia, bar, movimentado...).
+    
+    ENDEREÇO: Tabela que guarda informações sobre endereço do ponto turistico.
+    - idendereco: campo que identifica o endereço no sistema;
+    - logradouro: campo que descreve o nome da rua;
+    - numero: campo que informa o numero do endereco;
+    - cep: campo que informa o cep do endereco.
+    
+    TIPOLOGRADOURO: Tabela que identifica qual tipo de logradouro o endereço é.
+    - idtipologradouro: campo que identifica o tipo de logradouro no sistema;
+    - tipo_logradouro: campo que descreve o tipo logradouro. (av, rua...).
+    
+    BAIRRO: Tabela que guarda informações sobre os bairros do municipio.
+    - idbairro: campo que identifica o bairro no sistema;
+    - bairro: campo que descreve o nome do bairro.
+    
+    MUNICIPIO: Tabela que guarda informações sobre os municipios do estado.
+    - idmunicipio: campo que identifica o municipio no sistema;
+    - municipio: campo que descreve o nome do municipio.
+    
+    CONTATO: Tabela que guarda o contato do ponto turistico.
+    - idcontato: campo que identifica o contato no sistema;
+    - contato: campo que descreve o contato.
+    
+    TIPOCONTATO: Tabela que identifica o tipo de contato cadastrado no sistema.
+    - idtipocontato: campo que identifica o tipo de contato no sistema;
+    - tipo: campo que descreve o tipo (email, facebook, telefone, celular...).
+    
+    EVENTO: Tabela que armazena informações dos eventos de um determinado ponto turistico.
+    - idevento: campo que identifica o evento;
+    - descricao_evento: campo que descreve o evento e suas caracteristicas;
+    - dt_evento: campo que informa a data do evento;
+    - link_evento: campo que armazena o link para um site externo do evento do ponto turistico.
+    
+    ONIBUSPONTOTURISTICO: Tabela que armazena os onibus municípais que trafegam próximo ao ponto turistico.
+    
+    ONIBUS: Tabela que armazena os dados dos onibus municipais públicos.
+    - idonibus: campo que identifica o onibus;
+    - numero_linha: campo que informa o numero da linha do onibus;
+    - nome_linha: campo que descreve o nome da linha do onibus;
+    
+    SISTEMATRANSPORTE: Tabela que identifica qual o tipo de classificação do transporte publico.
+    - idsistematransporte: campo que identifica o tipo no sistema;
+    - sistema_transporte: campo que descreve o tipo (transcol, seletivo, grande vitoria...).
+    
+    ARQUIVO: Tabela que armazena os arquivos dos usuarios.
+    - idarquivo: campo que identifica o arquivo;
+    - endereco_arquivo: campo que identifica o endereço do arquivo no servidor;
+    - dt_envio: campo que informa a data de envio do arquivo.
+    
+    TIPOARQUIVO: Tabela que identifica o tipo de arquivo que vai ser guardado no sistema.
+    - idtipoarquivo: campo que identifica o tipo de arquivo no sistema;
+    - tipo_arquivo: campo que descreve o tipo de arquivo (mp4,mp3,jpg...).
 
-    EVENTO: Tabela que armazena informações dos eventos de um determinado ponto turistico
-    - idevento: campo que identifica o evento
-    - descricao_evento: campo que descreve o evento e suas caracteristicas
-    - dt_evento: campo que informa a data do evento
-    - link_evento: campo que armazena o link para um site externo do evento do ponto turistico
-    
-    ONIBUSPONTOTURISTICO: Tabela que armazena os onibus municípais que trafegam próximo ao ponto turistico
-    
-    ONIBUS: Tabela que armazena os dados dos onibus municipais públicos
-    - idonibus: campo que identifica o onibus
-    - numero_linha: campo que informa o numero da linha do onibus
-    - nome_linha: campo que descreve o nome da linha do onibus
-    - sistema_transporte: campo que informa qual o tipo de sistema do transporte público (transcol, grande vitoria, seletivo)
-    
-    ARQUIVO: Tabela que armazena os arquivos dos pontos turisticos do tipo imagem, video, texto inseridos pelos usuarios do sistema
-    - idarquivo: campo que identifica o arquivo
-    - tipo_arquivo: campo que informa o tipo de arquivo a ser armazenado(imagem, video, txt)
-    - endereco_arquivo: campo que identifica o endereço do arquivo no servidor
-    - dt_envio: campo que informa a data de envio do arquivo
 
 #### 5.3 Principais fluxos de informação e principais tabelas do sistema     
     a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3):
     
-    O principal fluxo de dados no sistema é o que disponibiliza os dados de um determinado local para o usuário. Neste fluxo quando um Ponto Turístico é buscado ele está relacionado com  dados da tabela PontoTuristico, Evento, OnibusPontoTuristico, PontoTuristicoAvaliacao, Onibus e Arquivos onde contém um conjuntos de informação que são responsaveis por montar a informação completa sobre o Ponto Turistico.
-    Outro fluxo importante é o cadastro de Usuário. Neste fluxo de dados, os dados são especificados de acordo com  tipo de usuário do sistema que poderá ser Turista ou Empreendimento e assim o fluxo de dado terá ação de acordo com o tipo de usuário logado no sistema.
+    - O principal fluxo de dados no sistema é o que disponibilizará os dados de uma busca para o usuário.
+    Quando um Ponto Turístico é buscado ele está relacionado com as principais tabelas: 
+    PontoTuristico, Endereço, Evento, OnibusPontoTuristico, PontoTuristicoAvaliacao,
+    Arquivos (onde conterá as fotos e videos do lugar), Contato.
+    Essas são informações que montaram a estrutura da busca e mostrará a infotmação completa sobre o Ponto Turistico.
+    
+    - Outro fluxo importante é o Cadastro de Usuário. 
+    Neste fluxo de dados, os dados são disponibilizados de acordo com  tipo de usuário do sistema
+    que poderá ser Turista ou Empreendimento e apartir disso o sistema direcionará o usuario às
+    páginas corretas.
+    
+    - Outro fluxo importante é as avaliações dos pontos turisticos, pois os pontos turisticos que obtiveram maiores
+    médias de nota de avaliação, aparecerão no topo das pesquisas.
+    
     
     b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3):
     
-    As tabelas que vão conter mais dados são : USUARIO, PONTOTURISTICO, PONTOTURISTICOAVALIACAO, EVENTO, ONIBUSPONTOTURISTICO,ARQUIVO,HISTORICOVISITA.
+    As tabelas que vão conter mais dados são : USUARIO, PONTOTURISTICO, PONTOTURISTICOAVALIACAO, EVENTO, ONIBUSPONTOTURISTICO,
+    ENDERECO, ARQUIVO, AMBIENTEPONTOTURISTICO.
+    
     
     c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
     
-    As tabelas mais importantes para o sistema são : USUARIO,TURISTA,PONTOTURISTICO,PONTOTURISTICOAVALIACAO,HISTORICOVISITA.
+    As tabelas mais importantes para cumprir o objetivo do sistema são ao total 7 tabelas: 
+    USUARIO,TURISTA,PONTOTURISTICO,PONTOTURISTICOAVALIACAO, EVENTO, ONIBUSPONTOTURISTICO, ONIBUS.
+    
 
 ### 6.	MODELO LÓGICO <br> 
 #### Para a realização do trabalho da disciplina de BD1, optamos por trabalhar apenas com as principais tabelas do sistema.<br>
 
-#### Obs: O modelo conceitual está na forma normalizada, o modelo lógico segue o modelo conceitual.
+#### Obs: O modelo lógico segue o modelo conceitual.
 
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/LOGICO_REDUZIDO_ATUAL.png "Modelo Lógico")
 
 
 ### 7.	MODELO FÍSICO<br>
 #### Para a realização do trabalho da disciplina de BD1, optamos por trabalhar apenas com as principais tabelas do sistema.<br>
-#### O modelo físico está representando apenas o objetivo principal do trabalho, onde foi limitado a 5 principais tabelas e não esta seguindo as regras de normalização do modelo conceitual e lógico. Há campos de outras tabelas que serviriam como classificadoras de dados que foram encapsuladas em algumas tabelas por questão de necessidade para realizar as consultas. Essa foi a maneira escolhida para realizar o trabalho de maneira rápida e foi aceita pelo professor da disciplina por motivos de tempo de realização do trabalho.<br>
+#### O modelo físico está representando apenas o objetivo principal do trabalho, onde foi limitado a 7 principais tabelas e não está seguindo a estrutura do modelo lógico.
+#### Há campos de tabelas não pricipais que foram encapsuladas dentro de algumas tabelas principais por questão de necessidade para realizar as consultas. Essa foi a maneira escolhida por questão de limitação da quantidade de tabelas no banco e foi aceita pelo professor da disciplina por motivos de tempo de realização do trabalho.<br>
 
 ![ Modelo Fisico ](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/MODELO_FISICO.sql?raw=true " Modelo Fisico do EsTour ")
 <br><br>
