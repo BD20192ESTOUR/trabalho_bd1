@@ -332,13 +332,13 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 
     a) 5 consultas que envolvam like ou ilike
  
-![Código SQL 1- Exemplo de busca que ocorre quando o usuário pesquisa por "Vila Velha" na página principal](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_1.sql "Codigo consulta Vila Velha")
+![Código SQL 1- Busca por Pontos Turisticos de vila velha](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_1.sql "Código consulta 1")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_1.png "Consulta Vila Velha")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_1.png "Consulta 1")
 <br>
-![Código SQL 2- Busca por pCódigo SQL 5-ontos turísticos naturais de Vitória, e mostra eventos que ocorrem nesses locais (Se esses existirem)](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_2.sql "Codigo consulta pontos naturais Vitória")
+![Código SQL 2- Busca por Pontos turisticos de Vitoria que sejam Parque ou Praia ou Farol e mostrar seus Eventos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Consulta_Op_like_2.sql "Código consulta 2")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_like_2.png "Consulta pontos naturais Vitória")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/Consulta_Op_like_2.png "Consulta 2")
 <br>
 ![Código SQL 3- Busca avaliacões feitas por nome da pessoa](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_like_3.sql "Codigo consulta por nome")
 <br>
