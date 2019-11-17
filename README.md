@@ -40,7 +40,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 * Relatório que informe a quantidade de onibus que trafegam próximo aos pontos turisticos, agrupados por bairros, incluindo: o nome do bairro, municipio e a quantidade de onibus.
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-![Tabela de dados do EsTour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Tabela_Dados.xlsx?raw=true "Tabela - Dados EsTour")
+![Tabela de dados do EsTour](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/Tabela_Dados_atual.xlsx?raw=true "Tabela - Dados EsTour")
     
 ### 5.MODELO CONCEITUAL<br>    
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/conceitual_atual.png "Modelo Conceitual")
