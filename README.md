@@ -409,8 +409,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 <br>
  ![Código SQL 6- Altera e-mail de usuário](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_alteracao_6.sql "Codigo altera e-mail")
 <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_6.png " Consulta altera e-mail")
-<br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_alteracao_6.PNG " Consulta altera e-mail")
 <br><br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
@@ -418,7 +417,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 1- Consulta envolvendo dados de todas as tabelas - Historico de visita dos turistas nos pontos turisticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_9_6.SQL?raw=true "Código JOIN 1")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_9_6.PNG "Consulta JOIN 1")
-<br>
+<br><br>
 
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho (5 consultas)
 	
@@ -433,9 +432,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 3- Proxímos eventos dos pontos turísticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_join_9_6_3.sql "join/orderby 3")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_join_9_6_3.png " Consulta join/orderby 3")
- <br>
-
-<br>
+ <br><br>
 
 >## Marco de Entrega 02 em: 21/10/2019<br>
 
@@ -466,7 +463,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 6-  Menor nota dada a um ponto turístico](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_group_by_9_7_6.sql?raw=true "Código group by 6")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_group_by_9_7_6.png "Consulta group by 6")
-   <br>
+   <br><br>
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
@@ -485,7 +482,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 4- Consulta que envolve os pontos turisticos de de vila velha que possuem nota de avaliacao, mostrando a média das notas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9-8_4.sql?raw=true "Código Left,Right Outer Join 4")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9-8_4.PNG "Código Left,Right Outer Join 4")
-<br>
+<br><br>
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
@@ -517,7 +514,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 6- View criada com lista dos pontos turísticos com esportes](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_view_9_9_7.sql?raw=true "Código view 7")
    <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_view_9_9_7.png "Consulta view 7")
-   <br>
+   <br><br>
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
@@ -532,7 +529,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Código SQL 3- Consulta que envolve os pontos turisticos, mostrando os pontos turisticos e seus eventos do mes de dezembro de 2019, mostrando apenas os eventos com data após o dia 5](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_TOPICO_9-10_3.sql?raw=true "Código SubConsulta 3")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_TOPICO_9-10_3.PNG "Código SubConsulta 3")
-<br>
+<br><br>
 
 #### 9.11 Relatórios e Gráficos 
 ### Relatório 1
@@ -574,7 +571,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_5_IMAGEM.PNG "Consulta 5")
 <br>
 ![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/RELATORIO_5_GRAFICO.PNG "Grafico 5")
-<br>
+<br><br>
 >## Marco de Entrega 03 em: 04/11/2019<br>
 <br>
 
