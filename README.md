@@ -430,8 +430,17 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
  <br>
 ![Código SQL 3- Proxímos eventos dos pontos turísticos](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_join_9_6_3.sql "Código join/orderby 3")
    <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_join_9_6_3.png " Consulta join/orderby 3")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_join_9_6_3.png "Consulta join/orderby 3")
  <br><br>
+ ![Código SQL 4- Ponto turísticos com menor media de notas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_JOIN_4.sql "Código join/orderby 4")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_JOIN_4.PNG "Consulta join/orderby 4")
+ <br><br>
+ ![Código SQL 5- Ponto turísticos que não tem média de notas e os onibus que passam perto do local](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/CAROLINA_CONSULTA_JOIN_5.sql "Código join/orderby 5")
+   <br>
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CAROLINA_CONSULTA_JOIN_5.PNG "Consulta join/orderby 5")
+ <br><br>
+ 
 
 >## Marco de Entrega 02 em: 21/10/2019<br>
 
