@@ -422,7 +422,7 @@ A plataforma EsTour inicialmente funcionará apenas o módulo de buscas para pon
 	
 ![Código SQL 1- Pontos turísticos visitados recentemente](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_join_9_6_1.sql?raw=true "Código join/orderby 1")
  <br>
-![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/alexandre_join_9_6_1.png " Consulta join/orderby 1")
+![Alt text](https://github.com/ESTour/trabalho_bd1/blob/master/images/CONSULTAS_9_6_1_JOIN.PNG " Consulta join/orderby 1")
  <br>
 ![Código SQL 2- Ponto turísticos com melhor media de notas](https://github.com/ESTour/trabalho_bd1/blob/master/arquivos/alexandre_join_9_6_2.sql?raw=true "Código join/orderby 2")
    <br>
